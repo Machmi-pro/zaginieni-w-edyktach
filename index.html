@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zaginieni i poszukiwani w edyktach</title>
+<meta name="description" content="Wyszukiwarka osób z edyktów Powiatowych Komend Uzupełnień w dziennikach urzędowych województw II Rzeczypospolitej.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Narrow:wght@500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;1,8..60,400&display=swap">
+<style>
+/* Układ: jedna kolumna jak szpalta dziennika; wyszukiwarka u góry, pod nią karty wpisów z rozwijaną treścią oryginału. */
+:root{
+  --bg:#eceeed; --surface:#fafbfa; --ink:#1b2024; --muted:#5c666c; --line:#cfd5d3;
+  --stamp:#55388a; --stamp-soft:#e9e3f3; --mark:#fff1b8; --chk:#96500a;
+  --f-head:"Archivo Narrow","Arial Narrow",Arial,sans-serif;
+  --f-body:"Archivo",system-ui,Arial,sans-serif;
+  --f-src:"Source Serif 4",Georgia,serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#14181a; --surface:#1c2225; --ink:#e6eae8; --muted:#98a3a7; --line:#333c40;
+  --stamp:#bda8ea; --stamp-soft:#2c2540; --mark:#5a4a12; --chk:#e0a458; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#14181a; --surface:#1c2225; --ink:#e6eae8; --muted:#98a3a7; --line:#333c40;
+  --stamp:#bda8ea; --stamp-soft:#2c2540; --mark:#5a4a12; --chk:#e0a458; color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{margin:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.45}
+.wrap{max-width:760px;margin:0 auto;padding-inline:16px;padding-block:20px 48px;display:flex;flex-direction:column;gap:18px}
+header .over{font-family:var(--f-head);font-weight:600;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--stamp)}
+h1{font-family:var(--f-head);font-weight:700;font-size:34px;line-height:1.05;letter-spacing:.02em;text-transform:uppercase;margin:4px 0 6px;text-wrap:balance}
+header{display:flex;flex-direction:column;gap:8px}
+header p{margin:0;color:var(--muted);max-width:60ch}
+header p:first-of-type{color:var(--ink);font-size:16px}
+header .scope{font-size:13.5px;border-left:3px solid var(--stamp);padding-left:10px}
+.search{background:var(--surface);border:1px solid var(--line);border-radius:4px;padding:14px;display:flex;flex-direction:column;gap:12px}
+.fields{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+@media (max-width:560px){.fields{grid-template-columns:1fr} h1{font-size:28px}}
+label{display:flex;flex-direction:column;gap:4px;font-family:var(--f-head);font-size:12px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+input[type=search]{font:inherit;font-family:var(--f-body);font-size:16px;letter-spacing:0;text-transform:none;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:3px;padding:10px;width:100%;min-width:0}
+input:focus-visible,button:focus-visible,summary:focus-visible,a:focus-visible{outline:2px solid var(--stamp);outline-offset:2px}
+select{font:inherit;font-family:var(--f-body);font-size:16px;letter-spacing:0;text-transform:none;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:3px;padding:10px;width:100%;min-width:0}
+.two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.chip{font:inherit;font-family:var(--f-head);font-weight:600;font-size:13px;letter-spacing:.04em;color:var(--ink);background:transparent;border:1px solid var(--line);border-radius:999px;padding:6px 12px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--stamp);border-color:var(--stamp);color:var(--surface)}
+.check{flex-direction:row;align-items:center;gap:8px;text-transform:none;letter-spacing:0;font-family:var(--f-body);font-size:14px;font-weight:400;color:var(--ink)}
+.check input{width:18px;height:18px;accent-color:var(--stamp)}
+.count{font-family:var(--f-head);font-weight:600;letter-spacing:.06em;text-transform:uppercase;font-size:13px;color:var(--muted);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.count button{font:inherit;color:var(--stamp);background:none;border:0;padding:0;cursor:pointer;text-decoration:underline;text-transform:uppercase}
+#list{display:flex;flex-direction:column;gap:10px}
+.rec{background:var(--surface);border:1px solid var(--line);border-radius:4px;padding:14px;display:flex;flex-direction:column;gap:10px}
+.top{display:flex;justify-content:space-between;gap:12px;align-items:baseline;flex-wrap:wrap}
+.name{font-family:var(--f-head);font-size:21px;font-weight:700;letter-spacing:.01em;line-height:1.15;min-width:0;overflow-wrap:anywhere}
+.name span{font-weight:500}
+.born{font-variant-numeric:tabular-nums;color:var(--muted);white-space:nowrap}
+dl{margin:0;display:grid;grid-template-columns:104px minmax(0,1fr);gap:5px 12px}
+dt{font-family:var(--f-head);font-size:12px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);padding-top:2px}
+dd{margin:0;overflow-wrap:anywhere}
+.none{color:var(--muted)}
+.ref{display:flex;flex-wrap:wrap;gap:6px}
+.tag{font-family:var(--f-head);font-size:12px;font-weight:600;letter-spacing:.05em;background:var(--stamp-soft);color:var(--stamp);border-radius:3px;padding:3px 7px;font-variant-numeric:tabular-nums}
+details{border-top:1px solid var(--line);padding-top:10px}
+summary{cursor:pointer;font-family:var(--f-head);font-weight:600;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--stamp)}
+blockquote{margin:10px 0 0;font-family:var(--f-src);font-size:16px;line-height:1.55;max-width:65ch}
+.more{margin:10px 0 0;color:var(--muted);font-size:14px}
+.warn{margin:10px 0 0;font-size:14px;border-left:3px solid var(--chk);padding-left:10px}
+.tag.chk{background:transparent;color:var(--chk);border:1px solid var(--chk)}
+a.src{display:inline-block;margin-top:10px;color:var(--stamp);font-weight:600}
+mark{background:var(--mark);color:inherit;border-radius:2px;padding:0 1px}
+.morebtn{font:inherit;font-family:var(--f-head);font-weight:700;font-size:15px;letter-spacing:.08em;text-transform:uppercase;color:var(--surface);background:var(--stamp);border:0;border-radius:4px;padding:14px;cursor:pointer;width:100%}
+.empty{background:var(--surface);border:1px dashed var(--line);border-radius:4px;padding:22px 14px;color:var(--muted)}
+footer{border-top:1px solid var(--line);padding-top:14px;color:var(--muted);font-size:13.5px;display:flex;flex-direction:column;gap:6px}
+footer p{margin:0;max-width:68ch}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="over">Dzienniki urzędowe województw II Rzeczypospolitej</div>
+    <h1>Zaginieni i poszukiwani w edyktach</h1>
+    <p>Po I wojnie światowej wiele rodzin nadal szukało swoich bliskich. Powiatowe Komendy Uzupełnień publikowały w dziennikach urzędowych edykty — ogłoszenia dotyczące zaginionych żołnierzy, wzywające do przekazania informacji o ich losach.</p>
+    <p>Ta baza pomaga odnaleźć osoby wymienione w tych ogłoszeniach. Wyszukuj według nazwiska, imienia lub miejscowości. Wpisy zawierają dostępne w źródle informacje o urodzeniu, rodzicach, osobach poszukujących, jednostce wojskowej i ostatnich wiadomościach o zaginionym. Przy każdym wpisie znajdziesz odnośnik do oryginalnego skanu.</p>
+    <p class="scope" id="scope">Wczytuję dane…</p>
+  </header>
+
+  <form class="search" id="f" autocomplete="off">
+    <div class="fields">
+      <label for="qn">Nazwisko<input type="search" id="qn" placeholder="np. Bojko"></label>
+      <label for="qi">Imię<input type="search" id="qi" placeholder="np. Stefan"></label>
+      <label for="qm">Miejscowość<input type="search" id="qm" placeholder="np. Łuka Mała"></label>
+    </div>
+    <div class="two" id="src" hidden>
+      <label for="woj">Województwo<select id="woj"></select></label>
+      <label for="rok">Rocznik<select id="rok"></select></label>
+    </div>
+    <label class="check" for="chk"><input type="checkbox" id="chk">Tylko wpisy z nieczytelnym drukiem</label>
+    <label class="check" for="rel"><input type="checkbox" id="rel" checked>Szukaj także wśród rodziców, żon i wnioskodawców</label>
+    <div class="row" id="pku" role="group" aria-label="Komenda ogłaszająca"></div>
+  </form>
+
+  <div class="count"><span id="cnt"></span><button type="button" id="clr" hidden>Wyczyść</button></div>
+  <div id="list"></div>
+  <button type="button" id="more" class="morebtn" hidden></button>
+
+  <footer>
+    <p><strong>Źródło:</strong> skany dzienników urzędowych w Jagiellońskiej Bibliotece Cyfrowej. Treść wpisu zachowuje pisownię druku; pola idą za drukiem, zmieniony jest tylko przypadek (mianownik) i pisownia typu Marja → Maria.</p>
+    <p>Wyszukiwanie pomija polskie znaki i wielkość liter, a „Marja” i „Maria” traktuje jednakowo.</p>
+    <p id="hits" hidden>Liczba wejść: <strong id="hitn"></strong></p>
+  </footer>
+</div>
+<script>
+// Dane: data/manifest.json wskazuje pliki roczników. Nowy rocznik lub województwo = nowy plik + wpis w manifeście.
+const MIES=["I","II","III","IV","V","VI","VII","VIII","IX","X","XI","XII"];
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const norm=s=>(s||"").toLowerCase().replace(/ł/g,"l").normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/j(?=[aeiou])/g,"i").replace(/ii/g,"i").trim();
+const dataOpis=d=>{const [y,m,dd]=d.split("-").map(Number);return `${dd} ${MIES[m-1]} ${y}`;};
+const STEP=10;
+let R=[], lim=STEP, pku="";
+
+async function load(){
+  const man=await fetch("data/manifest.json").then(r=>{if(!r.ok)throw new Error("manifest");return r.json();});
+  const jobs=[];
+  for(const z of man.zrodla)for(const y of z.roczniki)
+    jobs.push(fetch(y.plik).then(r=>{if(!r.ok)throw new Error(y.plik);return r.json();}));
+  const res=await Promise.allSettled(jobs);
+  const bad=res.filter(x=>x.status==="rejected").length;
+  for(const x of res){
+    if(x.status!=="fulfilled")continue;
+    const d=x.value, wyd=Object.fromEntries(d.wydania.map(w=>[w.nr,w]));
+    for(const r of d.wpisy){
+      const w=wyd[r.nr];
+      if(!w)continue;                      // wpis bez wydania nie ma linku do źródła, więc nie trafia na stronę
+      r._woj=d.wojewodztwo; r._rok=d.rok; r._dz=d.dziennik_skrot||d.dziennik; r._data=dataOpis(w.data); r._link=w.link;
+      r._pku=r.oglasza.replace(/^PKU\s+/,"");
+      r._n=norm(r.nazwisko); r._i=norm(r.imie);
+      r._m=norm([r.miejsce_zam,r.powiat_zam,r.miejsce_ur,r.powiat_ur].join(" "));
+      r._rel=norm([r.ojciec,r.matka,r.zona,r.poszukuje].join(" "));
+      R.push(r);
+    }
+  }
+  R.sort((a,b)=>a.nazwisko.localeCompare(b.nazwisko,"pl")||a.imie.localeCompare(b.imie,"pl")||a._rok-b._rok||a.nr-b.nr);
+  setup(bad);
+}
+
+function setup(bad){
+  const wojs=[...new Set(R.map(r=>r._woj))].sort((a,b)=>a.localeCompare(b,"pl"));
+  const lata=[...new Set(R.map(r=>r._rok))].sort((a,b)=>a-b);
+  $("woj").innerHTML=`<option value="">Wszystkie</option>`+wojs.map(w=>`<option value="${esc(w)}">${esc(w)}</option>`).join("");
+  $("rok").innerHTML=`<option value="">Wszystkie</option>`+lata.map(y=>`<option value="${y}">${y}</option>`).join("");
+  $("src").hidden=wojs.length<2&&lata.length<2;
+  const zakres=lata.length>1?`lata ${lata[0]}–${lata[lata.length-1]}`:`rocznik ${lata[0]}`;
+  $("scope").innerHTML=R.length
+    ?`<strong>Zasób:</strong> ${wojs.length>1?"województwa: ":"województwo "}${wojs.map(esc).join(", ")}; ${zakres}; ${R.length} osób. Kolejne roczniki i województwa będą dochodzić.`+(bad?` Nie udało się wczytać ${bad} z plików danych.`:"")
+    :"Nie udało się wczytać danych. Odśwież stronę.";
+  chips(); draw();
+}
+
+function chips(){
+  const w=$("woj").value;
+  const list=[...new Set(R.filter(r=>!w||r._woj===w).map(r=>r._pku))].sort((a,b)=>a.localeCompare(b,"pl"));
+  if(pku&&!list.includes(pku))pku="";
+  $("pku").innerHTML=[["","Wszystkie PKU"],...list.map(p=>[p,"PKU "+p])].map(([v,l])=>`<button type="button" class="chip" data-v="${esc(v)}" aria-pressed="${v===pku}">${esc(l)}</button>`).join("");
+}
+
+const place=(m,p)=>m?esc(m)+(p?", pow. "+esc(p):""):"";
+const val=s=>s?esc(s):'<span class="none">brak w edykcie</span>';
+
+function card(r){
+  const par=[r.ojciec,r.matka].filter(Boolean).join(" i ");
+  const extra=[r.wyznanie&&"Wyznanie: "+r.wyznanie,r.zawod&&"Zawód: "+r.zawod,r.zona&&"Żona: "+r.zona,
+               r.miejsce_ur&&"Miejsce urodzenia: "+r.miejsce_ur+(r.powiat_ur?", pow. "+r.powiat_ur:"")].filter(Boolean).map(esc).join(" · ");
+  return `<article class="rec" id="${esc(r.id)}">
+  <div class="top"><div class="name">${esc(r.nazwisko)} <span>${esc(r.imie)}</span></div><div class="born">${r.data_ur?"ur. "+esc(r.data_ur):"ur. — brak daty"}</div></div>
+  <dl>
+    <dt>Zamieszkały</dt><dd>${place(r.miejsce_zam,r.powiat_zam)||'<span class="none">brak w edykcie</span>'}</dd>
+    <dt>Rodzice</dt><dd>${val(par)}</dd>
+    <dt>Poszukuje</dt><dd>${val(r.poszukuje)}</dd>
+    <dt>Ogłasza</dt><dd>${esc(r.oglasza)}</dd>
+    <dt>Jednostka</dt><dd>${val(r.jednostka)}</dd>
+  </dl>
+  <div class="ref">${r.ldz?`<span class="tag">L. dz. ${esc(r.ldz)}</span>`:""}<span class="tag">${esc(r._dz)} nr ${r.nr} · ${r._data}</span><span class="tag">str. ${r.strona}</span>${r.uwaga?'<span class="tag chk">druk nieczytelny</span>':""}</div>
+  <details><summary>Treść wpisu</summary>
+    <blockquote>${esc(r.tekst)}</blockquote>
+    ${extra?`<p class="more">${extra}</p>`:""}
+    ${r.uwaga?`<p class="warn"><strong>Druk nieczytelny:</strong> ${esc(r.uwaga)}</p>`:""}
+    <a class="src" href="${esc(r._link)}#page=${r.strona}" target="_blank" rel="noopener">Otwórz wydanie nr ${r.nr} z ${r._data}, str. ${r.strona} (skan JBC)</a>
+  </details>
+</article>`;
+}
+
+function draw(keep){
+  if(keep!==true)lim=STEP;
+  const qn=norm($("qn").value), qi=norm($("qi").value), qm=norm($("qm").value);
+  const rel=$("rel").checked, chk=$("chk").checked, woj=$("woj").value, rok=$("rok").value;
+  const any=qn||qi||qm||pku||chk||woj||rok;
+  const out=R.filter(r=>{
+    if(woj&&r._woj!==woj)return false;
+    if(rok&&String(r._rok)!==rok)return false;
+    if(pku&&r._pku!==pku)return false;
+    if(chk&&!r.uwaga)return false;
+    if(qn&&!(r._n.includes(qn)||(rel&&r._rel.includes(qn))))return false;
+    if(qi&&!(r._i.includes(qi)||(rel&&r._rel.includes(qi))))return false;
+    if(qm&&!r._m.includes(qm))return false;
+    return true;
+  });
+  const n=out.length;
+  const word=n===1?"wpis":(n%10>=2&&n%10<=4&&(n%100<12||n%100>14)?"wpisy":"wpisów");
+  const vis=Math.min(lim,n), rest=n-vis;
+  $("cnt").textContent=(any?`Znaleziono: ${n} ${word}`:`Wszystkie wpisy: ${n}`)+(n>STEP?` · pokazano ${vis}`:"");
+  $("clr").hidden=!any;
+  $("more").hidden=rest<=0;
+  $("more").textContent=`Więcej · kolejne ${Math.min(STEP,rest)} z ${rest}`;
+  $("list").innerHTML=n?out.slice(0,vis).map(card).join(""):`<div class="empty">Brak wpisów dla tych kryteriów. Skróć nazwisko do początku (np. „Boj”) albo wyczyść filtry.</div>`;
+}
+
+["qn","qi","qm"].forEach(id=>$(id).addEventListener("input",draw));
+["rel","chk","rok"].forEach(id=>$(id).addEventListener("change",draw));
+$("woj").addEventListener("change",()=>{chips();draw();});
+$("pku").addEventListener("click",e=>{const b=e.target.closest(".chip");if(!b)return;pku=b.dataset.v;
+  document.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",c===b));draw();});
+$("more").addEventListener("click",()=>{lim+=STEP;draw(true);});
+$("f").addEventListener("submit",e=>e.preventDefault());
+$("clr").addEventListener("click",()=>{["qn","qi","qm"].forEach(id=>$(id).value="");$("chk").checked=false;$("woj").value="";$("rok").value="";pku="";chips();draw();});
+
+// Licznik wejść (GoatCounter, bez ciasteczek). GC = kod konta z adresu KOD.goatcounter.com; pusty wyłącza licznik.
+const GC="zaginieni-w-edyktach";
+if(GC&&location.protocol==="https:"){
+  const sc=document.createElement("script");
+  sc.async=true; sc.src="https://gc.zgo.at/count.js"; sc.dataset.goatcounter=`https://${GC}.goatcounter.com/count`;
+  document.head.appendChild(sc);
+  fetch(`https://${GC}.goatcounter.com/counter/TOTAL.json`)
+    .then(r=>r.ok?r.json():null)
+    .then(d=>{if(d&&d.count){$("hitn").textContent=d.count;$("hits").hidden=false;}})
+    .catch(()=>{});
+}
+load().catch(()=>{$("scope").textContent="Nie udało się wczytać danych. Odśwież stronę.";});
+</script>
+</body>
+</html>

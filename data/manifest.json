@@ -1,0 +1,15 @@
+{
+ "zrodla": [
+  {
+   "id": "tarnopolskie",
+   "wojewodztwo": "tarnopolskie",
+   "roczniki": [
+    {
+     "rok": 1925,
+     "plik": "data/tarnopolskie/1925.json",
+     "wpisy": 327
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,95 @@
+# Zaginieni i poszukiwani w edyktach
+
+Wyszukiwarka osób z edyktów Powiatowych Komend Uzupełnień, ogłaszanych w dziennikach urzędowych województw II Rzeczypospolitej. Strona jest statyczna (GitHub Pages), bez serwera i bez bazy: dane leżą w plikach JSON, a wyszukiwanie działa w przeglądarce.
+
+## Struktura
+
+```
+index.html                              strona: wygląd i wyszukiwarka w jednym pliku
+data/
+  manifest.json                         spis źródeł i roczników (strona czyta go jako pierwszy)
+  tarnopolskie/
+    1925.json                           jeden rocznik: wydania + wpisy
+docs/
+  nieczytelne-tarnopolskie-1925.md      miejsca, w których druk jest nieczytelny
+README.md
+```
+
+Zasada: **jeden plik na rocznik, jeden folder na województwo.**
+
+## Jak dodać rocznik
+
+1. Wgraj plik `data/<województwo>/<rok>.json`.
+2. Dopisz rocznik w `data/manifest.json`:
+
+```json
+{"rok": 1926, "plik": "data/tarnopolskie/1926.json", "wpisy": 0}
+```
+
+Strony nie trzeba zmieniać. Filtr „Rocznik” pojawi się sam, gdy roczników będzie więcej niż jeden.
+
+## Jak dodać województwo
+
+1. Załóż folder `data/<województwo>/` i wgraj pliki roczników.
+2. Dopisz źródło w `data/manifest.json`:
+
+```json
+{"id": "lwowskie", "wojewodztwo": "lwowskie", "roczniki": [
+  {"rok": 1925, "plik": "data/lwowskie/1925.json", "wpisy": 0}
+]}
+```
+
+Filtr „Województwo” pojawi się sam, gdy województw będzie więcej niż jedno.
+
+## Format pliku rocznika
+
+Nagłówek:
+
+| Pole | Znaczenie |
+|---|---|
+| `zrodlo` | identyfikator źródła, taki jak nazwa folderu |
+| `wojewodztwo` | nazwa pokazywana w filtrze |
+| `rok` | rocznik |
+| `dziennik`, `dziennik_skrot` | tytuł dziennika w tym roczniku (tytuł może się zmieniać między rocznikami) |
+
+`wydania` – po jednym wierszu na numer: `nr`, `data` (RRRR-MM-DD), `link` (stały adres PDF w bibliotece cyfrowej), `wpisy` (liczba osób).
+
+`wpisy` – po jednym wierszu na osobę:
+
+| Pole | Znaczenie |
+|---|---|
+| `id` | `<źródło>-<rok>-<nr>-<kolejność w numerze>` |
+| `nr`, `strona` | numer wydania i strona; z nich powstaje link do skanu |
+| `oglasza` | komenda ogłaszająca, np. `PKU Tarnopol` |
+| `ldz` | liczba dziennika z edyktu |
+| `nazwisko`, `imie` | osoba poszukiwana |
+| `data_ur`, `rok_ur` | data w zapisie `3 X 1885`, `X 1885` albo `1885`; rok osobno jako liczba |
+| `miejsce_ur`, `powiat_ur` | miejsce urodzenia |
+| `miejsce_zam`, `powiat_zam` | miejsce zamieszkania |
+| `ojciec`, `matka` | rodzice, matka z nazwiskiem panieńskim, jeśli jest w edykcie |
+| `wyznanie`, `zawod`, `zona` | jeśli są w edykcie |
+| `jednostka` | pułk lub oddział |
+| `poszukuje` | wnioskodawca: żona, matka, ojciec itd. |
+| `tekst` | dosłowna treść wpisu w pisowni druku |
+| `uwaga` | tylko gdy druk jest nieczytelny |
+
+Puste pole oznacza, że edykt tej informacji nie podaje.
+
+Link do skanu strona składa sama: `link` wydania + `#page=` + `strona`. Wpis, którego numeru nie ma w `wydania`, nie jest pokazywany, bo nie miałby źródła.
+
+## Zasady przepisywania
+
+- Źródłem jest dziennik. Pola idą za drukiem, także tam, gdzie druk wygląda na pomyłkę.
+- Zmieniany jest tylko przypadek (mianownik: „w Budzanowie” → Budzanów) i pisownia typu Marja → Maria.
+- `tekst` zachowuje pisownię druku bez zmian.
+- `uwaga` pojawia się wyłącznie przy druku wyblakłym, nieostrym lub uszkodzonym.
+
+## Uruchomienie
+
+Na GitHubie: Settings → Pages → Deploy from a branch → `main`, folder `/ (root)`.
+
+Lokalnie strona wymaga serwera (otwarta wprost z dysku nie wczyta danych), np. `python3 -m http.server` w folderze repozytorium.
+
+## Źródła
+
+- Dziennik Urzędowy Województwa Tarnopolskiego, rocznik 1925 – skany w Jagiellońskiej Bibliotece Cyfrowej.
