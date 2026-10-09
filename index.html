@@ -105,7 +105,7 @@ footer p{margin:0;max-width:68ch}
   <footer>
     <p><strong>Źródło:</strong> skany dzienników urzędowych w Jagiellońskiej Bibliotece Cyfrowej. Treść wpisu zachowuje pisownię druku; pola idą za drukiem, zmieniony jest tylko przypadek (mianownik) i pisownia typu Marja → Maria.</p>
     <p>Wyszukiwanie pomija polskie znaki i wielkość liter, a „Marja” i „Maria” traktuje jednakowo.</p>
-    <p id="hits" hidden>Liczba wejść: <strong id="hitn"></strong></p>
+    <p><img alt="Liczba wyświetleń" src="https://hits.sh/machmi-pro.github.io/zaginieni-w-edyktach.svg?style=flat&amp;label=wy%C5%9Bwietle%C5%84&amp;color=55388a" style="border:0;vertical-align:middle;"></p>
   </footer>
 </div>
 <script>
@@ -223,17 +223,6 @@ $("more").addEventListener("click",()=>{lim+=STEP;draw(true);});
 $("f").addEventListener("submit",e=>e.preventDefault());
 $("clr").addEventListener("click",()=>{["qn","qi","qm"].forEach(id=>$(id).value="");$("chk").checked=false;$("woj").value="";$("rok").value="";pku="";chips();draw();});
 
-// Licznik wejść (GoatCounter, bez ciasteczek). GC = kod konta z adresu KOD.goatcounter.com; pusty wyłącza licznik.
-const GC="zaginieni-w-edyktach";
-if(GC&&location.protocol==="https:"){
-  const sc=document.createElement("script");
-  sc.async=true; sc.src="https://gc.zgo.at/count.js"; sc.dataset.goatcounter=`https://${GC}.goatcounter.com/count`;
-  document.head.appendChild(sc);
-  fetch(`https://${GC}.goatcounter.com/counter/TOTAL.json`)
-    .then(r=>r.ok?r.json():null)
-    .then(d=>{if(d&&d.count){$("hitn").textContent=d.count;$("hits").hidden=false;}})
-    .catch(()=>{});
-}
 load().catch(()=>{$("scope").textContent="Nie udało się wczytać danych. Odśwież stronę.";});
 </script>
 </body>
