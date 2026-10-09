@@ -10,8 +10,10 @@ data/
   manifest.json                         spis źródeł i roczników (strona czyta go jako pierwszy)
   tarnopolskie/
     1925.json                           jeden rocznik: wydania + wpisy
+    1926.json
 docs/
   nieczytelne-tarnopolskie-1925.md      miejsca, w których druk jest nieczytelny
+  nieczytelne-tarnopolskie-1926.md
 README.md
 ```
 
@@ -92,4 +94,4 @@ Lokalnie strona wymaga serwera (otwarta wprost z dysku nie wczyta danych), np. `
 
 ## Źródła
 
-- Dziennik Urzędowy Województwa Tarnopolskiego, rocznik 1925 – skany w Jagiellońskiej Bibliotece Cyfrowej.
+- Dziennik Urzędowy Województwa Tarnopolskiego, roczniki 1925–1926 – skany w Jagiellońskiej Bibliotece Cyfrowej.
