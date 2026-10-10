@@ -12,9 +12,12 @@ data/
     1925.json                           jeden rocznik: wydania + wpisy
     1926.json
     1927.json                           przejrzany, bez edyktów
+  lwowskie/
+    1925.json                           numery 3–12
 docs/
   nieczytelne-tarnopolskie-1925.md      miejsca, w których druk jest nieczytelny
   nieczytelne-tarnopolskie-1926.md
+  nieczytelne-lwowskie-1925.md
 README.md
 ```
 
@@ -97,3 +100,4 @@ Lokalnie strona wymaga serwera (otwarta wprost z dysku nie wczyta danych), np. `
 
 - Dziennik Urzędowy Województwa Tarnopolskiego, roczniki 1925–1926 – skany w Jagiellońskiej Bibliotece Cyfrowej.
 - Rocznik 1927 tego dziennika przejrzano w całości: nie zawiera edyktów o zaginionych, więc plik `1927.json` ma tylko listę wydań.
+- Dziennik Urzędowy Województwa Lwowskiego, rocznik 1925, numery 3–12 – skany w Jagiellońskiej Bibliotece Cyfrowej. Numery 1–2 nie zostały jeszcze opracowane.

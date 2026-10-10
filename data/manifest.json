@@ -20,6 +20,17 @@
      "wpisy": 0
     }
    ]
+  },
+  {
+   "id": "lwowskie",
+   "wojewodztwo": "lwowskie",
+   "roczniki": [
+    {
+     "rok": 1925,
+     "plik": "data/lwowskie/1925.json",
+     "wpisy": 785
+    }
+   ]
   }
  ]
 }
