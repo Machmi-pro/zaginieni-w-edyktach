@@ -20,3 +20,7 @@ Tylko wpisy, w których druk jest wyblakły, nieostry albo uszkodzony. Każdy ma
 ## Nr 16 (1926-04-19) – 1
 
 - **Neuman Gustaw**, str. 3, L. dz. 7015/Sup. 26 r – Druk wyblakły, fragmentami nieczytelny (m.in. litera w „kwietnia", słowa „ostatnio", „domu"); rok urodzenia czytam jako 1892. [skan](https://jbc.bj.uj.edu.pl/Content/68386/PDF/NDIGCZAS003502_1926_016.pdf#page=3)
+
+## Nr 31 (1926-08-02) – 1
+
+- **Kubala Antoni**, str. 5, L. dz. 25520/III – W druku data urodzenia „1 5. 1886” (odstęp po „1”, brak kropki); odczytano jako 1.5 1886. [skan](https://jbc.bj.uj.edu.pl/Content/68422/PDF/NDIGCZAS003502_1926_031.pdf#page=5)
