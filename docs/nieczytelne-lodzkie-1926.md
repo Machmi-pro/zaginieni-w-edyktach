@@ -24,3 +24,7 @@ Tylko wpisy, w których druk jest wyblakły, nieostry albo uszkodzony. Każdy ma
 ## Nr 31 (1926-08-02) – 1
 
 - **Kubala Antoni**, str. 5, L. dz. 25520/III – W druku data urodzenia „1 5. 1886” (odstęp po „1”, brak kropki); odczytano jako 1.5 1886. [skan](https://jbc.bj.uj.edu.pl/Content/68422/PDF/NDIGCZAS003502_1926_031.pdf#page=5)
+
+## Nr 35 (1926-08-30) – 1
+
+- **Wilicki Leon**, str. 2, L. dz. 29941/III 26 – Ostatnia cyfra L. dz. w druku uszkodzona (wygląda jak „J”); odczytano 29941/III 26. [skan](https://jbc.bj.uj.edu.pl/Content/68433/PDF/NDIGCZAS003502_1926_035.pdf#page=2)
