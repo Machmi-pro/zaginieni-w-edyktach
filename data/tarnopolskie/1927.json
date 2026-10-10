@@ -1,0 +1,19 @@
+{
+ "zrodlo": "tarnopolskie", "wojewodztwo": "tarnopolskie", "rok": 1927, "dziennik": "Dziennik Urzędowy Województwa Tarnopolskiego", "dziennik_skrot": "Dz. Urz. Woj. Tarnopolskiego", "uwagi": "Przejrzano wszystkie 12 numerów. Rocznik nie zawiera edyktów o zaginięciu i poszukiwaniu osób wojskowych.",
+ "wydania": [
+  {"nr": 1, "data": "1927-01-01", "link": "https://jbc.bj.uj.edu.pl/Content/77963/PDF/NDIGCZAS003511_1927_001.pdf", "wpisy": 0},
+  {"nr": 2, "data": "1927-02-01", "link": "https://jbc.bj.uj.edu.pl/Content/77964/PDF/NDIGCZAS003511_1927_002.pdf", "wpisy": 0},
+  {"nr": 3, "data": "1927-03-01", "link": "https://jbc.bj.uj.edu.pl/Content/77965/PDF/NDIGCZAS003511_1927_003.pdf", "wpisy": 0},
+  {"nr": 4, "data": "1927-04-01", "link": "https://jbc.bj.uj.edu.pl/Content/77966/PDF/NDIGCZAS003511_1927_004.pdf", "wpisy": 0},
+  {"nr": 5, "data": "1927-05-01", "link": "https://jbc.bj.uj.edu.pl/Content/77967/PDF/NDIGCZAS003511_1927_005.pdf", "wpisy": 0},
+  {"nr": 6, "data": "1927-06-01", "link": "https://jbc.bj.uj.edu.pl/Content/77968/PDF/NDIGCZAS003511_1927_006.pdf", "wpisy": 0},
+  {"nr": 7, "data": "1927-07-01", "link": "https://jbc.bj.uj.edu.pl/Content/77969/PDF/NDIGCZAS003511_1927_007.pdf", "wpisy": 0},
+  {"nr": 8, "data": "1927-08-01", "link": "https://jbc.bj.uj.edu.pl/Content/77970/PDF/NDIGCZAS003511_1927_008.pdf", "wpisy": 0},
+  {"nr": 9, "data": "1927-09-01", "link": "https://jbc.bj.uj.edu.pl/Content/77971/PDF/NDIGCZAS003511_1927_009.pdf", "wpisy": 0},
+  {"nr": 10, "data": "1927-10-01", "link": "https://jbc.bj.uj.edu.pl/Content/77972/PDF/NDIGCZAS003511_1927_010.pdf", "wpisy": 0},
+  {"nr": 11, "data": "1927-11-01", "link": "https://jbc.bj.uj.edu.pl/Content/77973/PDF/NDIGCZAS003511_1927_011.pdf", "wpisy": 0},
+  {"nr": 12, "data": "1927-12-01", "link": "https://jbc.bj.uj.edu.pl/Content/77974/PDF/NDIGCZAS003511_1927_012.pdf", "wpisy": 0}
+ ],
+ "wpisy": [
+ ]
+}

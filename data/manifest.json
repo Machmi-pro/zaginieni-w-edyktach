@@ -13,6 +13,11 @@
      "rok": 1926,
      "plik": "data/tarnopolskie/1926.json",
      "wpisy": 563
+    },
+    {
+     "rok": 1927,
+     "plik": "data/tarnopolskie/1927.json",
+     "wpisy": 0
     }
    ]
   }
