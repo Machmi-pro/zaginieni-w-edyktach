@@ -199,7 +199,7 @@ function card(r){
     <blockquote>${esc(r.tekst)}</blockquote>
     ${extra?`<p class="more">${extra}</p>`:""}
     ${r.uwaga?`<p class="warn"><strong>Druk nieczytelny:</strong> ${esc(r.uwaga)}</p>`:""}
-    <a class="src" href="${esc(r._link)}#page=${r.strona}" target="_blank" rel="noopener">Otwórz wydanie nr ${r.nr} z ${r._data}, str. ${r.strona} (skan JBC)</a>
+    <a class="src" href="${esc(r._link)}#page=${r.strona}" target="_blank" rel="noopener">Otwórz wydanie nr ${r.nr} z ${r._data}, str. ${r.strona} (skan ${/wbp\.lodz\.pl/.test(r._link)?"WBP Łódź":"JBC"})</a>
   </details>
 </article>`;
 }
