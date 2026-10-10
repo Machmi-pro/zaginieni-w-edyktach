@@ -17,11 +17,14 @@ data/
   lwowskie/
     1925.json                           numery 3–12
     1926.json                           numery 1–12
+  lodzkie/
+    1925.json                           tylko numery z edyktami PKU (20 z 26 wskazanych)
 docs/
   nieczytelne-tarnopolskie-1925.md      miejsca, w których druk jest nieczytelny
   nieczytelne-tarnopolskie-1926.md
   nieczytelne-lwowskie-1925.md
   nieczytelne-lwowskie-1926.md
+  nieczytelne-lodzkie-1925.md
 README.md
 ```
 
@@ -105,3 +108,4 @@ Lokalnie strona wymaga serwera (otwarta wprost z dysku nie wczyta danych), np. `
 - Dziennik Urzędowy Województwa Tarnopolskiego, roczniki 1925–1926 – skany w Jagiellońskiej Bibliotece Cyfrowej.
 - Rocznik 1927 tego dziennika przejrzano w całości: nie zawiera edyktów o zaginionych, więc plik `1927.json` ma tylko listę wydań.
 - Dziennik Urzędowy Województwa Lwowskiego, rocznik 1925, numery 3–12 – skany w Jagiellońskiej Bibliotece Cyfrowej. Numery 1–2 nie zostały jeszcze opracowane.
+- Dziennik Urzędowy Województwa Łódzkiego, rocznik 1925 – tylko numery z edyktami PKU, skany w Wojewódzkiej Bibliotece Publicznej w Łodzi (nr 39 – Jagiellońska Biblioteka Cyfrowa). Opracowane: nr 8, 14, 16, 18, 19, 24, 26, 27, 28, 31, 33, 34, 36, 41, 44, 45, 46, 49, 50, 51. Czekają na plik: nr 35, 39, 42, 43, 47, 48.
