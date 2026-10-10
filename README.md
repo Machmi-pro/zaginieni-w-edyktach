@@ -16,10 +16,12 @@ data/
     1927.json                           przejrzany, bez edyktów
   lwowskie/
     1925.json                           numery 3–12
+    1926.json                           numery 1–12
 docs/
   nieczytelne-tarnopolskie-1925.md      miejsca, w których druk jest nieczytelny
   nieczytelne-tarnopolskie-1926.md
   nieczytelne-lwowskie-1925.md
+  nieczytelne-lwowskie-1926.md
 README.md
 ```
 
