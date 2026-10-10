@@ -16,3 +16,7 @@ Tylko wpisy, w których druk jest wyblakły, nieostry albo uszkodzony. Każdy ma
 ## Nr 13 (1926-03-29) – 1
 
 - **Stasiak Józef**, str. 5, L. dz. 19503/25/Inw. – Trzecia cyfra roku urodzenia („18?8") oraz pierwsza cyfra numeru pułku („?8 p. p. Strz. Lwow") nieczytelne w druku. [skan](https://jbc.bj.uj.edu.pl/Content/68379/PDF/NDIGCZAS003502_1926_013.pdf#page=5)
+
+## Nr 16 (1926-04-19) – 1
+
+- **Neuman Gustaw**, str. 3, L. dz. 7015/Sup. 26 r – Druk wyblakły, fragmentami nieczytelny (m.in. litera w „kwietnia", słowa „ostatnio", „domu"); rok urodzenia czytam jako 1892. [skan](https://jbc.bj.uj.edu.pl/Content/68386/PDF/NDIGCZAS003502_1926_016.pdf#page=3)
