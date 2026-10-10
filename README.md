@@ -6,6 +6,8 @@ Wyszukiwarka osób z edyktów Powiatowych Komend Uzupełnień, ogłaszanych w dz
 
 ```
 index.html                              strona: wygląd i wyszukiwarka w jednym pliku
+favicon.svg                             ikona strony
+img/                                    ikony PNG i grafika do udostępniania (og.png)
 data/
   manifest.json                         spis źródeł i roczników (strona czyta go jako pierwszy)
   tarnopolskie/
