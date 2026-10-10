@@ -28,3 +28,16 @@ Tylko wpisy, w których druk jest wyblakły, nieostry albo uszkodzony. Każdy ma
 ## Nr 35 (1926-08-30) – 1
 
 - **Wilicki Leon**, str. 2, L. dz. 29941/III 26 – Ostatnia cyfra L. dz. w druku uszkodzona (wygląda jak „J”); odczytano 29941/III 26. [skan](https://jbc.bj.uj.edu.pl/Content/68433/PDF/NDIGCZAS003502_1926_035.pdf#page=2)
+
+## Nr 47 (1926-11-22) – 1
+
+- **Mizerski Władysław**, str. 13, L. dz. 2?143/III – Druga cyfra L. dz. nieczytelna w druku (defekt; „2?143/III”). [skan](https://jbc.bj.uj.edu.pl/Content/68473/PDF/NDIGCZAS003502_1926_047.pdf#page=13)
+
+## Nr 49 (1926-12-06) – 2
+
+- **Nowakowski Jan**, str. 7, L. dz. 1957?/26 – Ostatnia cyfra L. dz. przed „/26” zasłonięta w druku (odczyt 1957?/26). [skan](https://jbc.bj.uj.edu.pl/Content/68480/PDF/NDIGCZAS003502_1926_049.pdf#page=7)
+- **Wdowiak Andrzej**, str. 7, L. dz. 4?69/?6 – Dwie cyfry L. dz. nieczytelne w druku („4?69/?6”). Rok urodzenia w druku „1885” (cyfra 8/3 niewyraźna; odczytano 1885). [skan](https://jbc.bj.uj.edu.pl/Content/68480/PDF/NDIGCZAS003502_1926_049.pdf#page=7)
+
+## Nr 50 (1926-12-13) – 1
+
+- **Sonenberg Leopold**, str. 10, L. dz. 41106/III – Dzień/miesiąc urodzenia („14.3”) słabo czytelny w druku; odczytano 14.3. W druku nazwisko Sonenberg, w imieniu żony „Zonenberg”. [skan](https://jbc.bj.uj.edu.pl/Content/68483/PDF/NDIGCZAS003502_1926_050.pdf#page=10)
