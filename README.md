@@ -23,6 +23,8 @@ data/
     1927.json                           nr 1 (jedyny dotąd wgrany numer, 3 edykty)
   wolynskie/
     1925.json                           numery 5–12 (wydania wgrane przez użytkowniczkę, 37 wpisów)
+    1926.json                           numery 1, 2 i 5 (jedyne dotąd wgrane, 32 wpisy)
+    1927.json                           nr 1 (4 wpisy)
   lodzkie/
     1925.json                           tylko numery z edyktami PKU (22 z 26 opracowane)
     1926.json                           kompletny: wszystkie numery z edyktami PKU
@@ -35,6 +37,7 @@ docs/
   nieczytelne-lodzkie-1926.md
   nieczytelne-stanislawowskie-1925.md
   nieczytelne-stanislawowskie-1926.md
+  nieczytelne-wolynskie-1926.md
 README.md
 ```
 
@@ -124,3 +127,4 @@ Lokalnie strona wymaga serwera (otwarta wprost z dysku nie wczyta danych), np. `
 - Dziennik Urzędowy Województwa Stanisławowskiego, rocznik 1926 – opracowane wszystkie wydania, jakie były dostępne (nr 1–7, wychodzi co drugi miesiąc), skany w Jagiellońskiej Bibliotece Cyfrowej.
 - Dziennik Urzędowy Województwa Stanisławowskiego, rocznik 1927 – dotąd tylko nr 1 (1 I 1927, 3 edykty PKU Kałusz na str. 8), skan w Jagiellońskiej Bibliotece Cyfrowej.
 - Dziennik Urzędowy Województwa Wołyńskiego, rocznik V (1925) – opracowane nr 5–12 (5 VI 1925 – 15 I 1926), skany w Jagiellońskiej Bibliotece Cyfrowej. Pominięto ogłoszenia o zgubionych dokumentach i wykazy unieważnionych kart ewidencyjnych.
+- Dziennik Urzędowy Województwa Wołyńskiego, rocznik VI (1926) – opracowane nr 1 (15 V 1926), nr 2 (1 VI 1926) i nr 5 (10 I 1927, za listopad i grudzień 1926), oraz rocznik VII (1927) – nr 1 (18 I 1927). Są to numery, które zawierają edykty; pozostałe numery nie zostały dotąd wgrane. Pominięto ogłoszenia o zgubionych dokumentach i wykazy unieważnionych kart ewidencyjnych.
