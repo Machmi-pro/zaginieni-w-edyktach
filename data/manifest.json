@@ -94,6 +94,17 @@
      "wpisy": 4
     }
    ]
+  },
+  {
+   "id": "monitorpolski",
+   "wojewodztwo": "monitor polski",
+   "roczniki": [
+    {
+     "rok": 1925,
+     "plik": "data/monitorpolski/1925.json",
+     "wpisy": 162
+    }
+   ]
   }
  ]
 }

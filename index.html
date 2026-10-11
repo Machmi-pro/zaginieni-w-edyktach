@@ -106,7 +106,7 @@ footer p{margin:0;max-width:68ch}
       <label for="qm">Miejscowość<input type="search" id="qm" placeholder="np. Łuka Mała"></label>
     </div>
     <div class="two" id="src" hidden>
-      <label for="woj">Województwo<select id="woj"></select></label>
+      <label for="woj">Województwo / źródło<select id="woj"></select></label>
       <label for="rok">Rocznik<select id="rok"></select></label>
     </div>
     <label class="check" for="chk"><input type="checkbox" id="chk">Tylko wpisy z nieczytelnym drukiem</label>
@@ -120,7 +120,7 @@ footer p{margin:0;max-width:68ch}
   <button type="button" id="more" class="morebtn" hidden></button>
 
   <footer>
-    <p><strong>Źródło:</strong> skany dzienników urzędowych w Jagiellońskiej Bibliotece Cyfrowej (Łódzkie 1925: Wojewódzka Biblioteka Publiczna w Łodzi, z wyjątkiem nr 39). Treść wpisu zachowuje pisownię druku; pola idą za drukiem, zmieniony jest tylko przypadek (mianownik) i pisownia typu Marja → Maria.</p>
+    <p><strong>Źródło:</strong> skany dzienników urzędowych w Jagiellońskiej Bibliotece Cyfrowej (Łódzkie 1925: Wojewódzka Biblioteka Publiczna w Łodzi, z wyjątkiem nr 39) oraz numery „Monitora Polskiego” z 1925 r. (monitorpolski.gov.pl). Treść wpisu zachowuje pisownię druku; pola idą za drukiem, zmieniony jest tylko przypadek (mianownik) i pisownia typu Marja → Maria.</p>
     <p>Wyszukiwanie pomija polskie znaki i wielkość liter, a „Marja” i „Maria” traktuje jednakowo.</p>
     <p><img alt="Liczba wyświetleń" src="https://hits.sh/machmi-pro.github.io/zaginieni-w-edyktach.svg?style=flat&amp;label=wy%C5%9Bwietle%C5%84&amp;color=55388a" style="border:0;vertical-align:middle;"></p>
   </footer>
@@ -201,7 +201,7 @@ function card(r){
     <blockquote>${esc(r.tekst)}</blockquote>
     ${extra?`<p class="more">${extra}</p>`:""}
     ${r.uwaga?`<p class="warn"><strong>Druk nieczytelny:</strong> ${esc(r.uwaga)}</p>`:""}
-    <a class="src" href="${esc(r._link)}#page=${r.strona}" target="_blank" rel="noopener">Otwórz wydanie nr ${r.nr} z ${r._data}, str. ${r.strona} (skan ${/wbp\.lodz\.pl/.test(r._link)?"WBP Łódź":"JBC"})</a>
+    <a class="src" href="${esc(r._link)}#page=${r.strona}" target="_blank" rel="noopener">Otwórz wydanie nr ${r.nr} z ${r._data}, str. ${r.strona} (skan ${/wbp\.lodz\.pl/.test(r._link)?"WBP Łódź":/monitorpolski\.gov\.pl/.test(r._link)?"Monitor Polski":"JBC"})</a>
   </details>
 </article>`;
 }
