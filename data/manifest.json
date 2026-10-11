@@ -66,6 +66,11 @@
      "rok": 1926,
      "plik": "data/stanislawowskie/1926.json",
      "wpisy": 349
+    },
+    {
+     "rok": 1927,
+     "plik": "data/stanislawowskie/1927.json",
+     "wpisy": 3
     }
    ]
   }

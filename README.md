@@ -20,6 +20,7 @@ data/
   stanislawowskie/
     1925.json                           numery 3, 6–12 (z edyktami PKU)
     1926.json                           numery 1–7 (komplet wydań dostępnych w JBC, wychodzi co drugi miesiąc)
+    1927.json                           nr 1 (jedyny dotąd wgrany numer, 3 edykty)
   lodzkie/
     1925.json                           tylko numery z edyktami PKU (22 z 26 opracowane)
     1926.json                           kompletny: wszystkie numery z edyktami PKU
@@ -119,3 +120,4 @@ Lokalnie strona wymaga serwera (otwarta wprost z dysku nie wczyta danych), np. `
 - Dziennik Urzędowy Województwa Łódzkiego, rocznik 1926 – opracowane wszystkie numery z edyktami PKU (nr 1–4, 6, 9–17, 19–39, 41, 43–50, 52), skany w Jagiellońskiej Bibliotece Cyfrowej.
 - Dziennik Urzędowy Województwa Stanisławowskiego, rocznik 1925 – opracowane wszystkie numery z edyktami/ogłoszeniami PKU (nr 3, 6–12), skany w Jagiellońskiej Bibliotece Cyfrowej. Pominięto cywilne ogłoszenia o poszukiwaniu dzieci i zwłok (nr 7, 10, 11, 12).
 - Dziennik Urzędowy Województwa Stanisławowskiego, rocznik 1926 – opracowane wszystkie wydania, jakie były dostępne (nr 1–7, wychodzi co drugi miesiąc), skany w Jagiellońskiej Bibliotece Cyfrowej.
+- Dziennik Urzędowy Województwa Stanisławowskiego, rocznik 1927 – dotąd tylko nr 1 (1 I 1927, 3 edykty PKU Kałusz na str. 8), skan w Jagiellońskiej Bibliotece Cyfrowej.
