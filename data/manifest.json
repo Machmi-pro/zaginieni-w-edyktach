@@ -52,6 +52,17 @@
      "wpisy": 349
     }
    ]
+  },
+  {
+   "id": "stanislawowskie",
+   "wojewodztwo": "stanislawowskie",
+   "roczniki": [
+    {
+     "rok": 1925,
+     "plik": "data/stanislawowskie/1925.json",
+     "wpisy": 65
+    }
+   ]
   }
  ]
 }

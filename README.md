@@ -17,6 +17,8 @@ data/
   lwowskie/
     1925.json                           numery 3–12
     1926.json                           numery 1–12
+  stanislawowskie/
+    1925.json                           numery 3, 6–12 (z edyktami PKU)
   lodzkie/
     1925.json                           tylko numery z edyktami PKU (22 z 26 opracowane)
     1926.json                           kompletny: wszystkie numery z edyktami PKU
@@ -27,6 +29,7 @@ docs/
   nieczytelne-lwowskie-1926.md
   nieczytelne-lodzkie-1925.md
   nieczytelne-lodzkie-1926.md
+  nieczytelne-stanislawowskie-1925.md
 README.md
 ```
 
@@ -112,3 +115,4 @@ Lokalnie strona wymaga serwera (otwarta wprost z dysku nie wczyta danych), np. `
 - Dziennik Urzędowy Województwa Lwowskiego, rocznik 1925, numery 3–12 – skany w Jagiellońskiej Bibliotece Cyfrowej. Numery 1–2 nie zostały jeszcze opracowane.
 - Dziennik Urzędowy Województwa Łódzkiego, rocznik 1925 – tylko numery z edyktami PKU, skany w Wojewódzkiej Bibliotece Publicznej w Łodzi (nr 39 – Jagiellońska Biblioteka Cyfrowa). Opracowane: nr 8, 14, 16, 18, 19, 24, 26, 27, 28, 31, 33, 34, 36, 39, 41, 42, 44, 45, 46, 49, 50, 51. Nr 35, 43, 47, 48 nie zostały wgrane (według wskazania powtarzają edykty z opracowanych numerów).
 - Dziennik Urzędowy Województwa Łódzkiego, rocznik 1926 – opracowane wszystkie numery z edyktami PKU (nr 1–4, 6, 9–17, 19–39, 41, 43–50, 52), skany w Jagiellońskiej Bibliotece Cyfrowej.
+- Dziennik Urzędowy Województwa Stanisławowskiego, rocznik 1925 – opracowane wszystkie numery z edyktami/ogłoszeniami PKU (nr 3, 6–12), skany w Jagiellońskiej Bibliotece Cyfrowej. Pominięto cywilne ogłoszenia o poszukiwaniu dzieci i zwłok (nr 7, 10, 11, 12).
