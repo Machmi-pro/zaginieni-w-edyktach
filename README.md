@@ -33,6 +33,7 @@ data/
     1925.json                           tylko numery z edyktami PKU (22 z 26 opracowane)
     1926.json                           kompletny: wszystkie numery z edyktami PKU
 docs/
+  zestawienie-wydan-1925-1926.md        zestawienie wydań dzienników i Monitora Polskiego ze statusem opracowania
   nieczytelne-tarnopolskie-1925.md      miejsca, w których druk jest nieczytelny
   nieczytelne-tarnopolskie-1926.md
   nieczytelne-lwowskie-1925.md
