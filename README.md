@@ -21,6 +21,7 @@ data/
     1925.json                           numery 3, 6–12 (z edyktami PKU)
     1926.json                           numery 1–7 (komplet wydań dostępnych w JBC, wychodzi co drugi miesiąc)
     1927.json                           nr 1 (jedyny dotąd wgrany numer, 3 edykty)
+  pku-wojewodztwa.json                  słownik: PKU → województwo (filtr Województwo na stronie działa wg PKU, nie wg dziennika)
   wolynskie/
     1925.json                           numery 5–12 (wydania wgrane przez użytkowniczkę, 37 wpisów)
     1926.json                           numery 1, 2 i 5 (jedyne dotąd wgrane, 32 wpisy)

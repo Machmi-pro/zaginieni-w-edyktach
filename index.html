@@ -106,7 +106,7 @@ footer p{margin:0;max-width:68ch}
       <label for="qm">Miejscowość<input type="search" id="qm" placeholder="np. Łuka Mała"></label>
     </div>
     <div class="two" id="src" hidden>
-      <label for="woj">Województwo / źródło<select id="woj"></select></label>
+      <label for="woj">Województwo<select id="woj"></select></label>
       <label for="rok">Rocznik<select id="rok"></select></label>
     </div>
     <label class="check" for="chk"><input type="checkbox" id="chk">Tylko wpisy z nieczytelnym drukiem</label>
@@ -133,10 +133,17 @@ const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",
 const norm=s=>(s||"").toLowerCase().replace(/ł/g,"l").normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/j(?=[aeiou])/g,"i").replace(/ii/g,"i").trim();
 const dataOpis=d=>{const [y,m,dd]=d.split("-").map(Number);return `${dd} ${MIES[m-1]} ${y}`;};
 const STEP=10;
+const pkuKey=s=>norm(s).replace(/[^a-z0-9]/g,"");
+let PKUMAP={};
 let R=[], lim=STEP, pku="";
 
 async function load(){
   const man=await fetch("data/manifest.json").then(r=>{if(!r.ok)throw new Error("manifest");return r.json();});
+  try{
+    const dz=await fetch("data/pku-wojewodztwa.json").then(r=>r.json());
+    for(const [w,l] of Object.entries(dz.wojewodztwa))for(const p of l)PKUMAP[pkuKey(p)]=w;
+    for(const [a,p] of Object.entries(dz.aliasy||{}))PKUMAP[pkuKey(a)]=PKUMAP[pkuKey(p)];
+  }catch(e){}
   const jobs=[];
   for(const z of man.zrodla)for(const y of z.roczniki)
     jobs.push(fetch(y.plik).then(r=>{if(!r.ok)throw new Error(y.plik);return r.json();}));
@@ -148,8 +155,9 @@ async function load(){
     for(const r of d.wpisy){
       const w=wyd[r.nr];
       if(!w)continue;                      // wpis bez wydania nie ma linku do źródła, więc nie trafia na stronę
-      r._woj=d.wojewodztwo; r._rok=d.rok; r._dz=d.dziennik_skrot||d.dziennik; r._data=dataOpis(w.data); r._link=w.link;
+      r._rok=d.rok; r._dz=d.dziennik_skrot||d.dziennik; r._data=dataOpis(w.data); r._link=w.link;
       r._pku=r.oglasza.replace(/^PKU\s+/,"");
+      r._woj=PKUMAP[pkuKey(r._pku)]||"(nieprzypisane)";
       r._n=norm(r.nazwisko); r._i=norm(r.imie);
       r._m=norm([r.miejsce_zam,r.powiat_zam,r.miejsce_ur,r.powiat_ur].join(" "));
       r._rel=norm([r.ojciec,r.matka,r.zona,r.poszukuje].join(" "));
