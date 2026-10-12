@@ -28,7 +28,7 @@ data/
     1927.json                           nr 1 (4 wpisy)
   monitorpolski/
     1925.json                           Monitor Polski, numery 194, 199, 243, 256, 257, 266, 271, 278, 285, 291 (162 wpisy; edykty różnych PKU w całym kraju)
-    1926.json                           Monitor Polski, numery 19, 44, 51, 63, 74, 93, 117, 126, 141 (143 wpisy)
+    1926.json                           Monitor Polski, numery 19, 44, 51, 63, 65, 74, 93, 117, 126, 141, 166, 173, 176, 177, 183, 207, 219, 239, 243, 264 (403 wpisy)
   lodzkie/
     1925.json                           tylko numery z edyktami PKU (22 z 26 opracowane)
     1926.json                           kompletny: wszystkie numery z edyktami PKU

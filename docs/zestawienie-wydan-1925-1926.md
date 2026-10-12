@@ -21,7 +21,7 @@ Zestawienie wydań dzienników wojewódzkich i Monitora Polskiego z lat 1925–1
 | Dziennik Urzędowy Województwa Łódzkiego | 1925 | 22 | 84 | 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 15, 17, 20, 21, 22, 23, 25, 29, 30, 32, 35, 37, 38, 40, 43, 47, 48 |
 | Dziennik Urzędowy Województwa Łódzkiego | 1926 | 45 | 349 | 5, 7, 8, 18, 40, 42, 51 |
 | Monitor Polski | 1925 | 10 | 162 | nie dotyczy (dziennik wychodził codziennie, ok. 300 numerów rocznie, przejrzano tylko wskazane numery) |
-| Monitor Polski | 1926 | 10 | 143 | nie dotyczy (dziennik wychodził codziennie, ok. 300 numerów rocznie, przejrzano tylko wskazane numery) |
+| Monitor Polski | 1926 | 20 | 403 | nie dotyczy (dziennik wychodził codziennie, ok. 300 numerów rocznie, przejrzano tylko wskazane numery) |
 
 ## Szczegóły według źródeł
 
@@ -294,6 +294,16 @@ Numery 1–4: według autora nie zawierają edyktów.
 | 117 | 1926-05-26 | ✅ opracowane | 14 | [skan](https://monitorpolski.gov.pl/M1926117000000.pdf) |
 | 126 | 1926-06-07 | ✅ opracowane | 10 | [skan](https://monitorpolski.gov.pl/M1926126000000.pdf) |
 | 141 | 1926-06-24 | ✅ opracowane | 7 | [skan](https://monitorpolski.gov.pl/M1926141000000.pdf) |
+| 166 | 1926-07-24 | ✅ opracowane | 9 | [skan](https://monitorpolski.gov.pl/M1926166000000.pdf) |
+| 173 | 1926-08-02 | ✅ opracowane | 29 | [skan](https://monitorpolski.gov.pl/M1926173000000.pdf) |
+| 176 | 1926-08-05 | ✅ opracowane | 36 | [skan](https://monitorpolski.gov.pl/M1926176000000.pdf) |
+| 177 | 1926-08-06 | ✅ opracowane | 30 | [skan](https://monitorpolski.gov.pl/M1926177000000.pdf) |
+| 183 | 1926-08-13 | ✅ opracowane | 18 | [skan](https://monitorpolski.gov.pl/M1926183000000.pdf) |
+| 207 | 1926-09-10 | ✅ opracowane | 35 | [skan](https://monitorpolski.gov.pl/M1926207000000.pdf) |
+| 219 | 1926-09-24 | ✅ opracowane | 50 | [skan](https://monitorpolski.gov.pl/M1926219000000.pdf) |
+| 239 | 1926-10-18 | ✅ opracowane | 27 | [skan](https://monitorpolski.gov.pl/M1926239000000.pdf) |
+| 243 | 1926-10-22 | ✅ opracowane | 13 | [skan](https://monitorpolski.gov.pl/M1926243000000.pdf) |
+| 264 | 1926-11-17 | ✅ opracowane | 13 | [skan](https://monitorpolski.gov.pl/M1926264000000.pdf) |
 
 ## Dzienniki wojewódzkie, których jeszcze nie ma w bazie
 

@@ -17,7 +17,8 @@
    "Kutno",
    "Włocławek",
    "Gostynin",
-   "Modlin"
+   "Modlin",
+   "Praga"
   ],
   "łódzkie": [
    "Łódź Miasto I",
@@ -49,7 +50,8 @@
    "Sosnowiec",
    "Będzin",
    "Zawiercie",
-   "Włoszczowa"
+   "Włoszczowa",
+   "Końskie"
   ],
   "lubelskie": [
    "Lublin",
@@ -199,6 +201,9 @@
   ]
  },
  "aliasy": {
+  "Augustów w Sokółce": "Augustów",
+  "Bydgoszcz": "Bydgoszcz Miasto",
+  "Molodeczno w Wilejce": "Wilejka",
   "Brzeziny w Tomaszowie": "Brzeziny",
   "Łask w Sieradzu": "Łask",
   "Łask (Sieradz)": "Łask",
