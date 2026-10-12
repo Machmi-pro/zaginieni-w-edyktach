@@ -16,7 +16,7 @@ Zestawienie wydań dzienników wojewódzkich i Monitora Polskiego z lat 1925–1
 | Tarnopolski Dziennik Wojewódzki / Dz. Urz. Woj. Tarnopolskiego | 1926 | 12 | 563 | brak |
 | Dziennik Urzędowy Województwa Stanisławowskiego | 1925 | 8 | 65 | 1, 2, 4, 5 |
 | Dziennik Urzędowy Województwa Stanisławowskiego | 1926 | 7 | 349 | brak |
-| Dziennik Urzędowy Województwa Wołyńskiego | 1925 | 8 | 37 | 1–4 (bez edyktów wg Magdaleny) |
+| Dziennik Urzędowy Województwa Wołyńskiego | 1925 | 8 | 37 | 1–4 (bez edyktów wg autora) |
 | Dziennik Urzędowy Województwa Wołyńskiego | 1926 | 3 | 32 | 3, 4 |
 | Dziennik Urzędowy Województwa Łódzkiego | 1925 | 22 | 84 | 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 15, 17, 20, 21, 22, 23, 25, 29, 30, 32, 35, 37, 38, 40, 43, 47, 48 |
 | Dziennik Urzędowy Województwa Łódzkiego | 1926 | 45 | 349 | 5, 7, 8, 18, 40, 42, 51 |
@@ -126,10 +126,10 @@ Zestawienie wydań dzienników wojewódzkich i Monitora Polskiego z lat 1925–1
 
 | Nr | Data | Status | Wpisy | Link |
 |---|---|---|---|---|
-| 1 |  | ☑ bez edyktów (wg Magdaleny) | – | |
-| 2 |  | ☑ bez edyktów (wg Magdaleny) | – | |
-| 3 |  | ☑ bez edyktów (wg Magdaleny) | – | |
-| 4 |  | ☑ bez edyktów (wg Magdaleny) | – | |
+| 1 |  | ☑ bez edyktów (wg autora) | – | |
+| 2 |  | ☑ bez edyktów (wg autora) | – | |
+| 3 |  | ☑ bez edyktów (wg autora) | – | |
+| 4 |  | ☑ bez edyktów (wg autora) | – | |
 | 5 | 1925-06-05 | ✅ opracowane | 3 | [skan](https://jbc.bj.uj.edu.pl/Content/86924/PDF/NDIGCZAS003514_R05_005.pdf) |
 | 6 | 1925-07-05 | ✅ opracowane | 1 | [skan](https://jbc.bj.uj.edu.pl/Content/86929/PDF/NDIGCZAS003514_R05_006.pdf) |
 | 7 | 1925-08-05 | ✅ opracowane | 3 | [skan](https://jbc.bj.uj.edu.pl/Content/86934/PDF/NDIGCZAS003514_R05_007.pdf) |
@@ -139,7 +139,7 @@ Zestawienie wydań dzienników wojewódzkich i Monitora Polskiego z lat 1925–1
 | 11 | 1925-12-15 | ✅ opracowane | 6 | [skan](https://jbc.bj.uj.edu.pl/Content/86959/PDF/NDIGCZAS003514_R05_011.pdf) |
 | 12 | 1926-01-15 | ✅ opracowane | 1 | [skan](https://jbc.bj.uj.edu.pl/Content/86965/PDF/NDIGCZAS003514_R05_012.pdf) |
 
-Numery 1–4: według Magdaleny nie zawierają edyktów.
+Numery 1–4: według autora nie zawierają edyktów.
 
 ### Dziennik Urzędowy Województwa Wołyńskiego, 1926
 
@@ -147,8 +147,8 @@ Numery 1–4: według Magdaleny nie zawierają edyktów.
 |---|---|---|---|---|
 | 1 | 1926-05-15 | ✅ opracowane | 12 | [skan](https://jbc.bj.uj.edu.pl/Content/86975/PDF/NDIGCZAS003514_R06_001.pdf) |
 | 2 | 1926-06-01 | ✅ opracowane | 16 | [skan](https://jbc.bj.uj.edu.pl/Content/86984/PDF/NDIGCZAS003514_R06_002.pdf) |
-| 3 |  | ⬜ nie dostarczono (wg Magdaleny wybrano tylko numery z edyktami) | – | |
-| 4 |  | ⬜ nie dostarczono (wg Magdaleny wybrano tylko numery z edyktami) | – | |
+| 3 |  | ⬜ nie dostarczono (wg autora wybrano tylko numery z edyktami) | – | |
+| 4 |  | ⬜ nie dostarczono (wg autora wybrano tylko numery z edyktami) | – | |
 | 5 | 1927-01-10 | ✅ opracowane | 4 | [skan](https://jbc.bj.uj.edu.pl/Content/87002/PDF/NDIGCZAS003514_R06_005.pdf) |
 
 
