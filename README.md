@@ -28,6 +28,7 @@ data/
     1927.json                           nr 1 (4 wpisy)
   monitorpolski/
     1925.json                           Monitor Polski, numery 194, 199, 243, 256, 257, 266, 271, 278, 285, 291 (162 wpisy; edykty różnych PKU w całym kraju)
+    1926.json                           Monitor Polski, numery 19, 44, 51, 63, 74, 93, 117, 126, 141 (143 wpisy)
   lodzkie/
     1925.json                           tylko numery z edyktami PKU (22 z 26 opracowane)
     1926.json                           kompletny: wszystkie numery z edyktami PKU
@@ -132,3 +133,4 @@ Lokalnie strona wymaga serwera (otwarta wprost z dysku nie wczyta danych), np. `
 - Dziennik Urzędowy Województwa Wołyńskiego, rocznik V (1925) – opracowane nr 5–12 (5 VI 1925 – 15 I 1926), skany w Jagiellońskiej Bibliotece Cyfrowej. Pominięto ogłoszenia o zgubionych dokumentach i wykazy unieważnionych kart ewidencyjnych.
 - Dziennik Urzędowy Województwa Wołyńskiego, rocznik VI (1926) – opracowane nr 1 (15 V 1926), nr 2 (1 VI 1926) i nr 5 (10 I 1927, za listopad i grudzień 1926), oraz rocznik VII (1927) – nr 1 (18 I 1927). Są to numery, które zawierają edykty; pozostałe numery nie zostały dotąd wgrane. Pominięto ogłoszenia o zgubionych dokumentach i wykazy unieważnionych kart ewidencyjnych.
 - Monitor Polski 1925, nr 194, 199, 243, 256, 257, 266, 271, 278, 285, 291 (24 VIII – 16 XII 1925), skany z monitorpolski.gov.pl. Rubryka „Edykty o zaginięciu i poszukiwaniu osób wojskowych”; pominięto kopię „Obwieszczeń sądowych”, zgubione dokumenty i inne ogłoszenia. W nr 291 edykt PKU Kołomyja nie ma w druku wymienionych osób, więc nie dał wpisów.
+- Monitor Polski 1926, nr 19, 44, 51, 63, 65, 74, 93, 117, 126, 141 (25 I – 24 VI 1926), skany z monitorpolski.gov.pl. Rubryka „Edykty o zaginięciu i poszukiwaniu osób wojskowych”; pominięto ogłoszenia sądowe i zgubione dokumenty. Nr 65 nie zawiera edyktów PKU, więc nie dał wpisów. Dwa wpisy mają adnotację o nieczytelnym druku (docs/nieczytelne-monitorpolski-1926.md).
