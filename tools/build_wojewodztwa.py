@@ -88,6 +88,13 @@ def load():
     return recs
 
 
+def hits(path):
+    """Licznik wejść (hits.sh), osobny dla każdej strony, w tym samym stylu co na stronie głównej."""
+    src = ("https://hits.sh/machmi-pro.github.io/zaginieni-w-edyktach/" + path +
+           ".svg?style=flat&amp;label=wy%C5%9Bwietle%C5%84&amp;color=55388a")
+    return f'<p><img alt="Liczba wyświetleń" src="{src}" style="border:0;vertical-align:middle;"></p>'
+
+
 def woj_label(w):
     return "województwo " + w
 
@@ -251,7 +258,8 @@ def page_woj(w, rs, all_wojs):
 </table>
 <div class="empty box" id="e" hidden>Brak takich osób na tej liście. <a id="full" href="../../index.html">Szukaj w całej bazie</a> (wszystkie województwa, także wśród rodziców, żon i wnioskodawców).</div>
 <nav class="nav" aria-label="Inne województwa"><h2>Inne województwa</h2><ul>{others}</ul></nav>
-<footer><p>Źródło: skany dzienników urzędowych (Jagiellońska Biblioteka Cyfrowa, Wojewódzka Biblioteka Publiczna w Łodzi) i „Monitora Polskiego”. Pisownia za drukiem, z ujednoliconym przypadkiem. Województwo wynika z komendy PKU ogłaszającej edykt. <a href="../../">Strona główna z wyszukiwarką</a>.</p></footer>
+<footer><p>Źródło: skany dzienników urzędowych (Jagiellońska Biblioteka Cyfrowa, Wojewódzka Biblioteka Publiczna w Łodzi) i „Monitora Polskiego”. Pisownia za drukiem, z ujednoliconym przypadkiem. Województwo wynika z komendy PKU ogłaszającej edykt. <a href="../../">Strona główna z wyszukiwarką</a>.</p>
+{hits("wojewodztwo/"+slug)}</footer>
 </div>
 {FILTER_JS}
 </body>
@@ -295,7 +303,8 @@ def page_index(all_wojs):
 <p class="lead">Edykty Powiatowych Komend Uzupełnień z dzienników urzędowych II Rzeczypospolitej. Wybierz województwo, aby zobaczyć listę osób (nazwisko, imię, rok urodzenia, miejscowość) z odnośnikiem do pełnego wpisu i skanu.</p>
 </header>
 <nav class="nav" aria-label="Województwa"><ul>{items}</ul></nav>
-<footer><p><a href="../">Strona główna z wyszukiwarką</a></p></footer>
+<footer><p><a href="../">Strona główna z wyszukiwarką</a></p>
+{hits("wojewodztwo")}</footer>
 </div>
 </body>
 </html>
