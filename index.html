@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Zaginieni i poszukiwani w edyktach</title>
 <meta name="description" content="Wyszukiwarka osób z edyktów Powiatowych Komend Uzupełnień w dziennikach urzędowych województw II Rzeczypospolitej.">
+<link rel="canonical" href="https://machmi-pro.github.io/zaginieni-w-edyktach/">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="icon" href="img/icon-64.png" sizes="64x64" type="image/png">
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
@@ -85,6 +86,9 @@ a.src{display:inline-block;margin-top:10px;color:var(--stamp);font-weight:600}
 mark{background:var(--mark);color:inherit;border-radius:2px;padding:0 1px}
 .morebtn{font:inherit;font-family:var(--f-head);font-weight:700;font-size:15px;letter-spacing:.08em;text-transform:uppercase;color:var(--surface);background:var(--stamp);border:0;border-radius:4px;padding:14px;cursor:pointer;width:100%}
 .empty{background:var(--surface);border:1px dashed var(--line);border-radius:4px;padding:22px 14px;color:var(--muted)}
+.browse h2{font-family:var(--f-head);font-size:16px;letter-spacing:.06em;text-transform:uppercase;margin:0 0 8px}
+.browse ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.browse a{display:inline-block;color:var(--stamp);border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:9px 14px;text-decoration:none;font-weight:600;font-size:14px}
 footer{border-top:1px solid var(--line);padding-top:14px;color:var(--muted);font-size:13.5px;display:flex;flex-direction:column;gap:6px}
 footer p{margin:0;max-width:68ch}
 </style>
@@ -119,6 +123,10 @@ footer p{margin:0;max-width:68ch}
   <div id="list"></div>
   <button type="button" id="more" class="morebtn" hidden></button>
 
+  <!--WOJ-START-->
+  <nav class="browse" aria-label="Listy według województw"><h2>Przeglądaj według województw</h2><ul><li><a href="wojewodztwo/bialostockie/">województwo białostockie (9)</a></li><li><a href="wojewodztwo/kieleckie/">województwo kieleckie (41)</a></li><li><a href="wojewodztwo/krakowskie/">województwo krakowskie (75)</a></li><li><a href="wojewodztwo/lubelskie/">województwo lubelskie (47)</a></li><li><a href="wojewodztwo/lwowskie/">województwo lwowskie (1058)</a></li><li><a href="wojewodztwo/lodzkie/">województwo łódzkie (461)</a></li><li><a href="wojewodztwo/nowogrodzkie/">województwo nowogródzkie (63)</a></li><li><a href="wojewodztwo/poleskie/">województwo poleskie (18)</a></li><li><a href="wojewodztwo/pomorskie/">województwo pomorskie (9)</a></li><li><a href="wojewodztwo/poznanskie/">województwo poznańskie (11)</a></li><li><a href="wojewodztwo/stanislawowskie/">województwo stanisławowskie (310)</a></li><li><a href="wojewodztwo/slaskie/">województwo śląskie (1)</a></li><li><a href="wojewodztwo/tarnopolskie/">województwo tarnopolskie (1069)</a></li><li><a href="wojewodztwo/warszawskie/">województwo warszawskie i m. st. Warszawa (122)</a></li><li><a href="wojewodztwo/wilenskie/">województwo wileńskie (5)</a></li><li><a href="wojewodztwo/wolynskie/">województwo wołyńskie (89)</a></li></ul></nav>
+  <!--WOJ-END-->
+
   <footer>
     <p><strong>Źródło:</strong> skany dzienników urzędowych w Jagiellońskiej Bibliotece Cyfrowej (Łódzkie 1925: Wojewódzka Biblioteka Publiczna w Łodzi, z wyjątkiem nr 39) oraz numery „Monitora Polskiego” z 1925 r. (monitorpolski.gov.pl). Treść wpisu zachowuje pisownię druku; pola idą za drukiem, zmieniony jest tylko przypadek (mianownik) i pisownia typu Marja → Maria.</p>
     <p>Wyszukiwanie pomija polskie znaki i wielkość liter, a „Marja” i „Maria” traktuje jednakowo.</p>
@@ -135,7 +143,7 @@ const dataOpis=d=>{const [y,m,dd]=d.split("-").map(Number);return `${dd} ${MIES[
 const STEP=10;
 const pkuKey=s=>norm(s).replace(/[^a-z0-9]/g,"");
 let PKUMAP={};
-let R=[], lim=STEP, pku="";
+let R=[], lim=STEP, pku="", ONLY="";   // ONLY: id wpisu otwartego z linku ?id= (z list województw)
 
 async function load(){
   const man=await fetch("data/manifest.json").then(r=>{if(!r.ok)throw new Error("manifest");return r.json();});
@@ -178,6 +186,9 @@ function setup(bad){
   $("scope").innerHTML=R.length
     ?`<strong>Zasób:</strong> ${wojs.length>1?"województwa: ":"województwo "}${wojs.map(esc).join(", ")}; ${zakres}; ${R.length} osób. Kolejne wydania i wpisy będą uzupełniane.`+(bad?` Nie udało się wczytać ${bad} z plików danych.`:"")
     :"Nie udało się wczytać danych. Odśwież stronę.";
+  const qs=new URLSearchParams(location.search);
+  if(qs.get("id")&&R.some(r=>r.id===qs.get("id")))ONLY=qs.get("id");
+  else{$("qn").value=qs.get("n")||"";$("qi").value=qs.get("i")||"";$("qm").value=qs.get("m")||"";}
   chips(); draw();
 }
 
@@ -205,7 +216,7 @@ function card(r){
     <dt>Jednostka</dt><dd>${val(r.jednostka)}</dd>
   </dl>
   <div class="ref">${r.ldz?`<span class="tag">L. dz. ${esc(r.ldz)}</span>`:""}<span class="tag">${esc(r._dz)} nr ${r.nr} · ${r._data}</span><span class="tag">str. ${r.strona}</span>${r.uwaga?'<span class="tag chk">druk nieczytelny</span>':""}</div>
-  <details><summary>Treść wpisu</summary>
+  <details${ONLY?" open":""}><summary>Treść wpisu</summary>
     <blockquote>${esc(r.tekst)}</blockquote>
     ${extra?`<p class="more">${extra}</p>`:""}
     ${r.uwaga?`<p class="warn"><strong>Druk nieczytelny:</strong> ${esc(r.uwaga)}</p>`:""}
@@ -219,7 +230,7 @@ function draw(keep){
   const qn=norm($("qn").value), qi=norm($("qi").value), qm=norm($("qm").value);
   const rel=$("rel").checked, chk=$("chk").checked, woj=$("woj").value, rok=$("rok").value;
   const any=qn||qi||qm||pku||chk||woj||rok;
-  const out=R.filter(r=>{
+  const out=ONLY?R.filter(r=>r.id===ONLY):R.filter(r=>{
     if(woj&&r._woj!==woj)return false;
     if(rok&&String(r._rok)!==rok)return false;
     if(pku&&r._pku!==pku)return false;
@@ -232,19 +243,22 @@ function draw(keep){
   const n=out.length;
   const word=n===1?"wpis":(n%10>=2&&n%10<=4&&(n%100<12||n%100>14)?"wpisy":"wpisów");
   const vis=Math.min(lim,n), rest=n-vis;
-  $("cnt").textContent=(any?`Znaleziono: ${n} ${word}`:`Wszystkie wpisy: ${n}`)+(n>STEP?` · pokazano ${vis}`:"");
+  if(ONLY){$("cnt").innerHTML=`Wpis wybrany z listy · <button type="button" id="all">Pokaż wszystkie wpisy</button>`;$("all").addEventListener("click",()=>go());}
+  else $("cnt").textContent=(any?`Znaleziono: ${n} ${word}`:`Wszystkie wpisy: ${n}`)+(n>STEP?` · pokazano ${vis}`:"");
   $("more").hidden=rest<=0;
   $("more").textContent=`Więcej · kolejne ${Math.min(STEP,rest)} z ${rest}`;
   $("list").innerHTML=n?out.slice(0,vis).map(card).join(""):`<div class="empty">Brak wpisów dla tych kryteriów. Skróć nazwisko do początku (np. „Boj”) albo wyczyść filtry.</div>`;
 }
 
-["qn","qi","qm"].forEach(id=>$(id).addEventListener("input",draw));
-["rel","chk","rok"].forEach(id=>$(id).addEventListener("change",draw));
-$("woj").addEventListener("change",()=>{chips();draw();});
-$("pku").addEventListener("change",()=>{pku=$("pku").value;draw();});
+// go(): każda zmiana filtrów wychodzi z trybu pojedynczego wpisu (?id=) i wraca do zwykłego wyszukiwania
+const go=()=>{if(ONLY){ONLY="";history.replaceState(null,"",location.pathname);}draw();};
+["qn","qi","qm"].forEach(id=>$(id).addEventListener("input",go));
+["rel","chk","rok"].forEach(id=>$(id).addEventListener("change",go));
+$("woj").addEventListener("change",()=>{chips();go();});
+$("pku").addEventListener("change",()=>{pku=$("pku").value;go();});
 $("more").addEventListener("click",()=>{lim+=STEP;draw(true);});
 $("f").addEventListener("submit",e=>e.preventDefault());
-$("clr").addEventListener("click",()=>{["qn","qi","qm"].forEach(id=>$(id).value="");$("chk").checked=false;$("rel").checked=true;$("woj").value="";$("rok").value="";pku="";chips();draw();});
+$("clr").addEventListener("click",()=>{["qn","qi","qm"].forEach(id=>$(id).value="");$("chk").checked=false;$("rel").checked=true;$("woj").value="";$("rok").value="";pku="";chips();go();});
 
 load().catch(()=>{$("scope").textContent="Nie udało się wczytać danych. Odśwież stronę.";});
 </script>
