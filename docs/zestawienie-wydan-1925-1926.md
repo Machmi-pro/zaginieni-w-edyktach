@@ -18,6 +18,7 @@ Zestawienie wydań dzienników wojewódzkich i Monitora Polskiego z lat 1925–1
 | Dziennik Urzędowy Województwa Stanisławowskiego | 1926 | 7 | 349 | brak |
 | Dziennik Urzędowy Województwa Wołyńskiego | 1925 | 8 | 37 | 1–4 (bez edyktów wg autora) |
 | Dziennik Urzędowy Województwa Wołyńskiego | 1926 | 3 | 32 | 3, 4 |
+| Dziennik Urzędowy Województwa Poleskiego | 1925 | 6 | 99 | 1–6 (nie dostarczono, wg autora wybrano tylko numery z edyktami) |
 | Dziennik Urzędowy Województwa Łódzkiego | 1925 | 22 | 84 | 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 15, 17, 20, 21, 22, 23, 25, 29, 30, 32, 35, 37, 38, 40, 43, 47, 48 |
 | Dziennik Urzędowy Województwa Łódzkiego | 1926 | 45 | 349 | 5, 7, 8, 18, 40, 42, 51 |
 | Monitor Polski | 1925 | 10 | 162 | nie dotyczy (dziennik wychodził codziennie, ok. 300 numerów rocznie, przejrzano tylko wskazane numery) |
@@ -151,6 +152,25 @@ Numery 1–4: według autora nie zawierają edyktów.
 | 4 |  | ⬜ nie dostarczono (wg autora wybrano tylko numery z edyktami) | – | |
 | 5 | 1927-01-10 | ✅ opracowane | 4 | [skan](https://jbc.bj.uj.edu.pl/Content/87002/PDF/NDIGCZAS003514_R06_005.pdf) |
 
+
+### Dziennik Urzędowy Województwa Poleskiego, 1925
+
+| Nr | Data | Status | Wpisy | Link |
+|---|---|---|---|---|
+| 1 |  | ⬜ nie dostarczono (wg autora wybrano tylko numery z edyktami) | – | |
+| 2 |  | ⬜ nie dostarczono (wg autora wybrano tylko numery z edyktami) | – | |
+| 3 |  | ⬜ nie dostarczono (wg autora wybrano tylko numery z edyktami) | – | |
+| 4 |  | ⬜ nie dostarczono (wg autora wybrano tylko numery z edyktami) | – | |
+| 5 |  | ⬜ nie dostarczono (wg autora wybrano tylko numery z edyktami) | – | |
+| 6 |  | ⬜ nie dostarczono (wg autora wybrano tylko numery z edyktami) | – | |
+| 7 | 1925-07-01 | ✅ opracowane | 8 | [skan](https://jbc.bj.uj.edu.pl/Content/74316/PDF/NDIGCZAS003504_1925_007.pdf) |
+| 8 | 1925-08-01 | ✅ opracowane | 9 | [skan](https://jbc.bj.uj.edu.pl/Content/74317/PDF/NDIGCZAS003504_1925_008.pdf) |
+| 9 | 1925-09-01 | ✅ opracowane | 21 | [skan](https://jbc.bj.uj.edu.pl/Content/74318/PDF/NDIGCZAS003504_1925_009.pdf) |
+| 10 | 1925-10-01 | ✅ opracowane | 14 | [skan](https://jbc.bj.uj.edu.pl/Content/74319/PDF/NDIGCZAS003504_1925_010.pdf) |
+| 11 | 1925-11-01 | ✅ opracowane | 12 | [skan](https://jbc.bj.uj.edu.pl/Content/74320/PDF/NDIGCZAS003504_1925_011.pdf) |
+| 12 | 1925-12-01 | ✅ opracowane | 35 | [skan](https://jbc.bj.uj.edu.pl/Content/74321/PDF/NDIGCZAS003504_1925_012.pdf) |
+
+Nr 9: edykt PKU Pińsk o Chaimie Czyżu (L. dz. 7489/II) wydrukowano na str. 9 dwukrotnie; w bazie jest jeden wpis. Pominięto ogłoszenia o zgubionych dokumentach, komunikaty urzędowe i listy poszukiwanych w sprawach karnych.
 
 ### Dziennik Urzędowy Województwa Łódzkiego, 1925
 
