@@ -185,7 +185,7 @@ function setup(bad){
   $("src").hidden=wojs.length<2&&lata.length<2;
   const zakres=lata.length>1?`lata ${lata[0]}–${lata[lata.length-1]}`:`rocznik ${lata[0]}`;
   $("scope").innerHTML=R.length
-    ?`<strong>Zasób:</strong> ${wojs.length>1?"województwa: ":"województwo "}${wojs.map(esc).join(", ")}; ${zakres}; ${R.length} osób. Kolejne wydania i wpisy będą uzupełniane.`+(bad?` Nie udało się wczytać ${bad} z plików danych.`:"")
+    ?`<strong>Zasób:</strong> ${R.length.toLocaleString("pl-PL")} rekordów; lista województw na dole strony. Kolejne wydania i wpisy będą systematycznie dodawane.`+(bad?` Nie udało się wczytać ${bad} z plików danych.`:"")
     :"Nie udało się wczytać danych. Odśwież stronę.";
   const qs=new URLSearchParams(location.search);
   if(qs.get("id")&&R.some(r=>r.id===qs.get("id")))ONLY=qs.get("id");
