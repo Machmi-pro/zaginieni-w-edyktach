@@ -28,6 +28,8 @@ data/
     1927.json                           nr 1 (4 wpisy)
   poleskie/
     1925.json                           numery 7–12 (edykty PKU Pińsk, Łuniniec, Brześć i Łuck, 99 wpisów)
+    1926.json                           numery 1, 3–11 (edykty PKU Pińsk, Łuniniec, Brześć, Łuck i Kowel, 241 wpisów)
+    1927.json                           nr 2 (1 wpis, PKU Kowel)
   monitorpolski/
     1925.json                           Monitor Polski, numery 194, 199, 243, 256, 257, 266, 271, 278, 285, 291 (162 wpisy; edykty różnych PKU w całym kraju)
     1926.json                           Monitor Polski, numery 19, 44, 51, 63, 65, 74, 93, 117, 126, 141, 166, 173, 176, 177, 183, 207, 219, 239, 243, 264 (403 wpisy)
@@ -46,6 +48,7 @@ docs/
   nieczytelne-stanislawowskie-1926.md
   nieczytelne-wolynskie-1926.md
   nieczytelne-poleskie-1925.md
+  nieczytelne-poleskie-1926.md
 README.md
 ```
 
@@ -137,6 +140,7 @@ Lokalnie strona wymaga serwera (otwarta wprost z dysku nie wczyta danych), np. `
 - Dziennik Urzędowy Województwa Wołyńskiego, rocznik V (1925) – opracowane nr 5–12 (5 VI 1925 – 15 I 1926), skany w Jagiellońskiej Bibliotece Cyfrowej. Pominięto ogłoszenia o zgubionych dokumentach i wykazy unieważnionych kart ewidencyjnych.
 - Dziennik Urzędowy Województwa Wołyńskiego, rocznik VI (1926) – opracowane nr 1 (15 V 1926), nr 2 (1 VI 1926) i nr 5 (10 I 1927, za listopad i grudzień 1926), oraz rocznik VII (1927) – nr 1 (18 I 1927). Są to numery, które zawierają edykty; pozostałe numery nie zostały dotąd wgrane. Pominięto ogłoszenia o zgubionych dokumentach i wykazy unieważnionych kart ewidencyjnych.
 - Dziennik Urzędowy Województwa Poleskiego, rocznik V (1925) – opracowane nr 7–12 (1 VII – 1 XII 1925), skany w Jagiellońskiej Bibliotece Cyfrowej; to numery wskazane przez użytkowniczkę jako zawierające edykty, numery 1–6 nie zostały wgrane. Edykty PKU Pińsk, Łuniniec i Brześć nad Bugiem oraz PKU Łuck (4 wpisy, w filtrze Województwo trafiają do wołyńskiego). Pominięto ogłoszenia o zgubionych dokumentach, wykazy zabytków i listy poszukiwanych w sprawach karnych. Edykt o Chaimie Czyżu (nr 9, str. 9) wydrukowano dwukrotnie, w bazie jest raz.
+- Dziennik Urzędowy Województwa Poleskiego, rocznik VI (1926) – opracowane nr 1, 3–11 (1 I – 15 XII 1926) oraz rocznik 1927 nr 2 (16 II 1927), skany w Jagiellońskiej Bibliotece Cyfrowej; nr 2 z 1926 i pozostałe numery nie zostały wgrane (wg użytkowniczki edykty są tylko w wybranych numerach). PKU Pińsk, Łuniniec i Brześć nad Bugiem oraz PKU Łuck (8 wpisów) i PKU Kowel (6 wpisów, w tym 1 z 1927), które w filtrze Województwo trafiają do wołyńskiego. Pominięto ogłoszenia o zgubionych dokumentach i komunikaty. Cechy druku zachowano bez poprawek, m.in. Nowak Dymitr »ur. w 1785« (nr 6), Stachiejko Samuel »23 sierpnia 1792« (nr 11), Hudyn Filip, L. dz. »177719/III« (nr 10), Bajko Grzegorz z dwiema różnymi datami urodzenia (nr 11).
 - Monitor Polski 1925, nr 194, 199, 243, 256, 257, 266, 271, 278, 285, 291 (24 VIII – 16 XII 1925), skany z monitorpolski.gov.pl. Rubryka „Edykty o zaginięciu i poszukiwaniu osób wojskowych”; pominięto kopię „Obwieszczeń sądowych”, zgubione dokumenty i inne ogłoszenia. W nr 291 edykt PKU Kołomyja nie ma w druku wymienionych osób, więc nie dał wpisów.
 - Monitor Polski 1926, nr 19, 44, 51, 63, 65, 74, 93, 117, 126, 141 (25 I – 24 VI 1926), skany z monitorpolski.gov.pl. Rubryka „Edykty o zaginięciu i poszukiwaniu osób wojskowych”; pominięto ogłoszenia sądowe i zgubione dokumenty. Nr 65 nie zawiera edyktów PKU, więc nie dał wpisów. Dwa wpisy mają adnotację o nieczytelnym druku (docs/nieczytelne-monitorpolski-1926.md).
 

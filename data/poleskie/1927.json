@@ -1,0 +1,9 @@
+{
+ "zrodlo": "poleskie", "wojewodztwo": "poleskie", "rok": 1927, "dziennik": "Dziennik Urzędowy Województwa Poleskiego", "dziennik_skrot": "Dz. Urz. Woj. Poleskiego",
+ "wydania": [
+  {"nr": 2, "data": "1927-02-16", "link": "https://jbc.bj.uj.edu.pl/Content/74323/PDF/NDIGCZAS003504_1927_002.pdf", "wpisy": 1}
+ ],
+ "wpisy": [
+  {"id": "poleskie-1927-02-001", "nr": 2, "strona": 28, "oglasza": "PKU Kowel", "ldz": "48453/26", "nazwisko": "Mironiuk", "imie": "Józef", "data_ur": "9 IX 1884", "rok_ur": 1884, "miejsce_ur": "Soszyczno", "powiat_ur": "Kamień Koszyrski", "miejsce_zam": "Soszyczno", "powiat_zam": "Kamień Koszyrski", "ojciec": "Jan", "matka": "Eudokja", "wyznanie": "", "zawod": "", "zona": "Marja Mironiuk", "jednostka": "", "poszukuje": "żona Marja Mironiuk", "tekst": "EDYKTY o poszukiwaniu osób wojskowych, zaginionych podczas wojny. Zaginął podczas wojny światowej Mironiuk Józef syn Jana i Eudokji urodzony 9 września 1884 r. we wsi Soszyczno gm. tejże pow. Kamień-Koszyrski i zamieszkały przed wojną w Soszycznie. Pozostała po nim żona Marja Mironiuk, która go poszukuje. Ktokolwiek posiada wiadomość o jego istnieniu lub śmierci, proszę powiadomić P. K. U. Kowel powołując się na L. ds. 48453/26.", "uwaga": ""}
+ ]
+}

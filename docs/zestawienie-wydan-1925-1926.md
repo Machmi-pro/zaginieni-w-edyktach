@@ -19,6 +19,7 @@ Zestawienie wydań dzienników wojewódzkich i Monitora Polskiego z lat 1925–1
 | Dziennik Urzędowy Województwa Wołyńskiego | 1925 | 8 | 37 | 1–4 (bez edyktów wg autora) |
 | Dziennik Urzędowy Województwa Wołyńskiego | 1926 | 3 | 32 | 3, 4 |
 | Dziennik Urzędowy Województwa Poleskiego | 1925 | 6 | 99 | 1–6 (nie dostarczono, wg autora wybrano tylko numery z edyktami) |
+| Dziennik Urzędowy Województwa Poleskiego | 1926 | 10 | 241 | 2 (nie dostarczono, wg autora wybrano tylko numery z edyktami) |
 | Dziennik Urzędowy Województwa Łódzkiego | 1925 | 22 | 84 | 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 15, 17, 20, 21, 22, 23, 25, 29, 30, 32, 35, 37, 38, 40, 43, 47, 48 |
 | Dziennik Urzędowy Województwa Łódzkiego | 1926 | 45 | 349 | 5, 7, 8, 18, 40, 42, 51 |
 | Monitor Polski | 1925 | 10 | 162 | nie dotyczy (dziennik wychodził codziennie, ok. 300 numerów rocznie, przejrzano tylko wskazane numery) |
@@ -171,6 +172,24 @@ Numery 1–4: według autora nie zawierają edyktów.
 | 12 | 1925-12-01 | ✅ opracowane | 35 | [skan](https://jbc.bj.uj.edu.pl/Content/74321/PDF/NDIGCZAS003504_1925_012.pdf) |
 
 Nr 9: edykt PKU Pińsk o Chaimie Czyżu (L. dz. 7489/II) wydrukowano na str. 9 dwukrotnie; w bazie jest jeden wpis. Pominięto ogłoszenia o zgubionych dokumentach, komunikaty urzędowe i listy poszukiwanych w sprawach karnych.
+
+### Dziennik Urzędowy Województwa Poleskiego, 1926
+
+| Nr | Data | Status | Wpisy | Link |
+|---|---|---|---|---|
+| 1 | 1926-01-01 | ✅ opracowane | 24 | [skan](https://jbc.bj.uj.edu.pl/Content/62346/PDF/NDIGCZAS003504_1926_001.pdf) |
+| 2 |  | ⬜ nie dostarczono (wg autora wybrano tylko numery z edyktami) | – | |
+| 3 | 1926-03-01 | ✅ opracowane | 35 | [skan](https://jbc.bj.uj.edu.pl/Content/62353/PDF/NDIGCZAS003504_1926_003.pdf) |
+| 4 | 1926-04-20 | ✅ opracowane | 37 | [skan](https://jbc.bj.uj.edu.pl/Content/62357/PDF/NDIGCZAS003504_1926_004.pdf) |
+| 5 | 1926-06-01 | ✅ opracowane | 38 | [skan](https://jbc.bj.uj.edu.pl/Content/62360/PDF/NDIGCZAS003504_1926_005.pdf) |
+| 6 | 1926-07-01 | ✅ opracowane | 25 | [skan](https://jbc.bj.uj.edu.pl/Content/62363/PDF/NDIGCZAS003504_1926_006.pdf) |
+| 7 | 1926-08-10 | ✅ opracowane | 21 | [skan](https://jbc.bj.uj.edu.pl/Content/62364/PDF/NDIGCZAS003504_1926_007.pdf) |
+| 8 | 1926-09-10 | ✅ opracowane | 14 | [skan](https://jbc.bj.uj.edu.pl/Content/62367/PDF/NDIGCZAS003504_1926_008.pdf) |
+| 9 | 1926-10-10 | ✅ opracowane | 14 | [skan](https://jbc.bj.uj.edu.pl/Content/62372/PDF/NDIGCZAS003504_1926_009.pdf) |
+| 10 | 1926-11-15 | ✅ opracowane | 17 | [skan](https://jbc.bj.uj.edu.pl/Content/62376/PDF/NDIGCZAS003504_1926_010.pdf) |
+| 11 | 1926-12-15 | ✅ opracowane | 16 | [skan](https://jbc.bj.uj.edu.pl/Content/62382/PDF/NDIGCZAS003504_1926_011.pdf) |
+
+Nr 5: w grupie edyktów PKU Pińsk (7.V.1926) 11 osób wymienionych w jednym edykcie, rozbitych na osobne wpisy. Łuck (8 wpisów) i Kowel (5 wpisów) to PKU wołyńskie, drukowane w dzienniku poleskim. Pominięto ogłoszenia o zgubionych dokumentach i komunikaty. Rocznik 1927: nr 2 (16 II 1927, [skan](https://jbc.bj.uj.edu.pl/Content/74323/PDF/NDIGCZAS003504_1927_002.pdf)) zawiera 1 edykt PKU Kowel (Mironiuk Józef, str. 28); poza zakresem tego zestawienia.
 
 ### Dziennik Urzędowy Województwa Łódzkiego, 1925
 
@@ -341,6 +360,5 @@ Dla poniższych województw w repozytorium nie ma jeszcze żadnych wydań (wype�
 | białostockie | ⬜ | ⬜ |
 | nowogródzkie | ⬜ | ⬜ |
 | wileńskie | ⬜ | ⬜ |
-| poleskie | ⬜ | ⬜ |
 
 Uwaga: dane z 1927 r. (Tarnopol, Stanisławów, Wołyń) są w bazie, ale poza zakresem tego zestawienia.

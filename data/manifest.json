@@ -1,126 +1,136 @@
 {
- "zrodla": [
-  {
-   "id": "tarnopolskie",
-   "wojewodztwo": "tarnopolskie",
-   "roczniki": [
+  "zrodla": [
     {
-     "rok": 1925,
-     "plik": "data/tarnopolskie/1925.json",
-     "wpisy": 327
+      "id": "tarnopolskie",
+      "wojewodztwo": "tarnopolskie",
+      "roczniki": [
+        {
+          "rok": 1925,
+          "plik": "data/tarnopolskie/1925.json",
+          "wpisy": 327
+        },
+        {
+          "rok": 1926,
+          "plik": "data/tarnopolskie/1926.json",
+          "wpisy": 563
+        },
+        {
+          "rok": 1927,
+          "plik": "data/tarnopolskie/1927.json",
+          "wpisy": 0
+        }
+      ]
     },
     {
-     "rok": 1926,
-     "plik": "data/tarnopolskie/1926.json",
-     "wpisy": 563
+      "id": "lwowskie",
+      "wojewodztwo": "lwowskie",
+      "roczniki": [
+        {
+          "rok": 1925,
+          "plik": "data/lwowskie/1925.json",
+          "wpisy": 785
+        },
+        {
+          "rok": 1926,
+          "plik": "data/lwowskie/1926.json",
+          "wpisy": 225
+        }
+      ]
     },
     {
-     "rok": 1927,
-     "plik": "data/tarnopolskie/1927.json",
-     "wpisy": 0
+      "id": "lodzkie",
+      "wojewodztwo": "lodzkie",
+      "roczniki": [
+        {
+          "rok": 1925,
+          "plik": "data/lodzkie/1925.json",
+          "wpisy": 84
+        },
+        {
+          "rok": 1926,
+          "plik": "data/lodzkie/1926.json",
+          "wpisy": 349
+        }
+      ]
+    },
+    {
+      "id": "stanislawowskie",
+      "wojewodztwo": "stanislawowskie",
+      "roczniki": [
+        {
+          "rok": 1925,
+          "plik": "data/stanislawowskie/1925.json",
+          "wpisy": 65
+        },
+        {
+          "rok": 1926,
+          "plik": "data/stanislawowskie/1926.json",
+          "wpisy": 349
+        },
+        {
+          "rok": 1927,
+          "plik": "data/stanislawowskie/1927.json",
+          "wpisy": 3
+        }
+      ]
+    },
+    {
+      "id": "wolynskie",
+      "wojewodztwo": "wolynskie",
+      "roczniki": [
+        {
+          "rok": 1925,
+          "plik": "data/wolynskie/1925.json",
+          "wpisy": 37
+        },
+        {
+          "rok": 1926,
+          "plik": "data/wolynskie/1926.json",
+          "wpisy": 32
+        },
+        {
+          "rok": 1927,
+          "plik": "data/wolynskie/1927.json",
+          "wpisy": 4
+        }
+      ]
+    },
+    {
+      "id": "poleskie",
+      "wojewodztwo": "poleskie",
+      "roczniki": [
+        {
+          "rok": 1925,
+          "plik": "data/poleskie/1925.json",
+          "wpisy": 99
+        },
+        {
+          "rok": 1926,
+          "plik": "data/poleskie/1926.json",
+          "wpisy": 241
+        },
+        {
+          "rok": 1927,
+          "plik": "data/poleskie/1927.json",
+          "wpisy": 1
+        }
+      ]
+    },
+    {
+      "id": "monitorpolski",
+      "wojewodztwo": "monitor polski",
+      "roczniki": [
+        {
+          "rok": 1925,
+          "plik": "data/monitorpolski/1925.json",
+          "wpisy": 162
+        },
+        {
+          "rok": 1926,
+          "plik": "data/monitorpolski/1926.json",
+          "wpisy": 403
+        }
+      ]
     }
-   ]
-  },
-  {
-   "id": "lwowskie",
-   "wojewodztwo": "lwowskie",
-   "roczniki": [
-    {
-     "rok": 1925,
-     "plik": "data/lwowskie/1925.json",
-     "wpisy": 785
-    },
-    {
-     "rok": 1926,
-     "plik": "data/lwowskie/1926.json",
-     "wpisy": 225
-    }
-   ]
-  },
-  {
-   "id": "lodzkie",
-   "wojewodztwo": "lodzkie",
-   "roczniki": [
-    {
-     "rok": 1925,
-     "plik": "data/lodzkie/1925.json",
-     "wpisy": 84
-    },
-    {
-     "rok": 1926,
-     "plik": "data/lodzkie/1926.json",
-     "wpisy": 349
-    }
-   ]
-  },
-  {
-   "id": "stanislawowskie",
-   "wojewodztwo": "stanislawowskie",
-   "roczniki": [
-    {
-     "rok": 1925,
-     "plik": "data/stanislawowskie/1925.json",
-     "wpisy": 65
-    },
-    {
-     "rok": 1926,
-     "plik": "data/stanislawowskie/1926.json",
-     "wpisy": 349
-    },
-    {
-     "rok": 1927,
-     "plik": "data/stanislawowskie/1927.json",
-     "wpisy": 3
-    }
-   ]
-  },
-  {
-   "id": "wolynskie",
-   "wojewodztwo": "wolynskie",
-   "roczniki": [
-    {
-     "rok": 1925,
-     "plik": "data/wolynskie/1925.json",
-     "wpisy": 37
-    },
-    {
-     "rok": 1926,
-     "plik": "data/wolynskie/1926.json",
-     "wpisy": 32
-    },
-    {
-     "rok": 1927,
-     "plik": "data/wolynskie/1927.json",
-     "wpisy": 4
-    }
-   ]
-  },
-  {
-   "id": "poleskie",
-   "wojewodztwo": "poleskie",
-   "roczniki": [
-    {
-     "rok": 1925,
-     "plik": "data/poleskie/1925.json",
-     "wpisy": 99
-    }
-   ]
-  },
-  {
-   "id": "monitorpolski",
-   "wojewodztwo": "monitor polski",
-   "roczniki": [
-    {
-     "rok": 1925,
-     "plik": "data/monitorpolski/1925.json",
-     "wpisy": 162
-    },
-    {
-     "rok": 1926,
-     "plik": "data/monitorpolski/1926.json",
-     "wpisy": 403
-    }
-   ]
-  }
- ]
+  ]
 }
