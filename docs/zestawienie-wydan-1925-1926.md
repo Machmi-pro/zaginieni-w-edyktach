@@ -20,6 +20,8 @@ Zestawienie wydań dzienników wojewódzkich i Monitora Polskiego z lat 1925–1
 | Dziennik Urzędowy Województwa Wołyńskiego | 1926 | 3 | 32 | 3, 4 |
 | Dziennik Urzędowy Województwa Poleskiego | 1925 | 6 | 99 | 1–6 (nie dostarczono, wg autora wybrano tylko numery z edyktami) |
 | Dziennik Urzędowy Województwa Poleskiego | 1926 | 10 | 241 | 2 (nie dostarczono, wg autora wybrano tylko numery z edyktami) |
+| Dziennik Urzędowy Województwa Krakowskiego | 1925 | 6 (w tym nr 3 bez edyktów) | 519 | 6 (nie dostarczono), numery po 7 nieznane |
+| Dziennik Urzędowy Województwa Krakowskiego | 1926 | 5 | 214 | numery po 5 nieznane |
 | Dziennik Urzędowy Województwa Łódzkiego | 1925 | 22 | 84 | 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 15, 17, 20, 21, 22, 23, 25, 29, 30, 32, 35, 37, 38, 40, 43, 47, 48 |
 | Dziennik Urzędowy Województwa Łódzkiego | 1926 | 45 | 349 | 5, 7, 8, 18, 40, 42, 51 |
 | Monitor Polski | 1925 | 10 | 162 | nie dotyczy (dziennik wychodził codziennie, ok. 300 numerów rocznie, przejrzano tylko wskazane numery) |
@@ -191,6 +193,36 @@ Nr 9: edykt PKU Pińsk o Chaimie Czyżu (L. dz. 7489/II) wydrukowano na str. 9 d
 
 Nr 5: w grupie edyktów PKU Pińsk (7.V.1926) 11 osób wymienionych w jednym edykcie, rozbitych na osobne wpisy. Łuck (8 wpisów) i Kowel (5 wpisów) to PKU wołyńskie, drukowane w dzienniku poleskim. Pominięto ogłoszenia o zgubionych dokumentach i komunikaty. Rocznik 1927: nr 2 (16 II 1927, [skan](https://jbc.bj.uj.edu.pl/Content/74323/PDF/NDIGCZAS003504_1927_002.pdf)) zawiera 1 edykt PKU Kowel (Mironiuk Józef, str. 28); poza zakresem tego zestawienia.
 
+### Dziennik Urzędowy Województwa Krakowskiego, 1925
+
+| Nr | Data | Status | Wpisy | Link |
+|---|---|---|---|---|
+| 1 | 1925-02-01 | ✅ opracowane | 14 | [skan](https://jbc.bj.uj.edu.pl/Content/113253/PDF/NDIGCZAS002352_1925_001.pdf) |
+| 2 | 1925-04-01 | ✅ opracowane | 40 | [skan](https://jbc.bj.uj.edu.pl/Content/113255/PDF/NDIGCZAS002352_1925_002.pdf) |
+| 3 | 1925-06-01 | ☑ opracowane, w numerze nie ma edyktów PKU | 0 | [skan](https://jbc.bj.uj.edu.pl/Content/113258/PDF/NDIGCZAS002352_1925_003.pdf) |
+| 4 | 1925-07-15 | ✅ opracowane | 243 | [skan](https://jbc.bj.uj.edu.pl/Content/113260/PDF/NDIGCZAS002352_1925_004.pdf) |
+| 5 | 1925-09-01 | ✅ opracowane | 111 | [skan](https://jbc.bj.uj.edu.pl/Content/113263/PDF/NDIGCZAS002352_1925_005.pdf) |
+| 6 |  | ⬜ nie dostarczono | – | |
+| 7 | 1925-11-01 | ✅ opracowane | 111 | [skan](https://jbc.bj.uj.edu.pl/Content/113267/PDF/NDIGCZAS002352_1925_007.pdf) |
+
+Nr 6 oraz numery po nr 7 nie zostały dostarczone. Nr 3 (1 VI 1925) przejrzany: zawiera tylko edykty sądowe (Sąd Okręgowy w Jaśle), bez edyktów PKU. Pominięto edykty sądowe o uznaniu za zmarłych (Sąd Okręgowy w Jaśle, Oddz. IV), ogłoszenia o zgubionych dokumentach i komunikaty. Edykty PKU Rzeszów, drukowane w dzienniku krakowskim, trafiają do województwa lwowskiego wg filtra (województwo wynika z PKU). W nr 2 skan jest miejscami uszkodzony (zob. `docs/nieczytelne-krakowskie-1925.md`).
+
+### Dziennik Urzędowy Województwa Krakowskiego, 1926
+
+| Nr | Data | Status | Wpisy | Link |
+|---|---|---|---|---|
+| 1 | 1926-02-15 | ✅ opracowane | 37 | [skan](https://jbc.bj.uj.edu.pl/Content/113271/PDF/NDIGCZAS002352_1926_001.pdf) |
+| 2 | 1926-04-15 | ✅ opracowane | 47 | [skan](https://jbc.bj.uj.edu.pl/Content/113272/PDF/NDIGCZAS002352_1926_002.pdf) |
+| 3 | 1926-06-15 | ✅ opracowane | 70 | [skan](https://jbc.bj.uj.edu.pl/Content/113273/PDF/NDIGCZAS002352_1926_003.pdf) |
+| 4 | 1926-08-20 | ✅ opracowane | 51 | [skan](https://jbc.bj.uj.edu.pl/Content/113274/PDF/NDIGCZAS002352_1926_004.pdf) |
+| 5 | 1926-10-20 | ✅ opracowane | 9 | [skan](https://jbc.bj.uj.edu.pl/Content/113275/PDF/NDIGCZAS002352_1926_005.pdf) |
+
+Nr 5 z 20 X 1926 był ostatnim dostarczonym. Zasady jak w roczniku 1925.
+
+### Dziennik Urzędowy Województwa Krakowskiego, 1924 (poza zakresem zestawienia)
+
+Dostarczono tylko nr 8 z 25 X 1924 ([skan](https://jbc.bj.uj.edu.pl/Content/113243/PDF/NDIGCZAS002352_1924_008.pdf)): 2 wpisy (edykty Referatu Inwalidzkiego PKU Wadowice, str. 8).
+
 ### Dziennik Urzędowy Województwa Łódzkiego, 1925
 
 | Nr | Data | Status | Wpisy | Link |
@@ -353,7 +385,6 @@ Dla poniższych województw w repozytorium nie ma jeszcze żadnych wydań (wype�
 | warszawskie | ⬜ | ⬜ |
 | kieleckie | ⬜ | ⬜ |
 | lubelskie | ⬜ | ⬜ |
-| krakowskie | ⬜ | ⬜ |
 | poznańskie | ⬜ | ⬜ |
 | pomorskie | ⬜ | ⬜ |
 | śląskie | ⬜ | ⬜ |

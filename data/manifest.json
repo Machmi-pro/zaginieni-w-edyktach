@@ -117,6 +117,27 @@
       ]
     },
     {
+      "id": "krakowskie",
+      "wojewodztwo": "krakowskie",
+      "roczniki": [
+        {
+          "rok": 1924,
+          "plik": "data/krakowskie/1924.json",
+          "wpisy": 2
+        },
+        {
+          "rok": 1925,
+          "plik": "data/krakowskie/1925.json",
+          "wpisy": 519
+        },
+        {
+          "rok": 1926,
+          "plik": "data/krakowskie/1926.json",
+          "wpisy": 214
+        }
+      ]
+    },
+    {
       "id": "monitorpolski",
       "wojewodztwo": "monitor polski",
       "roczniki": [
