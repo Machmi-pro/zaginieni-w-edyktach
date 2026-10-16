@@ -22,6 +22,7 @@ Zestawienie wydań dzienników wojewódzkich i Monitora Polskiego z lat 1925–1
 | Dziennik Urzędowy Województwa Poleskiego | 1926 | 10 | 241 | 2 (nie dostarczono, wg autora wybrano tylko numery z edyktami) |
 | Dziennik Urzędowy Województwa Krakowskiego | 1925 | 6 (w tym nr 3 bez edyktów) | 519 | 6 (nie dostarczono), numery po 7 nieznane |
 | Dziennik Urzędowy Województwa Krakowskiego | 1926 | 5 | 214 | numery po 5 nieznane |
+| Dziennik Urzędowy Województwa Lubelskiego | 1925 | 10 | 207 | 1, 3, 9 (nie dostarczono), numery po 13 nieznane |
 | Dziennik Urzędowy Województwa Łódzkiego | 1925 | 22 | 84 | 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 15, 17, 20, 21, 22, 23, 25, 29, 30, 32, 35, 37, 38, 40, 43, 47, 48 |
 | Dziennik Urzędowy Województwa Łódzkiego | 1926 | 45 | 349 | 5, 7, 8, 18, 40, 42, 51 |
 | Monitor Polski | 1925 | 10 | 162 | nie dotyczy (dziennik wychodził codziennie, ok. 300 numerów rocznie, przejrzano tylko wskazane numery) |
@@ -376,6 +377,26 @@ Dostarczono tylko nr 8 z 25 X 1924 ([skan](https://jbc.bj.uj.edu.pl/Content/1132
 | 243 | 1926-10-22 | ✅ opracowane | 13 | [skan](https://monitorpolski.gov.pl/M1926243000000.pdf) |
 | 264 | 1926-11-17 | ✅ opracowane | 13 | [skan](https://monitorpolski.gov.pl/M1926264000000.pdf) |
 
+### Dziennik Urzędowy Województwa Lubelskiego, 1925
+
+| Nr | Data | Status | Wpisy | Link |
+|---|---|---|---|---|
+| 1 |  | ⬜ nie dostarczono | – | |
+| 2 | 1925-02-11 | ✅ opracowane | 6 | [skan](https://jbc.bj.uj.edu.pl/Content/533589/NDIGCZAS027002_81048567.pdf) |
+| 3 |  | ⬜ nie dostarczono | – | |
+| 4 | 1925-04-01 | ✅ opracowane | 8 | [skan](https://jbc.bj.uj.edu.pl/Content/533591/NDIGCZAS027002_81048570.pdf) |
+| 5 | 1925-04-27 | ✅ opracowane | 9 | [skan](https://jbc.bj.uj.edu.pl/Content/533592/NDIGCZAS027002_81048571.pdf) |
+| 6 | 1925-06-08 | ✅ opracowane | 29 | [skan](https://jbc.bj.uj.edu.pl/Content/533593/NDIGCZAS027002_81048572.pdf) |
+| 7 | 1925-07-07 | ✅ opracowane | 32 | [skan](https://jbc.bj.uj.edu.pl/Content/533595/NDIGCZAS027002_81048573.pdf) |
+| 8 | 1925-07-30 | ✅ opracowane | 11 | [skan](https://jbc.bj.uj.edu.pl/Content/533596/NDIGCZAS027002_81048575.pdf) |
+| 9 |  | ⬜ nie dostarczono | – | |
+| 10 | 1925-09-16 | ✅ opracowane | 27 | [skan](https://jbc.bj.uj.edu.pl/Content/533598/NDIGCZAS027002_81048577.pdf) |
+| 11 | 1925-10-17 | ✅ opracowane | 24 | [skan](https://jbc.bj.uj.edu.pl/Content/533599/NDIGCZAS027002_81048579.pdf) |
+| 12 | 1925-11-26 | ✅ opracowane | 47 | [skan](https://jbc.bj.uj.edu.pl/Content/533600/NDIGCZAS027002_81048580.pdf) |
+| 13 | 1925-12-29 | ✅ opracowane | 14 | [skan](https://jbc.bj.uj.edu.pl/Content/533601/NDIGCZAS027002_81048581.pdf) |
+
+Nr 1, 3 i 9 nie zostały dostarczone (pierwsza tura); numery po nr 13 nieznane. Pominięto edykty sądowe o uznaniu za zmarłych, ogłoszenia o hipotekach i zgubionych dokumentach oraz komunikaty (m.in. DOK II w Lublinie o Płaczkowskim w nr 10 i o Krasnodębskim w nr 4). Edykty z nr 2 zostały powtórzone w nr 4 (Adamczuk Paweł, Sawczuk Michał), każdy druk jest osobnym wpisem. Zbiorcze edykty PKU Hrubieszów rozbito na osobne wpisy. Miejsca nieczytelne lub z omyłkami druku: `docs/nieczytelne-lubelskie-1925.md`.
+
 ## Dzienniki wojewódzkie, których jeszcze nie ma w bazie
 
 Dla poniższych województw w repozytorium nie ma jeszcze żadnych wydań (wypełniać po przejrzeniu JBC):
@@ -384,7 +405,7 @@ Dla poniższych województw w repozytorium nie ma jeszcze żadnych wydań (wype�
 |---|---|---|
 | warszawskie | ⬜ | ⬜ |
 | kieleckie | ⬜ | ⬜ |
-| lubelskie | ⬜ | ⬜ |
+| lubelskie | ✅ (10 numerów, pierwsza tura) | ⬜ |
 | poznańskie | ⬜ | ⬜ |
 | pomorskie | ⬜ | ⬜ |
 | śląskie | ⬜ | ⬜ |
