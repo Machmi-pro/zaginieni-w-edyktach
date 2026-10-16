@@ -24,6 +24,17 @@ Tylko wpisy, w których druk jest wyblakły, nieostry, uszkodzony albo zawiera w
 - **Silberstein Wolf (Wilhelm)**, str. 8, PKU Biała-Bielsko – Druk uszkodzony: część wiersza (nazwa miejscowości) częściowo nieczytelna. [skan](https://jbc.bj.uj.edu.pl/Content/113255/PDF/NDIGCZAS002352_1925_002.pdf#page=8)
 - **Sommer Franciszek**, str. 8, PKU Biała-Bielsko – Druk uszkodzony: liczba dziennika i fragment daty (»127Iv. 1915«) nieczytelne. [skan](https://jbc.bj.uj.edu.pl/Content/113255/PDF/NDIGCZAS002352_1925_002.pdf#page=8)
 
+## Nr 3 (1925-06-01) – 8
+
+- **Warzycki Jan**, str. 10, brak PKU – Nazwa kopalni odczytana z uszkodzonego druku (»Va-omnic-Cambria«). [skan](https://jbc.bj.uj.edu.pl/Content/113258/PDF/NDIGCZAS002352_1925_003.pdf#page=10)
+- **Droba Józef**, str. 11, brak PKU – Miejsce urodzenia w druku »Wronace« (biernik/miejscownik), nazwa miejscowości nie została ujednolicona do mianownika. [skan](https://jbc.bj.uj.edu.pl/Content/113258/PDF/NDIGCZAS002352_1925_003.pdf#page=11)
+- **Demianowicz Jan**, str. 11, brak PKU – Miejsce urodzenia: w druku »Ciechani« (tu), »Cichani« (przy Jarosz i Kulik). [skan](https://jbc.bj.uj.edu.pl/Content/113258/PDF/NDIGCZAS002352_1925_003.pdf#page=11)
+- **Matuszyk Andrzej**, str. 12, brak PKU – Druk uszkodzony: jedna litera w nazwisku nieczytelna (»Mat?szyk«), odczytano Matuszyk. [skan](https://jbc.bj.uj.edu.pl/Content/113258/PDF/NDIGCZAS002352_1925_003.pdf#page=12)
+- **Morgenstern Mojżesz**, str. 13, brak PKU – Druk: miejsce urodzenia/pochodzenia »z Cieklina« (bez wyraźnego »ur.«). [skan](https://jbc.bj.uj.edu.pl/Content/113258/PDF/NDIGCZAS002352_1925_003.pdf#page=13)
+- **Zajączkowski Jan**, str. 13, brak PKU – Druk: drugi edykt bez własnej sygnatury, bezpośrednio po edykcie Jędrzeja Zajączkowskiego (T. IV. 144/24-5); sygnatura przyjęta z poprzedniego. [skan](https://jbc.bj.uj.edu.pl/Content/113258/PDF/NDIGCZAS002352_1925_003.pdf#page=13)
+- **Kozioł Wojciech**, str. 14, brak PKU – Nazwisko panieńskie matki w druku »Barsznców« (odczyt niepewny). [skan](https://jbc.bj.uj.edu.pl/Content/113258/PDF/NDIGCZAS002352_1925_003.pdf#page=14)
+- **Piasecki Jakób**, str. 14, brak PKU – Druk: brak roku urodzenia (po »13/VI« tekst bez roku). [skan](https://jbc.bj.uj.edu.pl/Content/113258/PDF/NDIGCZAS002352_1925_003.pdf#page=14)
+
 ## Nr 4 (1925-07-15) – 5
 
 - **Klimczak Andrzej**, str. 7, PKU Biała-Bielsko – Druk uszkodzony: liczba dziennika, imię matki i część tekstu (data) nieczytelne. [skan](https://jbc.bj.uj.edu.pl/Content/113260/PDF/NDIGCZAS002352_1925_004.pdf#page=7)

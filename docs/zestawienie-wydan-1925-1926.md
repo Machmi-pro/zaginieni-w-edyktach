@@ -20,7 +20,7 @@ Zestawienie wydań dzienników wojewódzkich i Monitora Polskiego z lat 1925–1
 | Dziennik Urzędowy Województwa Wołyńskiego | 1926 | 3 | 32 | 3, 4 |
 | Dziennik Urzędowy Województwa Poleskiego | 1925 | 6 | 99 | 1–6 (nie dostarczono, wg autora wybrano tylko numery z edyktami) |
 | Dziennik Urzędowy Województwa Poleskiego | 1926 | 10 | 241 | 2 (nie dostarczono, wg autora wybrano tylko numery z edyktami) |
-| Dziennik Urzędowy Województwa Krakowskiego | 1925 | 6 (w tym nr 3 bez edyktów) | 519 | 6 (nie dostarczono), numery po 7 nieznane |
+| Dziennik Urzędowy Województwa Krakowskiego | 1925 | 6 (w tym nr 3: tylko edykty sądowe, „brak PKU”) | 616 | 6 (nie dostarczono), numery po 7 nieznane |
 | Dziennik Urzędowy Województwa Krakowskiego | 1926 | 5 | 214 | numery po 5 nieznane |
 | Dziennik Urzędowy Województwa Lubelskiego | 1925 | 10 | 220 | 1, 3, 9 (nie dostarczono), numery po 13 nieznane |
 | Dziennik Urzędowy Województwa Lubelskiego | 1926 | 12 | 235 | numery po 12 nieznane |
@@ -201,13 +201,13 @@ Nr 5: w grupie edyktów PKU Pińsk (7.V.1926) 11 osób wymienionych w jednym edy
 |---|---|---|---|---|
 | 1 | 1925-02-01 | ✅ opracowane | 14 | [skan](https://jbc.bj.uj.edu.pl/Content/113253/PDF/NDIGCZAS002352_1925_001.pdf) |
 | 2 | 1925-04-01 | ✅ opracowane | 40 | [skan](https://jbc.bj.uj.edu.pl/Content/113255/PDF/NDIGCZAS002352_1925_002.pdf) |
-| 3 | 1925-06-01 | ☑ opracowane, w numerze nie ma edyktów PKU | 0 | [skan](https://jbc.bj.uj.edu.pl/Content/113258/PDF/NDIGCZAS002352_1925_003.pdf) |
+| 3 | 1925-06-01 | ✅ opracowane (edykty Sądu Okręgowego w Jaśle, „brak PKU”) | 97 | [skan](https://jbc.bj.uj.edu.pl/Content/113258/PDF/NDIGCZAS002352_1925_003.pdf) |
 | 4 | 1925-07-15 | ✅ opracowane | 243 | [skan](https://jbc.bj.uj.edu.pl/Content/113260/PDF/NDIGCZAS002352_1925_004.pdf) |
 | 5 | 1925-09-01 | ✅ opracowane | 111 | [skan](https://jbc.bj.uj.edu.pl/Content/113263/PDF/NDIGCZAS002352_1925_005.pdf) |
 | 6 |  | ⬜ nie dostarczono | – | |
 | 7 | 1925-11-01 | ✅ opracowane | 111 | [skan](https://jbc.bj.uj.edu.pl/Content/113267/PDF/NDIGCZAS002352_1925_007.pdf) |
 
-Nr 6 oraz numery po nr 7 nie zostały dostarczone. Nr 3 (1 VI 1925) przejrzany: zawiera tylko edykty sądowe (Sąd Okręgowy w Jaśle), bez edyktów PKU. Pominięto edykty sądowe o uznaniu za zmarłych (Sąd Okręgowy w Jaśle, Oddz. IV), ogłoszenia o zgubionych dokumentach i komunikaty. Edykty PKU Rzeszów, drukowane w dzienniku krakowskim, trafiają do województwa lwowskiego wg filtra (województwo wynika z PKU). W nr 2 skan jest miejscami uszkodzony (zob. `docs/nieczytelne-krakowskie-1925.md`).
+Nr 6 oraz numery po nr 7 nie zostały dostarczone. Nr 3 (1 VI 1925) zawiera wyłącznie edykty Sądu Okręgowego w Jaśle, Oddz. IV (str. 10–14, 97 wpisów), wprowadzone jako „brak PKU”. Pominięto pozostałe edykty sądowe o uznaniu za zmarłych, ogłoszenia o zgubionych dokumentach i komunikaty. Edykty PKU Rzeszów, drukowane w dzienniku krakowskim, trafiają do województwa lwowskiego wg filtra (województwo wynika z PKU). W nr 2 skan jest miejscami uszkodzony (zob. `docs/nieczytelne-krakowskie-1925.md`).
 
 ### Dziennik Urzędowy Województwa Krakowskiego, 1926
 

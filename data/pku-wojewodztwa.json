@@ -1,5 +1,5 @@
 {
- "opis": "Przypisanie PKU do województwa (słownik techniczny). Klucze: nazwa PKU po normalizacji; aliasy to warianty zapisu z druku. Stan na rok 1925 (zweryfikowany według składu powiatów).",
+ "opis": "Przypisanie PKU do województwa (słownik techniczny). Klucze: nazwa PKU po normalizacji; aliasy to warianty zapisu z druku. Wartość „brak PKU” oznacza edykt ogłoszony nie przez PKU, lecz przez sąd (np. Sąd Okręgowy w Jaśle w Dz. Urz. Woj. Krakowskiego 1925 nr 3); przypisana do województwa krakowskiego. Stan na rok 1925 (zweryfikowany według składu powiatów).",
  "wojewodztwa": {
   "warszawskie i m. st. Warszawa": [
    "Warszawa Miasto I",
@@ -84,7 +84,8 @@
    "Żywiec",
    "Mielec",
    "Dębica",
-   "Ropczyce"
+   "Ropczyce",
+   "brak PKU"
   ],
   "lwowskie": [
    "Lwów Miasto",
