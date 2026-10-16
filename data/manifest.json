@@ -144,7 +144,12 @@
         {
           "rok": 1925,
           "plik": "data/lubelskie/1925.json",
-          "wpisy": 207
+          "wpisy": 220
+        },
+        {
+          "rok": 1926,
+          "plik": "data/lubelskie/1926.json",
+          "wpisy": 235
         }
       ]
     },

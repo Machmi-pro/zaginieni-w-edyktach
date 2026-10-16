@@ -35,7 +35,8 @@ data/
     1925.json                           numery 1, 2, 4, 5, 7 (nr 3 przejrzany, bez edyktów PKU; 519 wpisów: PKU Biała-Bielsko, Nowy Sącz, Rzeszów, Tarnów, Kraków, Nowy Targ, Wadowice)
     1926.json                           numery 1–5 (214 wpisy)
   lubelskie/
-    1925.json                           numery 2, 4, 5, 6, 7, 8, 10, 11, 12, 13 (pierwsza tura, 207 wpisów: PKU Zamość, Biłgoraj, Chełm, Biała Podlaska, Puławy, Hrubieszów, Lublin, Siedlce, Łuków)
+    1925.json                           numery 2, 4, 5, 6, 7, 8, 10, 11, 12, 13 (pierwsza tura, 220 wpisów: PKU Zamość, Biłgoraj, Chełm, Biała Podlaska, Puławy, Hrubieszów, Lublin, Siedlce, Łuków)
+    1926.json                           numery 1–12 (235 wpisów: PKU Zamość, Biłgoraj, Chełm, Biała Podlaska, Puławy, Hrubieszów, Lublin, Siedlce, Łuków, Ostrów Mazowiecka)
   monitorpolski/
     1925.json                           Monitor Polski, numery 194, 199, 243, 256, 257, 266, 271, 278, 285, 291 (162 wpisy; edykty różnych PKU w całym kraju)
     1926.json                           Monitor Polski, numery 19, 44, 51, 63, 65, 74, 93, 117, 126, 141, 166, 173, 176, 177, 183, 207, 219, 239, 243, 264 (403 wpisy)
@@ -58,6 +59,7 @@ docs/
   nieczytelne-krakowskie-1925.md
   nieczytelne-krakowskie-1926.md
   nieczytelne-lubelskie-1925.md
+  nieczytelne-lubelskie-1926.md
 README.md
 ```
 
@@ -153,6 +155,7 @@ Lokalnie strona wymaga serwera (otwarta wprost z dysku nie wczyta danych), np. `
 - Dziennik Urzędowy Województwa Krakowskiego, rocznik V (1925) – opracowane nr 1, 2, 4, 5 i 7 (1 II – 1 XI 1925), skany w Jagiellońskiej Bibliotece Cyfrowej; nr 3 (1 VI 1925) przejrzany, zawiera tylko edykty sądowe. Edykty PKU Biała-Bielsko, Nowy Sącz, Tarnów, Nowy Targ, Wadowice, Kraków-Miasto i Kraków-Powiat oraz PKU Rzeszów (w filtrze Województwo trafiają do lwowskiego). Pominięto edykty sądowe o uznaniu za zmarłych (Sąd Okręgowy w Jaśle), ogłoszenia o zgubionych dokumentach i komunikaty. Skan nr 2 jest miejscami uszkodzony (docs/nieczytelne-krakowskie-1925.md).
 - Dziennik Urzędowy Województwa Krakowskiego, rocznik VI (1926) – opracowane nr 1–5 (15 II – 20 X 1926), skany w JBC; zasady jak wyżej. Rocznik IV (1924) – tylko nr 8 (25 X 1924), 2 edykty Referatu Inwalidzkiego PKU Wadowice.
 - Dziennik Urzędowy Województwa Lubelskiego, rocznik 1925 – opracowane nr 2, 4, 5, 6, 7, 8, 10, 11, 12 i 13 (11 II – 29 XII 1925), skany w Jagiellońskiej Bibliotece Cyfrowej (pierwsza tura; numery 1, 3 i 9 nie zostały dostarczone). Edykty PKU Zamość, Biłgoraj, Chełm, Biała Podlaska, Puławy, Hrubieszów, Lublin, Siedlce i Łuków. Pominięto edykty sądowe o uznaniu za zmarłych, ogłoszenia o hipotekach i zgubionych dokumentach oraz komunikaty (np. komunikat DOK II w Lublinie o Płaczkowskim w nr 10 oraz o Krasnodębskim w nr 4). Edykty nr 2, 4 i 5 częściowo się powtarzają (przedruki), każdy druk jest osobnym wpisem. Zbiorcze edykty PKU Hrubieszów (kilka osób w jednym druku) rozbito na osobne wpisy. Miejsca nieczytelne lub z widoczną omyłką druku: docs/nieczytelne-lubelskie-1925.md.
+- Dziennik Urzędowy Województwa Lubelskiego, rocznik 1926 – opracowane nr 1–12 (26 I – 30 XI 1926), skany w Jagiellońskiej Bibliotece Cyfrowej. Edykty PKU Zamość, Biłgoraj, Chełm, Biała Podlaska, Puławy, Hrubieszów, Lublin, Siedlce, Łuków oraz Referatu Inwalidzkiego PKU Ostrów Mazowiecka (poszukiwani z powiatów Węgrów i Sokołów). Pominięto edykty sądowe o uznaniu za zmarłych, ogłoszenia o hipotekach i zgubionych dokumentach, ogłoszenia o scaleniu gruntów oraz komunikaty. Część edyktów powtarza się w kolejnych numerach (przedruki), każdy druk jest osobnym wpisem. Zbiorcze edykty (kilka osób w jednym druku: PKU Hrubieszów, Zamość, Radzyń/Łuków, Puławy, Biłgoraj, Chełm, Lublin) rozbito na osobne wpisy. Miejsca nieczytelne lub z widoczną omyłką druku: docs/nieczytelne-lubelskie-1926.md.
 - Monitor Polski 1925, nr 194, 199, 243, 256, 257, 266, 271, 278, 285, 291 (24 VIII – 16 XII 1925), skany z monitorpolski.gov.pl. Rubryka „Edykty o zaginięciu i poszukiwaniu osób wojskowych”; pominięto kopię „Obwieszczeń sądowych”, zgubione dokumenty i inne ogłoszenia. W nr 291 edykt PKU Kołomyja nie ma w druku wymienionych osób, więc nie dał wpisów.
 - Monitor Polski 1926, nr 19, 44, 51, 63, 65, 74, 93, 117, 126, 141 (25 I – 24 VI 1926), skany z monitorpolski.gov.pl. Rubryka „Edykty o zaginięciu i poszukiwaniu osób wojskowych”; pominięto ogłoszenia sądowe i zgubione dokumenty. Nr 65 nie zawiera edyktów PKU, więc nie dał wpisów. Dwa wpisy mają adnotację o nieczytelnym druku (docs/nieczytelne-monitorpolski-1926.md).
 

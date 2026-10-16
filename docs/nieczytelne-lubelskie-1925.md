@@ -36,13 +36,14 @@ Tylko wpisy, w których druk jest wyblakły, nieostry, uszkodzony albo zawiera w
 
 - **Blacha Jan**, str. 15, PKU Biłgoraj – Druk: liczba dziennika bez oznaczenia roku (»L. 20492«). [skan](https://jbc.bj.uj.edu.pl/Content/533598/NDIGCZAS027002_81048577.pdf#page=15)
 
-## Nr 11 (1925-10-17) – 3
+## Nr 11 (1925-10-17) – 4
 
 - **Wilkołak Ludwik**, str. 15, PKU Zamość – Druk: »tut. P.K.U.« bez nazwy miejscowości; PKU Zamość przyjęte wg powiatu zamieszkania. [skan](https://jbc.bj.uj.edu.pl/Content/533599/NDIGCZAS027002_81048579.pdf#page=15)
 - **Mateusiak Kazimierz**, str. 15, PKU Łuków – Druk: nazwisko panieńskie żony raz »Skrzyńskich«, raz »Skarżyńskich«. [skan](https://jbc.bj.uj.edu.pl/Content/533599/NDIGCZAS027002_81048579.pdf#page=15)
 - **Grabowski Stanisław**, str. 15, PKU Zamość – Druk: liczba dziennika »20996/26/V« (rok 26 w 1925 r. – zapewne omyłka druku). [skan](https://jbc.bj.uj.edu.pl/Content/533599/NDIGCZAS027002_81048579.pdf#page=15)
+- **Kuzma Andrzej**, str. 16, PKU Zamość – Druk: nazwisko poszukiwanego »Kuzma«, nazwisko żony »Kuźma«; rok urodzenia w OCR »ls87«, odczytany jako 1887. [skan](https://jbc.bj.uj.edu.pl/Content/533599/NDIGCZAS027002_81048579.pdf#page=16)
 
-## Nr 12 (1925-11-26) – 8
+## Nr 12 (1925-11-26) – 10
 
 - **Ruszczuk Mikołaj**, str. 11, PKU Chełm – Druk: nazwa gminy w OCR »bwierze«, odczytana jako Świerże; do sprawdzenia na obrazie. [skan](https://jbc.bj.uj.edu.pl/Content/533600/NDIGCZAS027002_81048580.pdf#page=11)
 - **Miszta Franciszek**, str. 12, PKU Puławy – Druk: liczba dziennika bez roku (»14591«). [skan](https://jbc.bj.uj.edu.pl/Content/533600/NDIGCZAS027002_81048580.pdf#page=12)
@@ -52,6 +53,8 @@ Tylko wpisy, w których druk jest wyblakły, nieostry, uszkodzony albo zawiera w
 - **Flis Jan**, str. 13, PKU Zamość – Druk: »tut. P.K.U.« bez nazwy miejscowości; PKU Zamość przyjęte wg miejsca urodzenia i formuły wezwania. [skan](https://jbc.bj.uj.edu.pl/Content/533600/NDIGCZAS027002_81048580.pdf#page=13)
 - **Skoczylas Franciszek**, str. 13, PKU Puławy – Druk: liczba dziennika bez roku (»14684«). [skan](https://jbc.bj.uj.edu.pl/Content/533600/NDIGCZAS027002_81048580.pdf#page=13)
 - **Złomańczuk Wojciech**, str. 14, PKU Zamość – Druk: liczba dziennika bez roku (»25361«). [skan](https://jbc.bj.uj.edu.pl/Content/533600/NDIGCZAS027002_81048580.pdf#page=14)
+- **Bidziński Józef**, str. 11, PKU Chełm – Druk uszkodzony: druga cyfra liczby dziennika nieczytelna (»17?32/inw. 25«). [skan](https://jbc.bj.uj.edu.pl/Content/533600/NDIGCZAS027002_81048580.pdf#page=11)
+- **Strzelecki Józef**, str. 12, PKU Chełm – Odczyt nazwy gminy niepewny (OCR »Chudowoia«). [skan](https://jbc.bj.uj.edu.pl/Content/533600/NDIGCZAS027002_81048580.pdf#page=12)
 
 ## Nr 13 (1925-12-29) – 1
 
