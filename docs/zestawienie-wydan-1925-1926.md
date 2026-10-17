@@ -18,7 +18,7 @@ Zestawienie wydań dzienników wojewódzkich i Monitora Polskiego z lat 1925–1
 | Dziennik Urzędowy Województwa Stanisławowskiego | 1926 | 7 | 349 | brak |
 | Dziennik Urzędowy Województwa Wołyńskiego | 1925 | 8 | 37 | 1–4 (bez edyktów wg autora) |
 | Dziennik Urzędowy Województwa Wołyńskiego | 1926 | 3 | 32 | 3, 4 |
-| Dziennik Urzędowy Województwa Nowogródzkiego | 1925 | 8 | 169 | 1–4 (nie dostarczono, wg autora wybrano tylko numery z edyktami) |
+| Dziennik Urzędowy Województwa Nowogródzkiego | 1925 | 8 | 169 | 1–4 (przejrzane ręcznie, brak edyktów) |
 | Dziennik Urzędowy Województwa Poleskiego | 1925 | 6 | 99 | 1–6 (nie dostarczono, wg autora wybrano tylko numery z edyktami) |
 | Dziennik Urzędowy Województwa Poleskiego | 1926 | 10 | 241 | 2 (nie dostarczono, wg autora wybrano tylko numery z edyktami) |
 | Dziennik Urzędowy Województwa Krakowskiego | 1925 | 6 (w tym nr 3: tylko edykty sądowe, „brak PKU”) | 616 | 6 (nie dostarczono), numery po 7 nieznane |
@@ -163,10 +163,10 @@ Numery 1–4: według autora nie zawierają edyktów.
 
 | Nr | Data | Status | Wpisy | Link |
 |---|---|---|---|---|
-| 1 |  | ⬜ nie dostarczono (wg autora wybrano tylko numery z edyktami) | – | |
-| 2 |  | ⬜ nie dostarczono (wg autora wybrano tylko numery z edyktami) | – | |
-| 3 |  | ⬜ nie dostarczono (wg autora wybrano tylko numery z edyktami) | – | |
-| 4 |  | ⬜ nie dostarczono (wg autora wybrano tylko numery z edyktami) | – | |
+| 1 |  | ✔ przejrzane ręcznie, brak edyktów PKU | – | |
+| 2 |  | ✔ przejrzane ręcznie, brak edyktów PKU | – | |
+| 3 |  | ✔ przejrzane ręcznie, brak edyktów PKU | – | |
+| 4 |  | ✔ przejrzane ręcznie, brak edyktów PKU | – | |
 | 5 | 1925-05-30 | ✅ opracowane | 17 | [skan](https://jbc.bj.uj.edu.pl/Content/64575/PDF/NDIGCZAS003503_1925_005.pdf) |
 | 6 | 1925-06-30 | ✅ opracowane | 12 | [skan](https://jbc.bj.uj.edu.pl/Content/64578/PDF/NDIGCZAS003503_1925_006.pdf) |
 | 7 | 1925-07-31 | ✅ opracowane | 1 | [skan](https://jbc.bj.uj.edu.pl/Content/64581/PDF/NDIGCZAS003503_1925_007.pdf) |
