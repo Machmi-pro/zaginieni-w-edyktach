@@ -20,6 +20,7 @@ Zestawienie wydań dzienników wojewódzkich i Monitora Polskiego z lat 1925–1
 | Dziennik Urzędowy Województwa Wołyńskiego | 1926 | 3 | 32 | 3, 4 |
 | Dziennik Urzędowy Województwa Nowogródzkiego | 1925 | 8 | 169 | 1–4 (przejrzane ręcznie, brak edyktów) |
 | Dziennik Urzędowy Województwa Nowogródzkiego | 1926 | 11 | 324 | numery po 11 nieznane |
+| Dziennik Urzędowy Województwa Warszawskiego | 1925 | 13 | 170 | 9 (nie dostarczono), numery po 14 nieznane |
 | Dziennik Urzędowy Województwa Poleskiego | 1925 | 6 | 99 | 1–6 (nie dostarczono, wg autora wybrano tylko numery z edyktami) |
 | Dziennik Urzędowy Województwa Poleskiego | 1926 | 10 | 241 | 2 (nie dostarczono, wg autora wybrano tylko numery z edyktami) |
 | Dziennik Urzędowy Województwa Krakowskiego | 1925 | 6 (w tym nr 3: tylko edykty sądowe, „brak PKU”) | 616 | 6 (nie dostarczono), numery po 7 nieznane |
@@ -456,13 +457,34 @@ Nr 1, 3 i 9 nie zostały dostarczone (pierwsza tura); numery po nr 13 nieznane. 
 
 Numery po nr 12 nieznane. Pominięto edykty sądowe o uznaniu za zmarłych, ogłoszenia o hipotekach i zgubionych dokumentach, ogłoszenia o scaleniu gruntów oraz komunikaty. Część edyktów powtarza się w kolejnych numerach (np. nr 3 i 4: Mazurek Wiktor, Przybyszewski Stanisław, Sierociuk Karol), każdy druk jest osobnym wpisem. Zbiorcze edykty rozbito na osobne wpisy. Miejsca nieczytelne lub z omyłkami druku: `docs/nieczytelne-lubelskie-1926.md`.
 
+### Dziennik Urzędowy Województwa Warszawskiego, 1925
+
+| Nr | Data | Status | Wpisy | Link |
+|---|---|---|---|---|
+| 1 | 1925-01-31 | ✅ opracowane | 5 | [skan](https://jbc.bj.uj.edu.pl/Content/94287/PDF/NDIGCZAS003512_1925_001.pdf) |
+| 2 | 1925-02-28 | ✅ opracowane | 24 | [skan](https://jbc.bj.uj.edu.pl/Content/94288/PDF/NDIGCZAS003512_1925_002.pdf) |
+| 3 | 1925-03-01 | ✅ opracowane | 5 | [skan](https://jbc.bj.uj.edu.pl/Content/94289/PDF/NDIGCZAS003512_1925_003.pdf) |
+| 4 | 1925-03-31 | ✅ opracowane | 19 | [skan](https://jbc.bj.uj.edu.pl/Content/94290/PDF/NDIGCZAS003512_1925_004.pdf) |
+| 5 | 1925-04-30 | ✅ opracowane | 19 | [skan](https://jbc.bj.uj.edu.pl/Content/94291/PDF/NDIGCZAS003512_1925_005.pdf) |
+| 6 | 1925-05-31 | ✅ opracowane | 19 | [skan](https://jbc.bj.uj.edu.pl/Content/94292/PDF/NDIGCZAS003512_1925_006.pdf) |
+| 7 | 1925-06-30 | ✅ opracowane | 12 | [skan](https://jbc.bj.uj.edu.pl/Content/94293/PDF/NDIGCZAS003512_1925_007.pdf) |
+| 8 | 1925-07-31 | ✅ opracowane | 7 | [skan](https://jbc.bj.uj.edu.pl/Content/94294/PDF/NDIGCZAS003512_1925_008.pdf) |
+| 9 |  | ⬜ nie dostarczono | – | |
+| 10 | 1925-08-31 | ✅ opracowane | 27 | [skan](https://jbc.bj.uj.edu.pl/Content/94296/PDF/NDIGCZAS003512_1925_010.pdf) |
+| 11 | 1925-09-30 | ✅ opracowane | 10 | [skan](https://jbc.bj.uj.edu.pl/Content/94297/PDF/NDIGCZAS003512_1925_011.pdf) |
+| 12 | 1925-10-31 | ✅ opracowane | 10 | [skan](https://jbc.bj.uj.edu.pl/Content/94298/PDF/NDIGCZAS003512_1925_012.pdf) |
+| 13 | 1925-11-30 | ✅ opracowane | 9 | [skan](https://jbc.bj.uj.edu.pl/Content/94299/PDF/NDIGCZAS003512_1925_013.pdf) |
+| 14 | 1925-12-31 | ✅ opracowane | 4 | [skan](https://jbc.bj.uj.edu.pl/Content/94301/PDF/NDIGCZAS003512_1925_014.pdf) |
+
+Nr 9 nie został dostarczony; numery po nr 14 nieznane. Wydania zostały przejrzane ręcznie przez autorkę, wpisano tylko numery z edyktami. Edykty PKU Warszawa Powiat (66), Płock (34), Kutno (18), Mińsk Mazowiecki (16), Pułtusk (15), Ciechanów (11), Modlin (9) i Łomża (1). Pominięto komasacje gruntów (Okręgowy Urząd Ziemski), ogłoszenia stowarzyszeń, ogłoszenia o zgubionych dokumentach (m.in. książeczki wojskowe w nr 13 i 14) oraz komunikat policyjny o zaginionym dziecku (Wutke Paweł, nr 14). Wspólną końcówkę zbiorczych list (nr 10–14: „Uwaga: Wzywa się wszystkich…”) pominięto w polu tekstu. Edykt Kalińskiego Bronisława (nr 3) powtórzono w nr 4, a Graduszewskiego Józefa (nr 7) w nr 8; każdy druk jest osobnym wpisem. Miejsca nieczytelne lub z omyłkami druku: `docs/nieczytelne-warszawskie-1925.md`.
+
 ## Dzienniki wojewódzkie, których jeszcze nie ma w bazie
 
 Dla poniższych województw w repozytorium nie ma jeszcze żadnych wydań (wypełniać po przejrzeniu JBC):
 
 | Województwo | 1925 | 1926 |
 |---|---|---|
-| warszawskie | ⬜ | ⬜ |
+| warszawskie | ✅ (13 numerów, bez nr 9) | ⬜ |
 | kieleckie | ⬜ | ⬜ |
 | lubelskie | ✅ (10 numerów, pierwsza tura) | ✅ (12 numerów) |
 | poznańskie | ⬜ | ⬜ |

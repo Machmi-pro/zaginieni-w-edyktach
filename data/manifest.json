@@ -170,6 +170,17 @@
       ]
     },
     {
+      "id": "warszawskie",
+      "wojewodztwo": "warszawskie",
+      "roczniki": [
+        {
+          "rok": 1925,
+          "plik": "data/warszawskie/1925.json",
+          "wpisy": 170
+        }
+      ]
+    },
+    {
       "id": "monitorpolski",
       "wojewodztwo": "monitor polski",
       "roczniki": [
