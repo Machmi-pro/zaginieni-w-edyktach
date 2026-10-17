@@ -47,7 +47,7 @@ header .over{font-family:var(--f-head);font-weight:600;font-size:12px;letter-spa
 h1{font-family:var(--f-head);font-weight:700;font-size:34px;line-height:1.05;letter-spacing:.02em;text-transform:uppercase;margin:4px 0 6px;text-wrap:balance}
 header{display:flex;flex-direction:column;gap:8px}
 header p{margin:0;color:var(--muted);max-width:60ch}
-header p:first-of-type{color:var(--ink);font-size:16px}
+header>p:first-of-type{color:var(--ink);font-size:16px}
 header .scope{font-size:13.5px;border-left:3px solid var(--stamp);padding-left:10px}
 .search{background:var(--surface);border:1px solid var(--line);border-radius:4px;padding:14px;display:flex;flex-direction:column;gap:12px}
 .fields{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
@@ -79,6 +79,7 @@ dd{margin:0;overflow-wrap:anywhere}
 .tag{font-family:var(--f-head);font-size:12px;font-weight:600;letter-spacing:.05em;background:var(--stamp-soft);color:var(--stamp);border-radius:3px;padding:3px 7px;font-variant-numeric:tabular-nums}
 details{border-top:1px solid var(--line);padding-top:10px}
 details.about{border-top:0;padding-top:0;margin:0 0 14px}
+details.about p{margin-top:10px}
 details.about>summary{text-transform:none;letter-spacing:.02em;font-size:15px}
 summary{cursor:pointer;font-family:var(--f-head);font-weight:600;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--stamp)}
 blockquote{margin:10px 0 0;font-family:var(--f-src);font-size:16px;line-height:1.55;max-width:65ch}
