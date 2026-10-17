@@ -18,6 +18,7 @@ Zestawienie wydań dzienników wojewódzkich i Monitora Polskiego z lat 1925–1
 | Dziennik Urzędowy Województwa Stanisławowskiego | 1926 | 7 | 349 | brak |
 | Dziennik Urzędowy Województwa Wołyńskiego | 1925 | 8 | 37 | 1–4 (bez edyktów wg autora) |
 | Dziennik Urzędowy Województwa Wołyńskiego | 1926 | 3 | 32 | 3, 4 |
+| Dziennik Urzędowy Województwa Nowogródzkiego | 1925 | 8 | 169 | 1–4 (nie dostarczono, wg autora wybrano tylko numery z edyktami) |
 | Dziennik Urzędowy Województwa Poleskiego | 1925 | 6 | 99 | 1–6 (nie dostarczono, wg autora wybrano tylko numery z edyktami) |
 | Dziennik Urzędowy Województwa Poleskiego | 1926 | 10 | 241 | 2 (nie dostarczono, wg autora wybrano tylko numery z edyktami) |
 | Dziennik Urzędowy Województwa Krakowskiego | 1925 | 6 (w tym nr 3: tylko edykty sądowe, „brak PKU”) | 616 | 6 (nie dostarczono), numery po 7 nieznane |
@@ -157,6 +158,25 @@ Numery 1–4: według autora nie zawierają edyktów.
 | 4 |  | ⬜ nie dostarczono (wg autora wybrano tylko numery z edyktami) | – | |
 | 5 | 1927-01-10 | ✅ opracowane | 4 | [skan](https://jbc.bj.uj.edu.pl/Content/87002/PDF/NDIGCZAS003514_R06_005.pdf) |
 
+
+### Dziennik Urzędowy Województwa Nowogródzkiego, 1925
+
+| Nr | Data | Status | Wpisy | Link |
+|---|---|---|---|---|
+| 1 |  | ⬜ nie dostarczono (wg autora wybrano tylko numery z edyktami) | – | |
+| 2 |  | ⬜ nie dostarczono (wg autora wybrano tylko numery z edyktami) | – | |
+| 3 |  | ⬜ nie dostarczono (wg autora wybrano tylko numery z edyktami) | – | |
+| 4 |  | ⬜ nie dostarczono (wg autora wybrano tylko numery z edyktami) | – | |
+| 5 | 1925-05-30 | ✅ opracowane | 17 | [skan](https://jbc.bj.uj.edu.pl/Content/64575/PDF/NDIGCZAS003503_1925_005.pdf) |
+| 6 | 1925-06-30 | ✅ opracowane | 12 | [skan](https://jbc.bj.uj.edu.pl/Content/64578/PDF/NDIGCZAS003503_1925_006.pdf) |
+| 7 | 1925-07-31 | ✅ opracowane | 1 | [skan](https://jbc.bj.uj.edu.pl/Content/64581/PDF/NDIGCZAS003503_1925_007.pdf) |
+| 8 | 1925-08-31 | ✅ opracowane | 14 | [skan](https://jbc.bj.uj.edu.pl/Content/64584/PDF/NDIGCZAS003503_1925_008.pdf) |
+| 9 | 1925-09-30 | ✅ opracowane | 10 | [skan](https://jbc.bj.uj.edu.pl/Content/64587/PDF/NDIGCZAS003503_1925_009.pdf) |
+| 10 | 1925-10-31 | ✅ opracowane | 21 | [skan](https://jbc.bj.uj.edu.pl/Content/64588/PDF/NDIGCZAS003503_1925_010.pdf) |
+| 11 | 1925-11-30 | ✅ opracowane | 65 | [skan](https://jbc.bj.uj.edu.pl/Content/64589/PDF/NDIGCZAS003503_1925_011.pdf) |
+| 12 | 1925-12-31 | ✅ opracowane | 29 | [skan](https://jbc.bj.uj.edu.pl/Content/64590/PDF/NDIGCZAS003503_1925_012.pdf) |
+
+Nr 11: 54 edykty Referatu Inwalidzkiego PKU Słonim oraz 11 edyktów PKU Baranowicze (str. 16–17). Nr 12: 28 edyktów PKU Słonim i 1 poszukiwanie PKU Mołodeczno w Wilejce (str. 22). W nr 5 i 6 druk nie podaje liczby dziennika. Pominięto ogłoszenia o zagubionych dokumentach.
 
 ### Dziennik Urzędowy Województwa Poleskiego, 1925
 
