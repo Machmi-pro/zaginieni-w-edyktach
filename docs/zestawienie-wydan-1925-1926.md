@@ -19,6 +19,7 @@ Zestawienie wydań dzienników wojewódzkich i Monitora Polskiego z lat 1925–1
 | Dziennik Urzędowy Województwa Wołyńskiego | 1925 | 8 | 37 | 1–4 (bez edyktów wg autora) |
 | Dziennik Urzędowy Województwa Wołyńskiego | 1926 | 3 | 32 | 3, 4 |
 | Dziennik Urzędowy Województwa Nowogródzkiego | 1925 | 8 | 169 | 1–4 (przejrzane ręcznie, brak edyktów) |
+| Dziennik Urzędowy Województwa Nowogródzkiego | 1926 | 11 | 324 | numery po 11 nieznane |
 | Dziennik Urzędowy Województwa Poleskiego | 1925 | 6 | 99 | 1–6 (nie dostarczono, wg autora wybrano tylko numery z edyktami) |
 | Dziennik Urzędowy Województwa Poleskiego | 1926 | 10 | 241 | 2 (nie dostarczono, wg autora wybrano tylko numery z edyktami) |
 | Dziennik Urzędowy Województwa Krakowskiego | 1925 | 6 (w tym nr 3: tylko edykty sądowe, „brak PKU”) | 616 | 6 (nie dostarczono), numery po 7 nieznane |
@@ -177,6 +178,24 @@ Numery 1–4: według autora nie zawierają edyktów.
 | 12 | 1925-12-31 | ✅ opracowane | 29 | [skan](https://jbc.bj.uj.edu.pl/Content/64590/PDF/NDIGCZAS003503_1925_012.pdf) |
 
 Nr 11: 54 edykty Referatu Inwalidzkiego PKU Słonim oraz 11 edyktów PKU Baranowicze (str. 16–17). Nr 12: 28 edyktów PKU Słonim i 1 poszukiwanie PKU Mołodeczno w Wilejce (str. 22). W nr 5 i 6 druk nie podaje liczby dziennika. Pominięto ogłoszenia o zagubionych dokumentach.
+
+### Dziennik Urzędowy Województwa Nowogródzkiego, 1926
+
+| Nr | Data | Status | Wpisy | Link |
+|---|---|---|---|---|
+| 1 | 1926-01-31 | ✅ opracowane | 10 | [skan](https://jbc.bj.uj.edu.pl/Content/63512/PDF/NDIGCZAS003503_1926_001.pdf) |
+| 2 | 1926-02-28 | ✅ opracowane | 33 | [skan](https://jbc.bj.uj.edu.pl/Content/63516/PDF/NDIGCZAS003503_1926_002.pdf) |
+| 3 | 1926-04-15 | ✅ opracowane | 71 | [skan](https://jbc.bj.uj.edu.pl/Content/63525/PDF/NDIGCZAS003503_1926_003.pdf) |
+| 4 | 1926-05-25 | ✅ opracowane | 23 | [skan](https://jbc.bj.uj.edu.pl/Content/63531/PDF/NDIGCZAS003503_1926_004.pdf) |
+| 5 | 1926-06-20 | ✅ opracowane | 27 | [skan](https://jbc.bj.uj.edu.pl/Content/63535/PDF/NDIGCZAS003503_1926_005.pdf) |
+| 6 | 1926-07-25 | ✅ opracowane | 17 | [skan](https://jbc.bj.uj.edu.pl/Content/63544/PDF/NDIGCZAS003503_1926_006.pdf) |
+| 7 | 1926-08-25 | ✅ opracowane | 76 | [skan](https://jbc.bj.uj.edu.pl/Content/63551/PDF/NDIGCZAS003503_1926_007.pdf) |
+| 8 | 1926-09-20 | ✅ opracowane | 17 | [skan](https://jbc.bj.uj.edu.pl/Content/63556/PDF/NDIGCZAS003503_1926_008.pdf) |
+| 9 | 1926-10-25 | ✅ opracowane | 8 | [skan](https://jbc.bj.uj.edu.pl/Content/63561/PDF/NDIGCZAS003503_1926_009.pdf) |
+| 10 | 1926-11-30 | ✅ opracowane | 9 | [skan](https://jbc.bj.uj.edu.pl/Content/63573/PDF/NDIGCZAS003503_1926_010.pdf) |
+| 11 | 1926-12-30 | ✅ opracowane | 33 | [skan](https://jbc.bj.uj.edu.pl/Content/63578/PDF/NDIGCZAS003503_1926_011.pdf) |
+
+Edykty Referatu Inwalidzkiego PKU Słonim (277 wpisów), PKU Baranowicze (40) i PKU Mołodeczno w Wilejce (7). Pominięto ogłoszenia o zagubionych dokumentach. Nr 1: wszystkie wpisy PKU Słonim, druk nie podaje końcówki edyktu, a sprostowanie (s. 39) dotyczy trzech wpisów.
 
 ### Dziennik Urzędowy Województwa Poleskiego, 1925
 
@@ -450,7 +469,7 @@ Dla poniższych województw w repozytorium nie ma jeszcze żadnych wydań (wype�
 | pomorskie | ⬜ | ⬜ |
 | śląskie | ⬜ | ⬜ |
 | białostockie | ⬜ | ⬜ |
-| nowogródzkie | ⬜ | ⬜ |
+| nowogródzkie | ✅ (8 numerów, nr 1–4 bez edyktów) | ✅ (11 numerów) |
 | wileńskie | ⬜ | ⬜ |
 
 Uwaga: dane z 1927 r. (Tarnopol, Stanisławów, Wołyń) są w bazie, ale poza zakresem tego zestawienia.
