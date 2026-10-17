@@ -123,6 +123,7 @@ footer p{margin:0;max-width:68ch}
       <label for="rok">Rocznik<select id="rok"></select></label>
     </div>
     <label class="check" for="chk"><input type="checkbox" id="chk">Tylko wpisy z nieczytelnym drukiem</label>
+    <label class="check" for="ex"><input type="checkbox" id="ex">Szukaj nazwiska dokładnie (całe słowo, nie fragment)</label>
     <label class="check" for="civ"><input type="checkbox" id="civ">Pokaż poszukiwane osoby cywilne</label>
     <label class="check" for="rel"><input type="checkbox" id="rel" checked>Szukaj także wśród rodziców, żon i wnioskodawców</label>
     <label for="pku">Komenda ogłaszająca (PKU)<select id="pku"></select></label>
@@ -236,10 +237,11 @@ function card(r){
 </article>`;
 }
 
+const w=t=>" "+t.trim().replace(/\s+/g," ")+" ";
 function draw(keep){
   if(keep!==true)lim=STEP;
   const qn=norm($("qn").value), qi=norm($("qi").value), qm=norm($("qm").value);
-  const rel=$("rel").checked, chk=$("chk").checked, civ=$("civ").checked, woj=$("woj").value, rok=$("rok").value;
+  const rel=$("rel").checked, chk=$("chk").checked, civ=$("civ").checked, ex=$("ex").checked, woj=$("woj").value, rok=$("rok").value;
   const any=qn||qi||qm||pku||chk||civ||woj||rok;
   const out=ONLY?R.filter(r=>r.id===ONLY):R.filter(r=>{
     if(woj&&r._woj!==woj)return false;
@@ -247,7 +249,7 @@ function draw(keep){
     if(pku&&r._pku!==pku)return false;
     if(chk&&!r.uwaga)return false;
     if(civ&&!r.cywil)return false;
-    if(qn&&!(r._n.includes(qn)||(rel&&r._rel.includes(qn))))return false;
+    if(qn&&!(ex?(w(r._n).includes(w(qn))||(rel&&w(r._rel).includes(w(qn)))):(r._n.includes(qn)||(rel&&r._rel.includes(qn)))))return false;
     if(qi&&!(r._i.includes(qi)||(rel&&r._rel.includes(qi))))return false;
     if(qm&&!r._m.includes(qm))return false;
     return true;
@@ -265,12 +267,12 @@ function draw(keep){
 // go(): każda zmiana filtrów wychodzi z trybu pojedynczego wpisu (?id=) i wraca do zwykłego wyszukiwania
 const go=()=>{if(ONLY){ONLY="";history.replaceState(null,"",location.pathname);}draw();};
 ["qn","qi","qm"].forEach(id=>$(id).addEventListener("input",go));
-["rel","chk","civ","rok"].forEach(id=>$(id).addEventListener("change",go));
+["rel","chk","civ","ex","rok"].forEach(id=>$(id).addEventListener("change",go));
 $("woj").addEventListener("change",()=>{chips();go();});
 $("pku").addEventListener("change",()=>{pku=$("pku").value;go();});
 $("more").addEventListener("click",()=>{lim+=STEP;draw(true);});
 $("f").addEventListener("submit",e=>e.preventDefault());
-$("clr").addEventListener("click",()=>{["qn","qi","qm"].forEach(id=>$(id).value="");$("chk").checked=false;$("civ").checked=false;$("rel").checked=true;$("woj").value="";$("rok").value="";pku="";chips();go();});
+$("clr").addEventListener("click",()=>{["qn","qi","qm"].forEach(id=>$(id).value="");$("chk").checked=false;$("civ").checked=false;$("ex").checked=false;$("rel").checked=true;$("woj").value="";$("rok").value="";pku="";chips();go();});
 
 load().catch(()=>{$("scope").textContent="Nie udało się wczytać danych. Odśwież stronę.";});
 </script>
