@@ -177,6 +177,11 @@
           "rok": 1925,
           "plik": "data/warszawskie/1925.json",
           "wpisy": 170
+        },
+        {
+          "rok": 1926,
+          "plik": "data/warszawskie/1926.json",
+          "wpisy": 145
         }
       ]
     },

@@ -21,6 +21,7 @@ Zestawienie wydań dzienników wojewódzkich i Monitora Polskiego z lat 1925–1
 | Dziennik Urzędowy Województwa Nowogródzkiego | 1925 | 8 | 169 | 1–4 (przejrzane ręcznie, brak edyktów) |
 | Dziennik Urzędowy Województwa Nowogródzkiego | 1926 | 11 | 324 | numery po 11 nieznane |
 | Dziennik Urzędowy Województwa Warszawskiego | 1925 | 13 | 170 | 9 (nie dostarczono), numery po 14 nieznane |
+| Dziennik Urzędowy Województwa Warszawskiego | 1926 | 10 | 145 | 1 (nie dostarczono), numery po 11 nieznane |
 | Dziennik Urzędowy Województwa Poleskiego | 1925 | 6 | 99 | 1–6 (nie dostarczono, wg autora wybrano tylko numery z edyktami) |
 | Dziennik Urzędowy Województwa Poleskiego | 1926 | 10 | 241 | 2 (nie dostarczono, wg autora wybrano tylko numery z edyktami) |
 | Dziennik Urzędowy Województwa Krakowskiego | 1925 | 6 (w tym nr 3: tylko edykty sądowe, „brak PKU”) | 616 | 6 (nie dostarczono), numery po 7 nieznane |
@@ -478,13 +479,30 @@ Numery po nr 12 nieznane. Pominięto edykty sądowe o uznaniu za zmarłych, ogł
 
 Nr 9 nie został dostarczony; numery po nr 14 nieznane. Wydania zostały przejrzane ręcznie przez autorkę, wpisano tylko numery z edyktami. Edykty PKU Warszawa Powiat (66), Płock (34), Kutno (18), Mińsk Mazowiecki (16), Pułtusk (15), Ciechanów (11), Modlin (9) i Łomża (1). Pominięto komasacje gruntów (Okręgowy Urząd Ziemski), ogłoszenia stowarzyszeń, ogłoszenia o zgubionych dokumentach (m.in. książeczki wojskowe w nr 13 i 14) oraz komunikat policyjny o zaginionym dziecku (Wutke Paweł, nr 14). Wspólną końcówkę zbiorczych list (nr 10–14: „Uwaga: Wzywa się wszystkich…”) pominięto w polu tekstu. Edykt Kalińskiego Bronisława (nr 3) powtórzono w nr 4, a Graduszewskiego Józefa (nr 7) w nr 8; każdy druk jest osobnym wpisem. Miejsca nieczytelne lub z omyłkami druku: `docs/nieczytelne-warszawskie-1925.md`.
 
+### Dziennik Urzędowy Województwa Warszawskiego, 1926
+
+| Nr | Data | Status | Wpisy | Link |
+|---|---|---|---|---|
+| 2 | 1926-02-28 | ✅ opracowane | 18 | [skan](https://jbc.bj.uj.edu.pl/Content/94784/PDF/NDIGCZAS003512_1926_002.pdf) |
+| 3 | 1926-03-31 | ✅ opracowane | 27 | [skan](https://jbc.bj.uj.edu.pl/Content/94786/PDF/NDIGCZAS003512_1926_003.pdf) |
+| 4 | 1926-04-30 | ✅ opracowane | 8 | [skan](https://jbc.bj.uj.edu.pl/Content/94787/PDF/NDIGCZAS003512_1926_004.pdf) |
+| 5 | 1926-05-31 | ✅ opracowane | 28 | [skan](https://jbc.bj.uj.edu.pl/Content/94788/PDF/NDIGCZAS003512_1926_005.pdf) |
+| 6 | 1926-06-30 | ✅ opracowane | 13 | [skan](https://jbc.bj.uj.edu.pl/Content/94789/PDF/NDIGCZAS003512_1926_006.pdf) |
+| 7 | 1926-07-31 | ✅ opracowane | 16 | [skan](https://jbc.bj.uj.edu.pl/Content/94790/PDF/NDIGCZAS003512_1926_007.pdf) |
+| 8 | 1926-08-31 | ✅ opracowane | 14 | [skan](https://jbc.bj.uj.edu.pl/Content/94791/PDF/NDIGCZAS003512_1926_008.pdf) |
+| 9 | 1926-09-30 | ✅ opracowane | 8 | [skan](https://jbc.bj.uj.edu.pl/Content/94792/PDF/NDIGCZAS003512_1926_009.pdf) |
+| 10 | 1926-10-31 | ✅ opracowane | 13 | [skan](https://jbc.bj.uj.edu.pl/Content/94793/PDF/NDIGCZAS003512_1926_010.pdf) |
+| 11 | 1926-11-30 | ✅ przejrzane (brak edyktów PKU) | 0 | [skan](https://jbc.bj.uj.edu.pl/Content/94794/PDF/NDIGCZAS003512_1926_011.pdf) |
+
+Dostarczono numery 2–11 (nr 1 nie został dostarczony). Wydania zostały przejrzane ręcznie przez autorkę. Edykty PKU Warszawa Powiat (62), Włocławek (25), Ciechanów (15), Modlin (13), Kutno (13), Pułtusk (12) i Płock (5). Nr 11 zawiera tylko komunikaty o osobach cywilnych (m.in. urząd gm. Chalin, ogłoszenia Starostw), więc nie dał wpisów. Pominięto komasacje gruntów (Okręgowy Urząd Ziemski), ogłoszenia stowarzyszeń, ogłoszenia o zgubionych dokumentach, komunikaty Starostw, Policji i Urzędu Wojewódzkiego (m.in. Petraszczuk, Sorocza, Daniłowicz, Łapiński, Darczuk, Heckel, Zemszał) oraz poszukiwania Ministerstwa Spraw Wewnętrznych i Wojewody (Niewęgłowski, Słuszewski). Wspólną końcówkę list („UWAGA! Wzywa się wszystkich…”) pominięto w polu tekstu. Powtórzenia: Ptasiński Wiktor (nr 3, ponownie po nr 12/1925), Szymaniak Feliks (nr 2 i 4), Zabłocki/Żabłocki Stanisław (nr 8, dwa wpisy), Jóźwiński Kazimierz i Poselt Stanisław (nr 5 i 9), Bonisławski Józef (nr 9 i 10). Miejsca nieczytelne lub z omyłkami druku: `docs/nieczytelne-warszawskie-1926.md`.
+
 ## Dzienniki wojewódzkie, których jeszcze nie ma w bazie
 
 Dla poniższych województw w repozytorium nie ma jeszcze żadnych wydań (wypełniać po przejrzeniu JBC):
 
 | Województwo | 1925 | 1926 |
 |---|---|---|
-| warszawskie | ✅ (13 numerów, bez nr 9) | ⬜ |
+| warszawskie | ✅ (13 numerów, bez nr 9) | ✅ (nr 2–11) |
 | kieleckie | ⬜ | ⬜ |
 | lubelskie | ✅ (10 numerów, pierwsza tura) | ✅ (12 numerów) |
 | poznańskie | ⬜ | ⬜ |
