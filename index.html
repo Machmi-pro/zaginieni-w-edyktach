@@ -78,6 +78,8 @@ dd{margin:0;overflow-wrap:anywhere}
 .ref{display:flex;flex-wrap:wrap;gap:6px}
 .tag{font-family:var(--f-head);font-size:12px;font-weight:600;letter-spacing:.05em;background:var(--stamp-soft);color:var(--stamp);border-radius:3px;padding:3px 7px;font-variant-numeric:tabular-nums}
 details{border-top:1px solid var(--line);padding-top:10px}
+details.about{border-top:0;padding-top:0;margin:0 0 14px}
+details.about>summary{text-transform:none;letter-spacing:.02em;font-size:15px}
 summary{cursor:pointer;font-family:var(--f-head);font-weight:600;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--stamp)}
 blockquote{margin:10px 0 0;font-family:var(--f-src);font-size:16px;line-height:1.55;max-width:65ch}
 .more{margin:10px 0 0;color:var(--muted);font-size:14px}
@@ -101,9 +103,11 @@ footer p{margin:0;max-width:68ch}
     <div class="over">Dzienniki urzędowe województw II Rzeczypospolitej</div>
     <h1>Zaginieni i poszukiwani w edyktach</h1>
     <p>Głównie w latach 1925–1926 w dziennikach urzędowych województw i w „Monitorze Polskim” ukazało się wiele edyktów Powiatowych Komend Uzupełnień (PKU) dotyczących zaginionych żołnierzy. Wiązało się to z wejściem w życie w 1924 roku przepisów o rentach i zaopatrzeniu rodzin poległych oraz zaginionych.</p>
+    <details class="about"><summary>Więcej o stronie</summary>
     <p>Poszukiwano informacji o żołnierzach Wojska Polskiego zaginionych podczas wojny polsko-bolszewickiej oraz o Polakach służących w armiach zaborczych, którzy nie wrócili z I wojny światowej. Ogłoszenia były częścią postępowań, dzięki którym rodziny mogły ubiegać się o świadczenia i uregulować sytuację prawną po zaginięciu bliskich.</p>
     <p>W dziennikach znajdowały się też komunikaty urzędów o osobach cywilnych: zaginionych dzieciach i dorosłych, uciekinierach, osobach poszukiwanych przez starostwa, policję i ministerstwo oraz listach gończych. Takie wpisy – bez wzmianki o służbie wojskowej – są oznaczone etykietą „cywil” i można je wyświetlić osobnym filtrem. Baza obejmuje je na razie w wybranych rocznikach (obecnie m.in. województwo warszawskie, 1926).</p>
     <p>Ta baza pomaga odnaleźć osoby wymienione w tych edyktach. Wyszukuj według nazwiska, imienia lub miejscowości. Wpisy zawierają dostępne w źródle informacje o urodzeniu, rodzicach, osobach poszukujących, jednostce wojskowej i ostatnich wiadomościach o zaginionym. Przy każdym wpisie znajdziesz odnośnik do oryginalnego skanu.</p>
+    </details>
     <p class="scope" id="scope">Wczytuję dane…</p>
   </header>
 
