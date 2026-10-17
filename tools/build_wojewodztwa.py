@@ -83,7 +83,10 @@ def load():
                 r["_rok"] = d["rok"]
                 r["_zrodlo"] = z["id"]
                 r["_pku"] = re.sub(r"^PKU\s+", "", r["oglasza"])
-                r["_woj"] = pmap.get(pku_key(r["_pku"])) or "(nieprzypisane)"
+                if r["oglasza"] == "brak PKU":  # komunikat spoza PKU: województwo wg źródła
+                    r["_woj"] = next((w for w in dz["wojewodztwa"] if slugify(w).startswith(slugify(d["wojewodztwo"]))), "(nieprzypisane)")
+                else:
+                    r["_woj"] = pmap.get(pku_key(r["_pku"])) or "(nieprzypisane)"
                 recs.append(r)
     return recs
 
@@ -114,7 +117,7 @@ def row(r):
                             r.get("miejsce_zam", ""), r.get("powiat_zam", ""),
                             r.get("miejsce_ur", ""), r.get("powiat_ur", "")]))
     ur = esc(r["data_ur"]) if r.get("data_ur") else "—"
-    return (f'<tr data-s="{esc(search)}"><td class="n">{esc(r["nazwisko"])}</td><td class="i">{esc(r["imie"])}</td>'
+    return (f'<tr data-s="{esc(search)}"><td class="n">{esc(r["nazwisko"])}{' <span class="cyw">cywil</span>' if r.get("cywil") else ""}</td><td class="i">{esc(r["imie"])}</td>'
             f'<td class="u">{ur}</td><td class="m">{place_cell(r)}</td>'
             f'<td class="b"><a class="btn" href="../../index.html?id={esc(r["id"])}">Przeczytaj edykt</a></td></tr>')
 
@@ -167,6 +170,8 @@ footer{border-top:1px solid var(--line);padding-top:14px;color:var(--muted);font
  td.b{grid-area:b;margin-top:8px}
  .btn{padding:12px 12px;white-space:normal;text-align:center;overflow-wrap:normal;word-break:normal;display:block;font-size:13px}
 }
+.cyw{font-size:11px;font-weight:600;letter-spacing:.05em;color:#0b6b73;border:1px solid #0b6b73;border-radius:3px;padding:1px 5px;margin-left:6px;white-space:nowrap}
+@media (prefers-color-scheme:dark){.cyw{color:#5fc3cc;border-color:#5fc3cc}}
 """
 
 FONTS = ('<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700'
@@ -236,7 +241,7 @@ def page_woj(w, rs, all_wojs):
 <div class="crumb"><a href="../../">Zaginieni i poszukiwani w edyktach</a> · <a href="../">Województwa</a></div>
 <header>
 <h1>Zaginieni po I wojnie światowej – {esc(label)}</h1>
-<p class="lead">Lista osób poszukiwanych w edyktach Powiatowych Komend Uzupełnień ogłaszanych w dziennikach urzędowych II Rzeczypospolitej: zaginionych żołnierzy, o których losach rodziny nie miały wiadomości. Przy każdej osobie jest przycisk prowadzący do pełnej karty wpisu z treścią edyktu i odnośnikiem do skanu.</p>
+<p class="lead">Lista osób poszukiwanych w edyktach Powiatowych Komend Uzupełnień ogłaszanych w dziennikach urzędowych II Rzeczypospolitej: zaginionych żołnierzy, o których losach rodziny nie miały wiadomości, a także komunikatów o zaginionych i poszukiwanych osobach cywilnych (oznaczonych etykietą „cywil”). Przy każdej osobie jest przycisk prowadzący do pełnej karty wpisu z treścią edyktu i odnośnikiem do skanu.</p>
 </header>
 <section aria-label="Podsumowanie">
 <div class="stats">

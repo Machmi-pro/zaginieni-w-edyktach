@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Zaginieni i poszukiwani w edyktach</title>
-<meta name="description" content="Wyszukiwarka osób z edyktów Powiatowych Komend Uzupełnień w dziennikach urzędowych województw II Rzeczypospolitej.">
+<meta name="description" content="Wyszukiwarka osób z edyktów Powiatowych Komend Uzupełnień oraz komunikatów o zaginionych i poszukiwanych osobach cywilnych w dziennikach urzędowych województw II Rzeczypospolitej.">
 <link rel="canonical" href="https://machmi-pro.github.io/zaginieni-w-edyktach/">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="icon" href="img/icon-64.png" sizes="64x64" type="image/png">
@@ -15,7 +15,7 @@
 <meta property="og:locale" content="pl_PL">
 <meta property="og:url" content="https://machmi-pro.github.io/zaginieni-w-edyktach/">
 <meta property="og:title" content="Zaginieni i poszukiwani w edyktach">
-<meta property="og:description" content="Wyszukiwarka osób z edyktów Powiatowych Komend Uzupełnień w dziennikach urzędowych województw II Rzeczypospolitej.">
+<meta property="og:description" content="Wyszukiwarka osób z edyktów Powiatowych Komend Uzupełnień oraz komunikatów o zaginionych i poszukiwanych osobach cywilnych w dziennikach urzędowych województw II Rzeczypospolitej.">
 <meta property="og:image" content="https://machmi-pro.github.io/zaginieni-w-edyktach/img/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -27,17 +27,17 @@
 /* Układ: jedna kolumna jak szpalta dziennika; wyszukiwarka u góry, pod nią karty wpisów z rozwijaną treścią oryginału. */
 :root{
   --bg:#eceeed; --surface:#fafbfa; --ink:#1b2024; --muted:#5c666c; --line:#cfd5d3;
-  --stamp:#55388a; --stamp-soft:#e9e3f3; --mark:#fff1b8; --chk:#96500a;
+  --stamp:#55388a; --stamp-soft:#e9e3f3; --mark:#fff1b8; --chk:#96500a; --civ:#0b6b73;
   --f-head:"Archivo Narrow","Arial Narrow",Arial,sans-serif;
   --f-body:"Archivo",system-ui,Arial,sans-serif;
   --f-src:"Source Serif 4",Georgia,serif;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --bg:#14181a; --surface:#1c2225; --ink:#e6eae8; --muted:#98a3a7; --line:#333c40;
-  --stamp:#bda8ea; --stamp-soft:#2c2540; --mark:#5a4a12; --chk:#e0a458; color-scheme:dark}}
+  --stamp:#bda8ea; --stamp-soft:#2c2540; --mark:#5a4a12; --chk:#e0a458; --civ:#5fc3cc; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#14181a; --surface:#1c2225; --ink:#e6eae8; --muted:#98a3a7; --line:#333c40;
-  --stamp:#bda8ea; --stamp-soft:#2c2540; --mark:#5a4a12; --chk:#e0a458; color-scheme:dark}
+  --stamp:#bda8ea; --stamp-soft:#2c2540; --mark:#5a4a12; --chk:#e0a458; --civ:#5fc3cc; color-scheme:dark}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
 body{margin:0}
@@ -82,6 +82,7 @@ summary{cursor:pointer;font-family:var(--f-head);font-weight:600;font-size:13px;
 blockquote{margin:10px 0 0;font-family:var(--f-src);font-size:16px;line-height:1.55;max-width:65ch}
 .more{margin:10px 0 0;color:var(--muted);font-size:14px}
 .warn{margin:10px 0 0;font-size:14px;border-left:3px solid var(--chk);padding-left:10px}
+.tag.civ{background:transparent;color:var(--civ);border:1px solid var(--civ)}
 .tag.chk{background:transparent;color:var(--chk);border:1px solid var(--chk)}
 a.src{display:inline-block;margin-top:10px;color:var(--stamp);font-weight:600}
 mark{background:var(--mark);color:inherit;border-radius:2px;padding:0 1px}
@@ -101,6 +102,7 @@ footer p{margin:0;max-width:68ch}
     <h1>Zaginieni i poszukiwani w edyktach</h1>
     <p>Głównie w latach 1925–1926 w dziennikach urzędowych województw i w „Monitorze Polskim” ukazało się wiele edyktów Powiatowych Komend Uzupełnień (PKU) dotyczących zaginionych żołnierzy. Wiązało się to z wejściem w życie w 1924 roku przepisów o rentach i zaopatrzeniu rodzin poległych oraz zaginionych.</p>
     <p>Poszukiwano informacji o żołnierzach Wojska Polskiego zaginionych podczas wojny polsko-bolszewickiej oraz o Polakach służących w armiach zaborczych, którzy nie wrócili z I wojny światowej. Ogłoszenia były częścią postępowań, dzięki którym rodziny mogły ubiegać się o świadczenia i uregulować sytuację prawną po zaginięciu bliskich.</p>
+    <p>W dziennikach znajdowały się też komunikaty urzędów o osobach cywilnych: zaginionych dzieciach i dorosłych, uciekinierach, osobach poszukiwanych przez starostwa, policję i ministerstwo oraz listach gończych. Takie wpisy – bez wzmianki o służbie wojskowej – są oznaczone etykietą „cywil” i można je wyświetlić osobnym filtrem. Baza obejmuje je na razie w wybranych rocznikach (obecnie m.in. województwo warszawskie, 1926).</p>
     <p>Ta baza pomaga odnaleźć osoby wymienione w tych edyktach. Wyszukuj według nazwiska, imienia lub miejscowości. Wpisy zawierają dostępne w źródle informacje o urodzeniu, rodzicach, osobach poszukujących, jednostce wojskowej i ostatnich wiadomościach o zaginionym. Przy każdym wpisie znajdziesz odnośnik do oryginalnego skanu.</p>
     <p class="scope" id="scope">Wczytuję dane…</p>
   </header>
@@ -116,6 +118,7 @@ footer p{margin:0;max-width:68ch}
       <label for="rok">Rocznik<select id="rok"></select></label>
     </div>
     <label class="check" for="chk"><input type="checkbox" id="chk">Tylko wpisy z nieczytelnym drukiem</label>
+    <label class="check" for="civ"><input type="checkbox" id="civ">Pokaż poszukiwane osoby cywilne</label>
     <label class="check" for="rel"><input type="checkbox" id="rel" checked>Szukaj także wśród rodziców, żon i wnioskodawców</label>
     <label for="pku">Komenda ogłaszająca (PKU)<select id="pku"></select></label>
     <div class="row"><button type="button" id="clr" class="clrbtn">Wyczyść</button></div>
@@ -126,7 +129,7 @@ footer p{margin:0;max-width:68ch}
   <button type="button" id="more" class="morebtn" hidden></button>
 
   <!--WOJ-START-->
-  <nav class="browse" aria-label="Listy według województw"><h2>Przeglądaj według województw</h2><ul><li><a href="wojewodztwo/bialostockie/">województwo białostockie (34)</a></li><li><a href="wojewodztwo/kieleckie/">województwo kieleckie (41)</a></li><li><a href="wojewodztwo/krakowskie/">województwo krakowskie (831)</a></li><li><a href="wojewodztwo/lubelskie/">województwo lubelskie (478)</a></li><li><a href="wojewodztwo/lwowskie/">województwo lwowskie (1181)</a></li><li><a href="wojewodztwo/lodzkie/">województwo łódzkie (461)</a></li><li><a href="wojewodztwo/nowogrodzkie/">województwo nowogródzkie (548)</a></li><li><a href="wojewodztwo/poleskie/">województwo poleskie (341)</a></li><li><a href="wojewodztwo/pomorskie/">województwo pomorskie (9)</a></li><li><a href="wojewodztwo/poznanskie/">województwo poznańskie (11)</a></li><li><a href="wojewodztwo/stanislawowskie/">województwo stanisławowskie (310)</a></li><li><a href="wojewodztwo/slaskie/">województwo śląskie (1)</a></li><li><a href="wojewodztwo/tarnopolskie/">województwo tarnopolskie (1069)</a></li><li><a href="wojewodztwo/warszawskie/">województwo warszawskie i m. st. Warszawa (436)</a></li><li><a href="wojewodztwo/wilenskie/">województwo wileńskie (13)</a></li><li><a href="wojewodztwo/wolynskie/">województwo wołyńskie (107)</a></li></ul></nav>
+  <nav class="browse" aria-label="Listy według województw"><h2>Przeglądaj według województw</h2><ul><li><a href="wojewodztwo/bialostockie/">województwo białostockie (34)</a></li><li><a href="wojewodztwo/kieleckie/">województwo kieleckie (41)</a></li><li><a href="wojewodztwo/krakowskie/">województwo krakowskie (784)</a></li><li><a href="wojewodztwo/lubelskie/">województwo lubelskie (478)</a></li><li><a href="wojewodztwo/lwowskie/">województwo lwowskie (1181)</a></li><li><a href="wojewodztwo/lodzkie/">województwo łódzkie (461)</a></li><li><a href="wojewodztwo/nowogrodzkie/">województwo nowogródzkie (548)</a></li><li><a href="wojewodztwo/poleskie/">województwo poleskie (341)</a></li><li><a href="wojewodztwo/pomorskie/">województwo pomorskie (9)</a></li><li><a href="wojewodztwo/poznanskie/">województwo poznańskie (11)</a></li><li><a href="wojewodztwo/stanislawowskie/">województwo stanisławowskie (310)</a></li><li><a href="wojewodztwo/slaskie/">województwo śląskie (1)</a></li><li><a href="wojewodztwo/tarnopolskie/">województwo tarnopolskie (1069)</a></li><li><a href="wojewodztwo/warszawskie/">województwo warszawskie i m. st. Warszawa (483)</a></li><li><a href="wojewodztwo/wilenskie/">województwo wileńskie (13)</a></li><li><a href="wojewodztwo/wolynskie/">województwo wołyńskie (107)</a></li></ul></nav>
   <!--WOJ-END-->
 
   <footer>
@@ -147,11 +150,12 @@ const pkuKey=s=>norm(s).replace(/[^a-z0-9]/g,"");
 let PKUMAP={};
 let R=[], lim=STEP, pku="", ONLY="";   // ONLY: id wpisu otwartego z linku ?id= (z list województw)
 
+const WOJ=[];
 async function load(){
   const man=await fetch("data/manifest.json").then(r=>{if(!r.ok)throw new Error("manifest");return r.json();});
   try{
     const dz=await fetch("data/pku-wojewodztwa.json").then(r=>r.json());
-    for(const [w,l] of Object.entries(dz.wojewodztwa))for(const p of l)PKUMAP[pkuKey(p)]=w;
+    for(const [w,l] of Object.entries(dz.wojewodztwa)){WOJ.push(w);for(const p of l)PKUMAP[pkuKey(p)]=w;}
     for(const [a,p] of Object.entries(dz.aliasy||{}))PKUMAP[pkuKey(a)]=PKUMAP[pkuKey(p)];
   }catch(e){}
   const jobs=[];
@@ -167,7 +171,7 @@ async function load(){
       if(!w)continue;                      // wpis bez wydania nie ma linku do źródła, więc nie trafia na stronę
       r._rok=d.rok; r._dz=d.dziennik_skrot||d.dziennik; r._data=dataOpis(w.data); r._link=w.link;
       r._pku=r.oglasza.replace(/^PKU\s+/,"");
-      r._woj=PKUMAP[pkuKey(r._pku)]||"(nieprzypisane)";
+      r._woj=r.oglasza==="brak PKU"?(WOJ.find(k=>norm(k).startsWith(norm(d.wojewodztwo)))||"(nieprzypisane)"):(PKUMAP[pkuKey(r._pku)]||"(nieprzypisane)");
       r._n=norm(r.nazwisko); r._i=norm(r.imie);
       r._m=norm([r.miejsce_zam,r.powiat_zam,r.miejsce_ur,r.powiat_ur].join(" "));
       r._rel=norm([r.ojciec,r.matka,r.zona,r.poszukuje].join(" "));
@@ -198,7 +202,7 @@ function chips(){
   const w=$("woj").value;
   const list=[...new Set(R.filter(r=>!w||r._woj===w).map(r=>r._pku))].sort((a,b)=>a.localeCompare(b,"pl"));
   if(pku&&!list.includes(pku))pku="";
-  $("pku").innerHTML=[["","Wszystkie"],...list.map(p=>[p,"PKU "+p])].map(([v,l])=>`<option value="${esc(v)}"${v===pku?" selected":""}>${esc(l)}</option>`).join("");
+  $("pku").innerHTML=[["","Wszystkie"],...list.map(p=>[p,p==="brak PKU"?"brak PKU (komunikaty urzędów, sądów)":"PKU "+p])].map(([v,l])=>`<option value="${esc(v)}"${v===pku?" selected":""}>${esc(l)}</option>`).join("");
 }
 
 const place=(m,p)=>m?esc(m)+(p?", pow. "+esc(p):""):"";
@@ -217,7 +221,7 @@ function card(r){
     <dt>Ogłasza</dt><dd>${esc(r.oglasza)}</dd>
     <dt>Jednostka</dt><dd>${val(r.jednostka)}</dd>
   </dl>
-  <div class="ref">${r.ldz?`<span class="tag">L. dz. ${esc(r.ldz)}</span>`:""}<span class="tag">${esc(r._dz)} nr ${r.nr} · ${r._data}</span><span class="tag">str. ${r.strona}</span>${r.uwaga?'<span class="tag chk">druk nieczytelny</span>':""}</div>
+  <div class="ref">${r.ldz?`<span class="tag">L. dz. ${esc(r.ldz)}</span>`:""}<span class="tag">${esc(r._dz)} nr ${r.nr} · ${r._data}</span><span class="tag">str. ${r.strona}</span>${r.cywil?'<span class="tag civ">cywil</span>':""}${r.uwaga?'<span class="tag chk">druk nieczytelny</span>':""}</div>
   <details${ONLY?" open":""}><summary>Treść wpisu</summary>
     <blockquote>${esc(r.tekst)}</blockquote>
     ${extra?`<p class="more">${extra}</p>`:""}
@@ -230,13 +234,14 @@ function card(r){
 function draw(keep){
   if(keep!==true)lim=STEP;
   const qn=norm($("qn").value), qi=norm($("qi").value), qm=norm($("qm").value);
-  const rel=$("rel").checked, chk=$("chk").checked, woj=$("woj").value, rok=$("rok").value;
-  const any=qn||qi||qm||pku||chk||woj||rok;
+  const rel=$("rel").checked, chk=$("chk").checked, civ=$("civ").checked, woj=$("woj").value, rok=$("rok").value;
+  const any=qn||qi||qm||pku||chk||civ||woj||rok;
   const out=ONLY?R.filter(r=>r.id===ONLY):R.filter(r=>{
     if(woj&&r._woj!==woj)return false;
     if(rok&&String(r._rok)!==rok)return false;
     if(pku&&r._pku!==pku)return false;
     if(chk&&!r.uwaga)return false;
+    if(civ&&!r.cywil)return false;
     if(qn&&!(r._n.includes(qn)||(rel&&r._rel.includes(qn))))return false;
     if(qi&&!(r._i.includes(qi)||(rel&&r._rel.includes(qi))))return false;
     if(qm&&!r._m.includes(qm))return false;
@@ -255,12 +260,12 @@ function draw(keep){
 // go(): każda zmiana filtrów wychodzi z trybu pojedynczego wpisu (?id=) i wraca do zwykłego wyszukiwania
 const go=()=>{if(ONLY){ONLY="";history.replaceState(null,"",location.pathname);}draw();};
 ["qn","qi","qm"].forEach(id=>$(id).addEventListener("input",go));
-["rel","chk","rok"].forEach(id=>$(id).addEventListener("change",go));
+["rel","chk","civ","rok"].forEach(id=>$(id).addEventListener("change",go));
 $("woj").addEventListener("change",()=>{chips();go();});
 $("pku").addEventListener("change",()=>{pku=$("pku").value;go();});
 $("more").addEventListener("click",()=>{lim+=STEP;draw(true);});
 $("f").addEventListener("submit",e=>e.preventDefault());
-$("clr").addEventListener("click",()=>{["qn","qi","qm"].forEach(id=>$(id).value="");$("chk").checked=false;$("rel").checked=true;$("woj").value="";$("rok").value="";pku="";chips();go();});
+$("clr").addEventListener("click",()=>{["qn","qi","qm"].forEach(id=>$(id).value="");$("chk").checked=false;$("civ").checked=false;$("rel").checked=true;$("woj").value="";$("rok").value="";pku="";chips();go();});
 
 load().catch(()=>{$("scope").textContent="Nie udało się wczytać danych. Odśwież stronę.";});
 </script>
