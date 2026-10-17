@@ -46,3 +46,14 @@ Tylko wpisy, w których druk jest wyblakły, nieostry, uszkodzony albo zawiera o
 ## Nr 10 (1926-10-31) – 1
 
 - **Bonisławski Józef**, str. 9, PKU Pułtusk – Druk: »Boninisławskiej« (zamiast Bonisławskiej). Powtórzenie wpisu z nr 9 (Bonisławski Józef, ur. 1886), z innym L. dz. [skan](https://jbc.bj.uj.edu.pl/Content/94793/PDF/NDIGCZAS003512_1926_010.pdf#page=9)
+
+## Wpisy o osobach cywilnych (brak PKU)
+
+- **Krupówna Emilja**, nr 2, str. 18 – Odwołanie poszukiwania (osoba odnaleziona); pierwotne ogłoszenie w Dz. Urz. 1926, nr 1 (31 stycznia 1926), którego nie dostarczono. [skan](https://jbc.bj.uj.edu.pl/Content/94784/PDF/NDIGCZAS003512_1926_002.pdf#page=18)
+- **Żmijewski Jan**, nr 3, str. 14 – Odwołanie poszukiwania. [skan](https://jbc.bj.uj.edu.pl/Content/94786/PDF/NDIGCZAS003512_1926_003.pdf#page=14)
+- **Głogowski Józef**, nr 3, str. 14 – Zmarły; nazwisko Głogowski Józef podane tylko jako przypuszczenie. [skan](https://jbc.bj.uj.edu.pl/Content/94786/PDF/NDIGCZAS003512_1926_003.pdf#page=14)
+- **Diakoniuk Józef**, nr 3, str. 14 – Druk: data urodzenia »11.X.1923 roku« (zapewne omyłka druku). [skan](https://jbc.bj.uj.edu.pl/Content/94786/PDF/NDIGCZAS003512_1926_003.pdf#page=14)
+- **Filipa Jan**, nr 6, str. 11 – Nazwisko w druku w formie »Filipa« (w tekście bez odmiany; możliwe, że nazwisko brzmi Filip). [skan](https://jbc.bj.uj.edu.pl/Content/94789/PDF/NDIGCZAS003512_1926_006.pdf#page=11)
+- **Biełousow Andrzej**, nr 7, str. 11 – Druk: nazwisko raz »Bieousow« (w dopełniaczu »Bieousowi«), raz »Biełousow«; przyjęto Biełousow. [skan](https://jbc.bj.uj.edu.pl/Content/94790/PDF/NDIGCZAS003512_1926_007.pdf#page=11)
+- **Nickel Arlina**, nr 8, str. 14 – Odwołanie poszukiwania (zob. nr 7, Niekiel Arlina Alwina – nazwisko w nr 7 wydrukowane »Niekiel«). [skan](https://jbc.bj.uj.edu.pl/Content/94791/PDF/NDIGCZAS003512_1926_008.pdf#page=14)
+- **Puciata Piotr**, nr 9, str. 11 – Odwołanie poszukiwania z nr 5. [skan](https://jbc.bj.uj.edu.pl/Content/94792/PDF/NDIGCZAS003512_1926_009.pdf#page=11)
