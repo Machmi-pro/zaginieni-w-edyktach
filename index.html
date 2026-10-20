@@ -80,6 +80,16 @@ dd{margin:0;overflow-wrap:anywhere}
 details{border-top:1px solid var(--line);padding-top:10px}
 details.about{border-top:0;padding-top:0;margin:0 0 14px}
 details.about p{margin-top:10px}
+details.about+details.about{margin-top:-8px}
+.upd ul{list-style:none;margin:8px 0 0;padding:0;font-size:13.5px}
+.upd li{display:grid;grid-template-columns:auto minmax(0,1fr) auto;column-gap:10px;align-items:baseline;padding:6px 0;border-top:1px solid var(--line)}
+.upd .d{font-family:var(--f-head);font-weight:600;letter-spacing:.04em;color:var(--muted);text-transform:uppercase;white-space:nowrap}
+.upd a{color:var(--ink);text-decoration:none;font-weight:600}.upd a:hover{text-decoration:underline}
+.upd .n{font-family:var(--f-head);font-weight:700;color:var(--stamp);white-space:nowrap}
+.upd p{font-size:13px}
+.upd small{display:block;color:var(--muted);font-weight:400;font-size:12.5px}
+.upd .old{margin-top:6px}.upd .old>summary{font-size:12.5px}
+.newdot{font-family:var(--f-head);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;background:var(--stamp-soft);color:var(--stamp);border-radius:3px;padding:1px 6px;margin-left:6px}
 details.about>summary{text-transform:none;letter-spacing:.02em;font-size:15px}
 summary{cursor:pointer;font-family:var(--f-head);font-weight:600;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--stamp)}
 blockquote{margin:10px 0 0;font-family:var(--f-src);font-size:16px;line-height:1.55;max-width:65ch}
@@ -109,6 +119,7 @@ footer p{margin:0;max-width:68ch}
     <p>W dziennikach znajdowały się też komunikaty urzędów o osobach cywilnych: zaginionych dzieciach i dorosłych, uciekinierach, osobach poszukiwanych przez starostwa, policję i ministerstwo oraz listach gończych. Takie wpisy – bez wzmianki o służbie wojskowej – są oznaczone etykietą „cywil” i można je wyświetlić osobnym filtrem. Baza obejmuje je na razie w wybranych rocznikach (obecnie m.in. województwo warszawskie, 1926).</p>
     <p>Ta baza pomaga odnaleźć osoby wymienione w tych edyktach. Wyszukuj według nazwiska, imienia lub miejscowości. Wpisy zawierają dostępne w źródle informacje o urodzeniu, rodzicach, osobach poszukujących, jednostce wojskowej i ostatnich wiadomościach o zaginionym. Przy każdym wpisie znajdziesz odnośnik do oryginalnego skanu.</p>
     </details>
+    <details class="about upd" id="upd" hidden><summary>Ostatnie aktualizacje <span class="newdot" id="updnew" hidden>nowe</span></summary><div id="updbody"></div></details>
     <p class="scope" id="scope">Wczytuję dane…</p>
   </header>
 
@@ -157,6 +168,19 @@ let PKUMAP={};
 let R=[], lim=STEP, pku="", ONLY="";   // ONLY: id wpisu otwartego z linku ?id= (z list województw)
 
 const WOJ=[];
+const romDate=d=>{const [y,m,dd]=d.split("-").map(Number);return `${dd} ${MIES[m-1]} ${y}`;};
+async function aktualizacje(){
+  try{
+    const a=await fetch("data/aktualizacje.json").then(r=>r.json()); const l=a.wpisy||[];
+    if(!l.length)return;
+    const li=x=>`<li><span class="d">${romDate(x.data)}</span><span><a href="wojewodztwo/${esc(x.slug)}/">województwo ${esc(x.wojewodztwo)}</a><small>rocznik ${esc(x.rocznik)}${x.uwaga?" · "+esc(x.uwaga):""}</small></span><span class="n">+${x.wpisy.toLocaleString("pl-PL")} wpisów</span></li>`;
+    const top=l.slice(0,5), old=l.slice(5);
+    $("updbody").innerHTML=`<ul>${top.map(li).join("")}</ul>`+(old.length?`<details class="old"><summary>Starsze aktualizacje (${old.length})</summary><ul>${old.map(li).join("")}</ul></details>`:"")+`<p>Lista pokazuje tylko nowe województwa i roczniki; drobne poprawki i uzupełnienia nie są tu wymieniane.</p>`;
+    $("upd").hidden=false;
+    const dni=(Date.now()-new Date(l[0].data+"T12:00:00").getTime())/864e5;
+    $("updnew").hidden=!(dni<14);
+  }catch(e){}
+}
 async function load(){
   const man=await fetch("data/manifest.json").then(r=>{if(!r.ok)throw new Error("manifest");return r.json();});
   try{
@@ -186,6 +210,7 @@ async function load(){
   }
   R.sort((a,b)=>a.nazwisko.localeCompare(b.nazwisko,"pl")||a.imie.localeCompare(b.imie,"pl")||a._rok-b._rok||a.nr-b.nr);
   setup(bad);
+  aktualizacje();
 }
 
 function setup(bad){

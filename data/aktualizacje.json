@@ -1,0 +1,12 @@
+{
+ "opis": "Ostatnie aktualizacje pokazywane na stronie głównej: tylko nowe województwa i roczniki (nie każda zmiana). Najnowsze na górze. Pola: data (RRRR-MM-DD), wojewodztwo (nazwa), slug (katalog w wojewodztwo/), rocznik (tekst), wpisy (liczba dodanych), uwaga (opcjonalnie).",
+ "wpisy": [
+  {"data": "2026-10-20", "wojewodztwo": "wileńskie", "slug": "wilenskie", "rocznik": "1926", "wpisy": 23, "uwaga": "wydania nr 1, 2, 4, 5, 8, 9, 10, 11a"},
+  {"data": "2026-10-17", "wojewodztwo": "warszawskie", "slug": "warszawskie", "rocznik": "1925–1926", "wpisy": 362, "uwaga": "w tym 47 osób cywilnych"},
+  {"data": "2026-10-17", "wojewodztwo": "nowogródzkie", "slug": "nowogrodzkie", "rocznik": "1925–1926", "wpisy": 493},
+  {"data": "2026-10-16", "wojewodztwo": "lubelskie", "slug": "lubelskie", "rocznik": "1925–1926", "wpisy": 455},
+  {"data": "2026-10-16", "wojewodztwo": "krakowskie", "slug": "krakowskie", "rocznik": "1924–1926", "wpisy": 832, "uwaga": "w tym edykty sądowe z Jasła"},
+  {"data": "2026-10-14", "wojewodztwo": "poleskie", "slug": "poleskie", "rocznik": "1925–1927", "wpisy": 341},
+  {"data": "2026-10-11", "wojewodztwo": "wołyńskie", "slug": "wolynskie", "rocznik": "1925–1927", "wpisy": 73}
+ ]
+}
