@@ -197,6 +197,17 @@
       ]
     },
     {
+      "id": "kieleckie",
+      "wojewodztwo": "kieleckie",
+      "roczniki": [
+        {
+          "rok": 1925,
+          "plik": "data/kieleckie/1925.json",
+          "wpisy": 111
+        }
+      ]
+    },
+    {
       "id": "monitorpolski",
       "wojewodztwo": "monitor polski",
       "roczniki": [

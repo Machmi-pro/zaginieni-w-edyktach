@@ -23,6 +23,7 @@ Zestawienie wydań dzienników wojewódzkich i Monitora Polskiego z lat 1925–1
 | Dziennik Urzędowy Województwa Warszawskiego | 1925 | 13 | 170 | 9 (nie dostarczono), numery po 14 nieznane |
 | Dziennik Urzędowy Województwa Warszawskiego | 1926 | 10 | 192 | 1 (nie dostarczono), numery po 11 nieznane |
 | Dziennik Urzędowy Województwa Wileńskiego | 1926 | 8 | 23 | tylko numery z ogłoszeniami PKU (wg autorki: 1, 2, 4, 5, 8, 9, 10, 11-a) |
+| Dziennik Urzędowy Województwa Kieleckiego | 1925 | 11 | 111 | 1 (nie dostarczono), numery po 12 nieznane |
 | Dziennik Urzędowy Województwa Poleskiego | 1925 | 6 | 99 | 1–6 (nie dostarczono, wg autora wybrano tylko numery z edyktami) |
 | Dziennik Urzędowy Województwa Poleskiego | 1926 | 10 | 241 | 2 (nie dostarczono, wg autora wybrano tylko numery z edyktami) |
 | Dziennik Urzędowy Województwa Krakowskiego | 1925 | 6 (w tym nr 3: tylko edykty sądowe, „brak PKU”) | 616 | 6 (nie dostarczono), numery po 7 nieznane |
@@ -512,6 +513,24 @@ Dostarczono numery 2–11 (nr 1 nie został dostarczony). Wydania zostały przej
 
 Opracowano tylko wydania wskazane przez autorkę jako zawierające ogłoszenia PKU (nr 1, 2, 4, 5, 8, 9, 10 i 11-a; nr 11-a z 31 X 1926 ma w druku numer „11-a (58)”, a wydania 3, 6, 7 i 11 nie były opracowywane). Edykty PKU Wilno (9), Święciany (9) i Mołodeczno w Wilejce (4) o zaginionych żołnierzach armii rosyjskiej i Wojska Polskiego; ogłoszenia dotyczące kilku osób (Wyszumirscy, Bielawscy) rozpisano na osobne wpisy. Dodatkowo 1 wpis „brak PKU”: poszukiwanie Grzesiuka Jana przez Sztab Generalny, Oddział V (nr 2, str. 30), ogłoszone w tym samym dziale. Pominięto komasacje gruntów, ogłoszenia sądowe i o zgubionych dokumentach. Powtórzenie: Sztuk Rafał (nr 11-a, str. 41) – edykt ukazał się też w Monitorze Polskim 1926, nr 243. Wyraźna omyłka druku: Kojro Konstanty (nr 5, str. 22; w druku żona »Korjo«).
 
+### Dziennik Urzędowy Województwa Kieleckiego, 1925
+
+| Nr | Data | Status | Wpisy | Link |
+|---|---|---|---|---|
+| 2 | 1925-02-21 | ✅ opracowane | 5 | [skan](https://jbc.bj.uj.edu.pl/Content/81632/PDF/NDIGCZAS003501_1925_002.pdf) |
+| 3 | 1925-03-26 | ✅ opracowane | 6 | [skan](https://jbc.bj.uj.edu.pl/Content/81637/PDF/NDIGCZAS003501_1925_003.pdf) |
+| 4 | 1925-04-15 | ✅ opracowane | 7 | [skan](https://jbc.bj.uj.edu.pl/Content/81643/PDF/NDIGCZAS003501_1925_004.pdf) |
+| 5 | 1925-05-23 | ✅ opracowane | 4 | [skan](https://jbc.bj.uj.edu.pl/Content/81649/PDF/NDIGCZAS003501_1925_005.pdf) |
+| 6 | 1925-06-20 | ✅ opracowane | 7 | [skan](https://jbc.bj.uj.edu.pl/Content/81655/PDF/NDIGCZAS003501_1925_006.pdf) |
+| 7 | 1925-07-20 | ✅ opracowane | 12 | [skan](https://jbc.bj.uj.edu.pl/Content/81659/PDF/NDIGCZAS003501_1925_007.pdf) |
+| 8 | 1925-08-10 | ✅ opracowane | 9 | [skan](https://jbc.bj.uj.edu.pl/Content/81666/PDF/NDIGCZAS003501_1925_008.pdf) |
+| 9 | 1925-09-10 | ✅ opracowane | 5 | [skan](https://jbc.bj.uj.edu.pl/Content/81669/PDF/NDIGCZAS003501_1925_009.pdf) |
+| 10 | 1925-10-10 | ✅ opracowane | 10 | [skan](https://jbc.bj.uj.edu.pl/Content/81674/PDF/NDIGCZAS003501_1925_010.pdf) |
+| 11 | 1925-11-20 | ✅ opracowane | 40 | [skan](https://jbc.bj.uj.edu.pl/Content/81680/PDF/NDIGCZAS003501_1925_011.pdf) |
+| 12 | 1925-12-28 | ✅ opracowane | 6 | [skan](https://jbc.bj.uj.edu.pl/Content/81685/PDF/NDIGCZAS003501_1925_012.pdf) |
+
+Dostarczono numery 2–12 (nr 1 nie został dostarczony); w każdym z nich były edykty. Edykty PKU Radom (44), Sosnowiec (31), Końskie (20), Częstochowa (9), Ostrowiec (3, ogłaszane przez Referat Inwalidzki przy PKU), Miechów (3) i Pińczów (1) o zaginionych żołnierzach armii rosyjskiej, austriackiej i Wojska Polskiego; edykty ogłaszane na wniosek żon, matek i rodziców mają w polu „poszukuje” wskazanego wnioskodawcę. Pominięto komasacje gruntów (Okręgowy Urząd Ziemski), ogłoszenia stowarzyszeń, ogłoszenia o zgubionych dokumentach, licytacje oraz inne ogłoszenia urzędowe. Powtórzenia: Kępa Walenty (nr 6, str. 14, bez numeru dziennika, i ponownie nr 7, str. 11, z numerem 2996/II/25); Kurzyp Piotr (nr 8) ukazał się też w Monitorze Polskim 1925, nr 194. Omyłki druku i miejsca nieczytelne (zapisane w polu „uwaga”): Pietruszek Józef (nr 2, data „1915” zamiast 1925), Wrzosek Józef (nr 7, „w 1924 r. pobrany”), Łoja/Łój Piotr (nr 8, dwie formy nazwiska), Derej Bartłomiej (nr 4, miejsce urodzenia ucięte), Jaszkowski Juljan (nr 11, pierwsza litera nazwiska słabo odbita), Kowalczyk Władysław (nr 10, brak ukośnika w numerze dziennika) oraz niepewne mianowniki nazwisk (Plasek, Rusek, Brola).
+
 ## Dzienniki wojewódzkie, których jeszcze nie ma w bazie
 
 Dla poniższych województw w repozytorium nie ma jeszcze żadnych wydań (wypełniać po przejrzeniu JBC):
@@ -519,7 +538,7 @@ Dla poniższych województw w repozytorium nie ma jeszcze żadnych wydań (wype�
 | Województwo | 1925 | 1926 |
 |---|---|---|
 | warszawskie | ✅ (13 numerów, bez nr 9) | ✅ (nr 2–11) |
-| kieleckie | ⬜ | ⬜ |
+| kieleckie | ✅ (nr 2–12, bez nr 1) | ⬜ |
 | lubelskie | ✅ (10 numerów, pierwsza tura) | ✅ (12 numerów) |
 | poznańskie | ⬜ | ⬜ |
 | pomorskie | ⬜ | ⬜ |
