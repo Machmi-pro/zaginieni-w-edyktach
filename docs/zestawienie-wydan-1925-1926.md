@@ -22,6 +22,7 @@ Zestawienie wydań dzienników wojewódzkich i Monitora Polskiego z lat 1925–1
 | Dziennik Urzędowy Województwa Nowogródzkiego | 1926 | 11 | 324 | numery po 11 nieznane |
 | Dziennik Urzędowy Województwa Warszawskiego | 1925 | 13 | 170 | 9 (nie dostarczono), numery po 14 nieznane |
 | Dziennik Urzędowy Województwa Warszawskiego | 1926 | 10 | 192 | 1 (nie dostarczono), numery po 11 nieznane |
+| Dziennik Urzędowy Województwa Wileńskiego | 1926 | 8 | 23 | tylko numery z ogłoszeniami PKU (wg autorki: 1, 2, 4, 5, 8, 9, 10, 11-a) |
 | Dziennik Urzędowy Województwa Poleskiego | 1925 | 6 | 99 | 1–6 (nie dostarczono, wg autora wybrano tylko numery z edyktami) |
 | Dziennik Urzędowy Województwa Poleskiego | 1926 | 10 | 241 | 2 (nie dostarczono, wg autora wybrano tylko numery z edyktami) |
 | Dziennik Urzędowy Województwa Krakowskiego | 1925 | 6 (w tym nr 3: tylko edykty sądowe, „brak PKU”) | 616 | 6 (nie dostarczono), numery po 7 nieznane |
@@ -496,6 +497,21 @@ Nr 9 nie został dostarczony; numery po nr 14 nieznane. Wydania zostały przejrz
 
 Dostarczono numery 2–11 (nr 1 nie został dostarczony). Wydania zostały przejrzane ręcznie przez autorkę. Edykty PKU Warszawa Powiat (62), Włocławek (25), Ciechanów (15), Modlin (13), Kutno (13), Pułtusk (12) i Płock (5). Dodano też 47 wpisów o osobach cywilnych z działu „Komunikaty o zaginięciu i poszukiwaniu osób” (oglasza: „brak PKU”, z flagą cywil: true): zaginieni, uciekinierzy, poszukiwani przez Starostwa, Policję, Ministerstwo Spraw Wewnętrznych i Wojewodę, listy gończe oraz odwołania poszukiwań; nr 11 zawiera wyłącznie takie komunikaty (5 wpisów). Pominięto komasacje gruntów (Okręgowy Urząd Ziemski), ogłoszenia stowarzyszeń, ogłoszenia o zgubionych dokumentach, ogłoszenia sądowe oraz komunikat o niezidentyfikowanej osobie (Ropczyce). Wspólną końcówkę list („UWAGA! Wzywa się wszystkich…”) pominięto w polu tekstu. Powtórzenia: Ptasiński Wiktor (nr 3, ponownie po nr 12/1925), Szymaniak Feliks (nr 2 i 4), Zabłocki/Żabłocki Stanisław (nr 8, dwa wpisy), Jóźwiński Kazimierz i Poselt Stanisław (nr 5 i 9), Bonisławski Józef (nr 9 i 10). Miejsca nieczytelne lub z omyłkami druku: `docs/nieczytelne-warszawskie-1926.md`.
 
+### Dziennik Urzędowy Województwa Wileńskiego, 1926
+
+| Nr | Data | Status | Wpisy | Link |
+|---|---|---|---|---|
+| 1 | 1926-01-31 | ✅ opracowane | 1 | [skan](https://jbc.bj.uj.edu.pl/Content/84545/PDF/NDIGCZAS003513_1926_001.pdf) |
+| 2 | 1926-02-28 | ✅ opracowane | 3 | [skan](https://jbc.bj.uj.edu.pl/Content/84547/PDF/NDIGCZAS003513_1926_002.pdf) |
+| 4 | 1926-04-30 | ✅ opracowane | 2 | [skan](https://jbc.bj.uj.edu.pl/Content/84550/PDF/NDIGCZAS003513_1926_004.pdf) |
+| 5 | 1926-05-31 | ✅ opracowane | 2 | [skan](https://jbc.bj.uj.edu.pl/Content/84554/PDF/NDIGCZAS003513_1926_005.pdf) |
+| 8 | 1926-07-31 | ✅ opracowane | 2 | [skan](https://jbc.bj.uj.edu.pl/Content/84558/PDF/NDIGCZAS003513_1926_008.pdf) |
+| 9 | 1926-08-31 | ✅ opracowane | 2 | [skan](https://jbc.bj.uj.edu.pl/Content/84559/PDF/NDIGCZAS003513_1926_009.pdf) |
+| 10 | 1926-09-30 | ✅ opracowane | 9 | [skan](https://jbc.bj.uj.edu.pl/Content/84560/PDF/NDIGCZAS003513_1926_010.pdf) |
+| 11a | 1926-10-31 | ✅ opracowane | 2 | [skan](https://jbc.bj.uj.edu.pl/Content/84563/PDF/NDIGCZAS003513_1926_011a.pdf) |
+
+Opracowano tylko wydania wskazane przez autorkę jako zawierające ogłoszenia PKU (nr 1, 2, 4, 5, 8, 9, 10 i 11-a; nr 11-a z 31 X 1926 ma w druku numer „11-a (58)”, a wydania 3, 6, 7 i 11 nie były opracowywane). Edykty PKU Wilno (9), Święciany (9) i Mołodeczno w Wilejce (4) o zaginionych żołnierzach armii rosyjskiej i Wojska Polskiego; ogłoszenia dotyczące kilku osób (Wyszumirscy, Bielawscy) rozpisano na osobne wpisy. Dodatkowo 1 wpis „brak PKU”: poszukiwanie Grzesiuka Jana przez Sztab Generalny, Oddział V (nr 2, str. 30), ogłoszone w tym samym dziale. Pominięto komasacje gruntów, ogłoszenia sądowe i o zgubionych dokumentach. Powtórzenie: Sztuk Rafał (nr 11-a, str. 41) – edykt ukazał się też w Monitorze Polskim 1926, nr 243. Wyraźna omyłka druku: Kojro Konstanty (nr 5, str. 22; w druku żona »Korjo«).
+
 ## Dzienniki wojewódzkie, których jeszcze nie ma w bazie
 
 Dla poniższych województw w repozytorium nie ma jeszcze żadnych wydań (wypełniać po przejrzeniu JBC):
@@ -510,6 +526,6 @@ Dla poniższych województw w repozytorium nie ma jeszcze żadnych wydań (wype�
 | śląskie | ⬜ | ⬜ |
 | białostockie | ⬜ | ⬜ |
 | nowogródzkie | ✅ (8 numerów, nr 1–4 bez edyktów) | ✅ (11 numerów) |
-| wileńskie | ⬜ | ⬜ |
+| wileńskie | ⬜ | ✅ (nr 1, 2, 4, 5, 8, 9, 10, 11-a – tylko numery z ogłoszeniami PKU) |
 
 Uwaga: dane z 1927 r. (Tarnopol, Stanisławów, Wołyń) są w bazie, ale poza zakresem tego zestawienia.

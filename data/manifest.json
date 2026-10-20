@@ -186,6 +186,17 @@
       ]
     },
     {
+      "id": "wilenskie",
+      "wojewodztwo": "wilenskie",
+      "roczniki": [
+        {
+          "rok": 1926,
+          "plik": "data/wilenskie/1926.json",
+          "wpisy": 23
+        }
+      ]
+    },
+    {
       "id": "monitorpolski",
       "wojewodztwo": "monitor polski",
       "roczniki": [
