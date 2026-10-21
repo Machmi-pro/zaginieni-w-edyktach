@@ -204,6 +204,11 @@
           "rok": 1925,
           "plik": "data/kieleckie/1925.json",
           "wpisy": 111
+        },
+        {
+          "rok": 1926,
+          "plik": "data/kieleckie/1926.json",
+          "wpisy": 170
         }
       ]
     },

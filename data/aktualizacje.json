@@ -1,6 +1,7 @@
 {
  "opis": "Ostatnie aktualizacje pokazywane na stronie głównej: tylko nowe województwa i roczniki (nie każda zmiana), bez wyliczania wydań. Najnowsze na górze. Pola: data (RRRR-MM-DD), wojewodztwo (nazwa), slug (katalog w wojewodztwo/), rocznik (tekst), wpisy (liczba dodanych), uwaga (opcjonalnie).",
  "wpisy": [
+  {"data": "2026-10-21", "wojewodztwo": "kieleckie", "slug": "kieleckie", "rocznik": "1926", "wpisy": 170},
   {"data": "2026-10-20", "wojewodztwo": "kieleckie", "slug": "kieleckie", "rocznik": "1925", "wpisy": 111},
   {"data": "2026-10-20", "wojewodztwo": "wileńskie", "slug": "wilenskie", "rocznik": "1926", "wpisy": 23},
   {"data": "2026-10-17", "wojewodztwo": "warszawskie", "slug": "warszawskie", "rocznik": "1925–1926", "wpisy": 362, "uwaga": "w tym 47 osób cywilnych"},

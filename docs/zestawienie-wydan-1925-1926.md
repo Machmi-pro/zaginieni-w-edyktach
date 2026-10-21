@@ -24,6 +24,7 @@ Zestawienie wydań dzienników wojewódzkich i Monitora Polskiego z lat 1925–1
 | Dziennik Urzędowy Województwa Warszawskiego | 1926 | 10 | 192 | 1 (nie dostarczono), numery po 11 nieznane |
 | Dziennik Urzędowy Województwa Wileńskiego | 1926 | 8 | 23 | tylko numery z ogłoszeniami PKU (wg autorki: 1, 2, 4, 5, 8, 9, 10, 11-a) |
 | Dziennik Urzędowy Województwa Kieleckiego | 1925 | 11 | 111 | 1 (nie dostarczono), numery po 12 nieznane |
+| Dziennik Urzędowy Województwa Kieleckiego | 1926 | 9 | 170 | tylko numery z edyktami (wg autorki: 2, 5, 7–13) |
 | Dziennik Urzędowy Województwa Poleskiego | 1925 | 6 | 99 | 1–6 (nie dostarczono, wg autora wybrano tylko numery z edyktami) |
 | Dziennik Urzędowy Województwa Poleskiego | 1926 | 10 | 241 | 2 (nie dostarczono, wg autora wybrano tylko numery z edyktami) |
 | Dziennik Urzędowy Województwa Krakowskiego | 1925 | 6 (w tym nr 3: tylko edykty sądowe, „brak PKU”) | 616 | 6 (nie dostarczono), numery po 7 nieznane |
@@ -531,6 +532,22 @@ Opracowano tylko wydania wskazane przez autorkę jako zawierające ogłoszenia P
 
 Dostarczono numery 2–12 (nr 1 nie został dostarczony); w każdym z nich były edykty. Edykty PKU Radom (44), Sosnowiec (31), Końskie (20), Częstochowa (9), Ostrowiec (3, ogłaszane przez Referat Inwalidzki przy PKU), Miechów (3) i Pińczów (1) o zaginionych żołnierzach armii rosyjskiej, austriackiej i Wojska Polskiego; edykty ogłaszane na wniosek żon, matek i rodziców mają w polu „poszukuje” wskazanego wnioskodawcę. Pominięto komasacje gruntów (Okręgowy Urząd Ziemski), ogłoszenia stowarzyszeń, ogłoszenia o zgubionych dokumentach, licytacje oraz inne ogłoszenia urzędowe. Powtórzenia: Kępa Walenty (nr 6, str. 14, bez numeru dziennika, i ponownie nr 7, str. 11, z numerem 2996/II/25); Kurzyp Piotr (nr 8) ukazał się też w Monitorze Polskim 1925, nr 194. Omyłki druku i miejsca nieczytelne (zapisane w polu „uwaga”): Pietruszek Józef (nr 2, data „1915” zamiast 1925), Wrzosek Józef (nr 7, „w 1924 r. pobrany”), Łoja/Łój Piotr (nr 8, dwie formy nazwiska), Derej Bartłomiej (nr 4, miejsce urodzenia ucięte), Jaszkowski Juljan (nr 11, pierwsza litera nazwiska słabo odbita), Kowalczyk Władysław (nr 10, brak ukośnika w numerze dziennika) oraz niepewne mianowniki nazwisk (Plasek, Rusek, Brola).
 
+### Dziennik Urzędowy Województwa Kieleckiego, 1926
+
+| Nr | Data | Status | Wpisy | Link |
+|---|---|---|---|---|
+| 2 | 1926-02-27 | ✅ opracowane | 11 | [skan](https://jbc.bj.uj.edu.pl/Content/81692/PDF/NDIGCZAS003501_1926_002.pdf) |
+| 5 | 1926-05-20 | ✅ opracowane | 50 | [skan](https://jbc.bj.uj.edu.pl/Content/81708/PDF/NDIGCZAS003501_1926_005.pdf) |
+| 7 | 1926-07-20 | ✅ opracowane | 21 | [skan](https://jbc.bj.uj.edu.pl/Content/81717/PDF/NDIGCZAS003501_1926_007.pdf) |
+| 8 | 1926-08-20 | ✅ opracowane | 16 | [skan](https://jbc.bj.uj.edu.pl/Content/81720/PDF/NDIGCZAS003501_1926_008.pdf) |
+| 9 | 1926-09-20 | ✅ opracowane | 16 | [skan](https://jbc.bj.uj.edu.pl/Content/81723/PDF/NDIGCZAS003501_1926_009.pdf) |
+| 10 | 1926-10-15 | ✅ opracowane | 8 | [skan](https://jbc.bj.uj.edu.pl/Content/81726/PDF/NDIGCZAS003501_1926_010.pdf) |
+| 11 | 1926-10-28 | ✅ opracowane | 22 | [skan](https://jbc.bj.uj.edu.pl/Content/81730/PDF/NDIGCZAS003501_1926_011.pdf) |
+| 12 | 1926-11-30 | ✅ opracowane | 12 | [skan](https://jbc.bj.uj.edu.pl/Content/81733/PDF/NDIGCZAS003501_1926_012.pdf) |
+| 13 | 1926-12-30 | ✅ opracowane | 14 | [skan](https://jbc.bj.uj.edu.pl/Content/81737/PDF/NDIGCZAS003501_1926_013.pdf) |
+
+Opracowano tylko wydania wskazane przez autorkę jako zawierające edykty PKU (nr 2, 5, 7–13); nr 1, 3, 4 i 6 nie były opracowywane. Edykty PKU Radom (47), Kielce (44), Sosnowiec (34), Końskie (26), Pińczów (15) i Częstochowa (4) o zaginionych żołnierzach armii rosyjskiej, austriackiej i Wojska Polskiego; edykty ogłaszane na wniosek żon, matek, ojców i rodziców mają w polu „poszukuje” wskazanego wnioskodawcę. W edyktach zbiorczych wspólną końcówkę („Wzywa się osoby…”) pominięto w polu tekstu, a zdanie dotyczące wszystkich poszukiwanych przez PKU Radom (nr 2 i 5) zachowano w każdym wpisie. Edykty PKU Kielce w druku nie podają liczby dziennika w nr 10 i 12 (pole ldz puste). Pominięto komasacje gruntów (Okręgowy Urząd Ziemski), ogłoszenia o zgubionych dokumentach, wolne posady i inne ogłoszenia urzędowe. Powtórzenie: Chajecki Paweł (nr 5, str. 10, i nr 8, str. 6, L. dz. 3689/25/III). Edykt o braciach Sowa (nr 8) rozpisano na dwa wpisy. Uwagi w polu „uwaga”: Adamczyk Stanisław (nr 5, matka podana raz jako Wiktorja, raz jako Stanisława), Trzaskalski Tadeusz (nr 5, niepewny mianownik miejscowości Koprus), Giondal Józef (nr 8, słabo wydrukowane litery nazwiska), Najstępmpel Jankiel (nr 13, nazwisko trudne do odczytania).
+
 ## Dzienniki wojewódzkie, których jeszcze nie ma w bazie
 
 Dla poniższych województw w repozytorium nie ma jeszcze żadnych wydań (wypełniać po przejrzeniu JBC):
@@ -538,7 +555,7 @@ Dla poniższych województw w repozytorium nie ma jeszcze żadnych wydań (wype�
 | Województwo | 1925 | 1926 |
 |---|---|---|
 | warszawskie | ✅ (13 numerów, bez nr 9) | ✅ (nr 2–11) |
-| kieleckie | ✅ (nr 2–12, bez nr 1) | ⬜ |
+| kieleckie | ✅ (nr 2–12, bez nr 1) | ✅ (nr 2, 5, 7–13) |
 | lubelskie | ✅ (10 numerów, pierwsza tura) | ✅ (12 numerów) |
 | poznańskie | ⬜ | ⬜ |
 | pomorskie | ⬜ | ⬜ |
