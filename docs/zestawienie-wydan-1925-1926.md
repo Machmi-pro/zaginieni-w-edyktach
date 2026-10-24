@@ -25,6 +25,7 @@ Zestawienie wydań dzienników wojewódzkich i Monitora Polskiego z lat 1925–1
 | Dziennik Urzędowy Województwa Wileńskiego | 1926 | 8 | 23 | tylko numery z ogłoszeniami PKU (wg autorki: 1, 2, 4, 5, 8, 9, 10, 11-a) |
 | Dziennik Urzędowy Województwa Kieleckiego | 1925 | 11 | 111 | 1 (nie dostarczono), numery po 12 nieznane |
 | Dziennik Urzędowy Województwa Kieleckiego | 1926 | 9 | 170 | tylko numery z edyktami (wg autorki: 2, 5, 7–13) |
+| Dziennik Urzędowy Województwa Białostockiego | 1925 | 7 | 20 | tylko numery z edyktami i tabelami zaginionych (wg autorki: 3, 4, 5, 8, 9, 10, 11) |
 | Dziennik Urzędowy Województwa Poleskiego | 1925 | 6 | 99 | 1–6 (nie dostarczono, wg autora wybrano tylko numery z edyktami) |
 | Dziennik Urzędowy Województwa Poleskiego | 1926 | 10 | 241 | 2 (nie dostarczono, wg autora wybrano tylko numery z edyktami) |
 | Dziennik Urzędowy Województwa Krakowskiego | 1925 | 6 (w tym nr 3: tylko edykty sądowe, „brak PKU”) | 616 | 6 (nie dostarczono), numery po 7 nieznane |
@@ -548,6 +549,20 @@ Dostarczono numery 2–12 (nr 1 nie został dostarczony); w każdym z nich były
 
 Opracowano tylko wydania wskazane przez autorkę jako zawierające edykty PKU (nr 2, 5, 7–13); nr 1, 3, 4 i 6 nie były opracowywane. Edykty PKU Radom (47), Kielce (44), Sosnowiec (34), Końskie (26), Pińczów (15) i Częstochowa (4) o zaginionych żołnierzach armii rosyjskiej, austriackiej i Wojska Polskiego; edykty ogłaszane na wniosek żon, matek, ojców i rodziców mają w polu „poszukuje” wskazanego wnioskodawcę. W edyktach zbiorczych wspólną końcówkę („Wzywa się osoby…”) pominięto w polu tekstu, a zdanie dotyczące wszystkich poszukiwanych przez PKU Radom (nr 2 i 5) zachowano w każdym wpisie. Edykty PKU Kielce w druku nie podają liczby dziennika w nr 10 i 12 (pole ldz puste). Pominięto komasacje gruntów (Okręgowy Urząd Ziemski), ogłoszenia o zgubionych dokumentach, wolne posady i inne ogłoszenia urzędowe. Powtórzenie: Chajecki Paweł (nr 5, str. 10, i nr 8, str. 6, L. dz. 3689/25/III). Edykt o braciach Sowa (nr 8) rozpisano na dwa wpisy. Uwagi w polu „uwaga”: Adamczyk Stanisław (nr 5, matka podana raz jako Wiktorja, raz jako Stanisława), Trzaskalski Tadeusz (nr 5, niepewny mianownik miejscowości Koprus), Giondal Józef (nr 8, słabo wydrukowane litery nazwiska), Najstępmpel Jankiel (nr 13, nazwisko trudne do odczytania).
 
+### Dziennik Urzędowy Województwa Białostockiego, 1925
+
+| Nr | Data | Status | Wpisy | Link |
+|---|---|---|---|---|
+| 3 | 1925-03-20 | ✅ opracowane | 1 | [skan](https://pbc.biaman.pl/Content/5672/PDF/dziennik_urzedowy_nr3_1925.pdf) |
+| 4 | 1925-04-29 | ✅ opracowane | 1 | [skan](https://pbc.biaman.pl/Content/5673/PDF/dziennik_urzedowy_nr4_1925.pdf) |
+| 5 | 1925-05-30 | ✅ opracowane | 1 | [skan](https://pbc.biaman.pl/Content/5674/PDF/dziennik_urzedowy_nr5_1925.pdf) |
+| 8 | 1925-08-25 | ✅ opracowane | 8 | [skan](https://pbc.biaman.pl/Content/5677/PDF/dziennik_urzedowy_nr8_1925.pdf) |
+| 9 | 1925-09-25 | ✅ opracowane | 4 | [skan](https://pbc.biaman.pl/Content/5678/PDF/dziennik_urzedowy_nr9_1925.pdf) |
+| 10 | 1925-10-30 | ✅ opracowane | 1 | [skan](https://pbc.biaman.pl/Content/5679/PDF/dziennik_urzedowy_nr10_1925.pdf) |
+| 11 | 1925-11-16 | ✅ opracowane | 4 | [skan](https://pbc.biaman.pl/Content/5680/PDF/dziennik_urzedowy_nr11_1925.pdf) |
+
+Opracowano tylko wydania wskazane przez autorkę jako zawierające zaginionych żołnierzy (nr 3, 4, 5, 8, 9, 10, 11); skany pochodzą z Podlaskiej Biblioteki Cyfrowej (pbc.biaman.pl), bez warstwy tekstowej. Edykty PKU Ostrów Łomżyński (1, Referat Inwalidzki), Suwałki (3) i Łomża (1), a w nr 8, 9 i 11 tabele „Zaginięcia b. wojskowych” (nr 8: 7 osób, nr 9: 4, nr 11: 4). Pole „oglasza”: PKU Łomża przy osobach, przy których tabela podaje PKU w Łomży (nr 8: pięć pierwszych, w tym trzy z „ditto”; nr 11: trzy pierwsze, ostatnia – PKU Grodno wg liczby dziennika); pozostałe osoby z tabel (nr 8: Lułostański, Romatowski; cała tabela nr 9) mają „brak PKU”, bo druk nie wskazuje komendy. Rocznik, imiona rodziców i miejsce zamieszkania zapisano wg kolumn tabeli. Pominięto zagubione i unieważnione dokumenty, stowarzyszenia, wodne i pozostałe ogłoszenia. W nr 11 skan jest przerwany zagięciem: nieczytelne imiona rodziców (Nimirowski, Pac) i rok urodzenia (Kopacz) zaznaczono w polu „uwaga”. W nr 9 trzecia litera nazwiska Kostorek jest słabo wydrukowana (Kostorek / Kosiorek).
+
 ## Dzienniki wojewódzkie, których jeszcze nie ma w bazie
 
 Dla poniższych województw w repozytorium nie ma jeszcze żadnych wydań (wypełniać po przejrzeniu JBC):
@@ -560,7 +575,7 @@ Dla poniższych województw w repozytorium nie ma jeszcze żadnych wydań (wype�
 | poznańskie | ⬜ | ⬜ |
 | pomorskie | ⬜ | ⬜ |
 | śląskie | ⬜ | ⬜ |
-| białostockie | ⬜ | ⬜ |
+| białostockie | ✅ (nr 3, 4, 5, 8–11, bez nr 1, 2, 6, 7) | ⬜ |
 | nowogródzkie | ✅ (8 numerów, nr 1–4 bez edyktów) | ✅ (11 numerów) |
 | wileńskie | ⬜ | ✅ (nr 1, 2, 4, 5, 8, 9, 10, 11-a – tylko numery z ogłoszeniami PKU) |
 
