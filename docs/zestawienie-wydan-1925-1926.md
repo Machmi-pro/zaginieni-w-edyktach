@@ -26,6 +26,7 @@ Zestawienie wydań dzienników wojewódzkich i Monitora Polskiego z lat 1925–1
 | Dziennik Urzędowy Województwa Kieleckiego | 1925 | 11 | 111 | 1 (nie dostarczono), numery po 12 nieznane |
 | Dziennik Urzędowy Województwa Kieleckiego | 1926 | 9 | 170 | tylko numery z edyktami (wg autorki: 2, 5, 7–13) |
 | Dziennik Urzędowy Województwa Białostockiego | 1925 | 7 | 20 | tylko numery z edyktami i tabelami zaginionych (wg autorki: 3, 4, 5, 8, 9, 10, 11) |
+| Dziennik Urzędowy Województwa Białostockiego | 1926 | 7 | 58 | tylko numery z edyktami (wg autorki: 1, 7, 8, 9, 10, 11, 12; nr 7 w formie tabeli) |
 | Dziennik Urzędowy Województwa Poleskiego | 1925 | 6 | 99 | 1–6 (nie dostarczono, wg autora wybrano tylko numery z edyktami) |
 | Dziennik Urzędowy Województwa Poleskiego | 1926 | 10 | 241 | 2 (nie dostarczono, wg autora wybrano tylko numery z edyktami) |
 | Dziennik Urzędowy Województwa Krakowskiego | 1925 | 6 (w tym nr 3: tylko edykty sądowe, „brak PKU”) | 616 | 6 (nie dostarczono), numery po 7 nieznane |
@@ -563,6 +564,20 @@ Opracowano tylko wydania wskazane przez autorkę jako zawierające edykty PKU (n
 
 Opracowano tylko wydania wskazane przez autorkę jako zawierające zaginionych żołnierzy (nr 3, 4, 5, 8, 9, 10, 11); skany pochodzą z Podlaskiej Biblioteki Cyfrowej (pbc.biaman.pl), bez warstwy tekstowej. Edykty PKU Ostrów Łomżyński (1, Referat Inwalidzki), Suwałki (3) i Łomża (1), a w nr 8, 9 i 11 tabele „Zaginięcia b. wojskowych” (nr 8: 7 osób, nr 9: 4, nr 11: 4). Pole „oglasza”: PKU Łomża przy osobach, przy których tabela podaje PKU w Łomży (nr 8: pięć pierwszych, w tym trzy z „ditto”; nr 11: trzy pierwsze, ostatnia – PKU Grodno wg liczby dziennika); pozostałe osoby z tabel (nr 8: Lułostański, Romatowski; cała tabela nr 9) mają „brak PKU”, bo druk nie wskazuje komendy. Rocznik, imiona rodziców i miejsce zamieszkania zapisano wg kolumn tabeli. Pominięto zagubione i unieważnione dokumenty, stowarzyszenia, wodne i pozostałe ogłoszenia. W nr 11 skan jest przerwany zagięciem: nieczytelne imiona rodziców (Nimirowski, Pac) i rok urodzenia (Kopacz) zaznaczono w polu „uwaga”. W nr 9 trzecia litera nazwiska Kostorek jest słabo wydrukowana (Kostorek / Kosiorek).
 
+### Dziennik Urzędowy Województwa Białostockiego, 1926
+
+| Nr | Data | Status | Wpisy | Link |
+|---|---|---|---|---|
+| 1 | 1926-01-08 | ✅ opracowane | 1 | [skan](https://pbc.biaman.pl/Content/6324/download/) |
+| 7 | 1926-06-25 | ✅ opracowane | 4 | [skan](https://pbc.biaman.pl/Content/6330/download/) |
+| 8 | 1926-08-02 | ✅ opracowane | 39 | [skan](https://pbc.biaman.pl/Content/6331/download/) |
+| 9 | 1926-09-01 | ✅ opracowane | 2 | [skan](https://pbc.biaman.pl/Content/6332/download/) |
+| 10 | 1926-10-01 | ✅ opracowane | 4 | [skan](https://pbc.biaman.pl/Content/6333/download/) |
+| 11 | 1926-11-01 | ✅ opracowane | 4 | [skan](https://pbc.biaman.pl/Content/6334/download/) |
+| 12 | 1926-12-01 | ✅ opracowane | 4 | [skan](https://pbc.biaman.pl/Content/6335/download/) |
+
+Opracowano tylko wydania wskazane przez autorkę jako zawierające edykty (nr 1, 7, 8, 9, 10, 11, 12); skany z Podlaskiej Biblioteki Cyfrowej (pbc.biaman.pl), bez warstwy tekstowej. Edykty PKU Grodno (30), Łomża (11), Bielsk Podlaski (8), Suwałki (5), Ostrów Łomżyński (2), Sokółka (1) i Ostrów Mazowiecka (1). Nr 8 zawiera zbiorcze listy PKU Grodno z numerowanymi pozycjami i wspólnym L. dz. oraz edykt PKU Bielsk Podlaski dla siedmiu osób (rozpisany na siedem wpisów z tym samym tekstem); edykt dotyczący braci Radeckich (Juljan i Adam) rozpisano na dwa wpisy. Nr 7: tabela „Zaginięcia b. wojskowych” (4 osoby, odtworzona w polu „tekst”). Pola „miejsce_zam”/„powiat_zam” przy wnioskodawczyni (żona, matka) opisują jej miejsce zamieszkania, gdy zaginiony nie ma własnego. W części edyktów druk nie podaje L. dz. (pole puste). Pominięto komasacje gruntów (Okręgowy Urząd Ziemski), zagubione i unieważnione dokumenty, stowarzyszenia, połączenia samochodowe i pozostałe ogłoszenia. Do weryfikacji: Medeksza (miejsce urodzenia czytelne jako „Sienkinientach pow. Wołoszym”), Kaczkowski (ostatnia cyfra L. dz. słabo czytelna), Samselski (nr 9, fragment przekreślony na skanie).
+
 ## Dzienniki wojewódzkie, których jeszcze nie ma w bazie
 
 Dla poniższych województw w repozytorium nie ma jeszcze żadnych wydań (wypełniać po przejrzeniu JBC):
@@ -575,7 +590,7 @@ Dla poniższych województw w repozytorium nie ma jeszcze żadnych wydań (wype�
 | poznańskie | ⬜ | ⬜ |
 | pomorskie | ⬜ | ⬜ |
 | śląskie | ⬜ | ⬜ |
-| białostockie | ✅ (nr 3, 4, 5, 8–11, bez nr 1, 2, 6, 7) | ⬜ |
+| białostockie | ✅ (nr 3, 4, 5, 8–11, bez nr 1, 2, 6, 7) | ✅ (nr 1, 7–12, tylko numery z edyktami) |
 | nowogródzkie | ✅ (8 numerów, nr 1–4 bez edyktów) | ✅ (11 numerów) |
 | wileńskie | ⬜ | ✅ (nr 1, 2, 4, 5, 8, 9, 10, 11-a – tylko numery z ogłoszeniami PKU) |
 

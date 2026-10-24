@@ -1,6 +1,7 @@
 {
  "opis": "Ostatnie aktualizacje pokazywane na stronie głównej: tylko nowe województwa i roczniki (nie każda zmiana), bez wyliczania wydań. Najnowsze na górze. Pola: data (RRRR-MM-DD), wojewodztwo (nazwa), slug (katalog w wojewodztwo/), rocznik (tekst), wpisy (liczba dodanych), uwaga (opcjonalnie).",
  "wpisy": [
+  {"data": "2026-10-24", "wojewodztwo": "białostockie", "slug": "bialostockie", "rocznik": "1926", "wpisy": 58},
   {"data": "2026-10-24", "wojewodztwo": "białostockie", "slug": "bialostockie", "rocznik": "1925", "wpisy": 20},
   {"data": "2026-10-21", "wojewodztwo": "kieleckie", "slug": "kieleckie", "rocznik": "1926", "wpisy": 170},
   {"data": "2026-10-20", "wojewodztwo": "kieleckie", "slug": "kieleckie", "rocznik": "1925", "wpisy": 111},
