@@ -119,7 +119,7 @@ def row(r):
     ur = esc(r["data_ur"]) if r.get("data_ur") else "—"
     return (f'<tr data-s="{esc(search)}"><td class="n">{esc(r["nazwisko"])}{' <span class="cyw">cywil</span>' if r.get("cywil") else ""}</td><td class="i">{esc(r["imie"])}</td>'
             f'<td class="u">{ur}</td><td class="m">{place_cell(r)}</td>'
-            f'<td class="b"><a class="btn" href="../../index.html?id={esc(r["id"])}">Przeczytaj edykt</a></td></tr>')
+            f'<td class="b"><a class="btn" rel="nofollow" href="../../index.html?id={esc(r["id"])}">Przeczytaj edykt</a></td></tr>')
 
 
 CSS = """:root{--bg:#eceeed;--surface:#fafbfa;--ink:#1b2024;--muted:#5c666c;--line:#cfd5d3;--stamp:#55388a;--stamp-soft:#e9e3f3;
@@ -330,11 +330,22 @@ def update_index_links(all_wojs):
 
 
 def sitemap(all_wojs):
-    urls = [BASE, BASE + "wojewodztwo/"] + [f"{BASE}wojewodztwo/{slugify(w)}/" for w, _ in all_wojs]
+    """lastmod zmienia się tylko wtedy, gdy zmieniła się treść danej strony (hash pliku)."""
+    import hashlib
+    st_path = ROOT / "tools" / "sitemap-lastmod.json"
+    state = json.loads(st_path.read_text(encoding="utf-8")) if st_path.exists() else {}
+    items = [(BASE, ROOT / "index.html"), (BASE + "wojewodztwo/", ROOT / "wojewodztwo" / "index.html")]
+    items += [(f"{BASE}wojewodztwo/{slugify(w)}/", ROOT / "wojewodztwo" / slugify(w) / "index.html") for w, _ in all_wojs]
     x = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
-    for u in urls:
-        x.append(f"  <url><loc>{u}</loc><lastmod>{TODAY}</lastmod></url>")
+    new_state = {}
+    for u, f in items:
+        h = hashlib.sha1(f.read_bytes()).hexdigest()
+        old = state.get(u)
+        d = old["lastmod"] if old and old["hash"] == h else TODAY
+        new_state[u] = {"hash": h, "lastmod": d}
+        x.append(f"  <url><loc>{u}</loc><lastmod>{d}</lastmod></url>")
     x.append("</urlset>\n")
+    st_path.write_text(json.dumps(new_state, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     (ROOT / "sitemap.xml").write_text("\n".join(x), encoding="utf-8")
 
 
