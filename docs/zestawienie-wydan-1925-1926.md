@@ -35,7 +35,7 @@ Zestawienie wydań dzienników wojewódzkich i Monitora Polskiego z lat 1925–1
 | Dziennik Urzędowy Województwa Lubelskiego | 1926 | 12 | 235 | numery po 12 nieznane |
 | Dziennik Urzędowy Województwa Łódzkiego | 1925 | 22 | 84 | 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 15, 17, 20, 21, 22, 23, 25, 29, 30, 32, 35, 37, 38, 40, 43, 47, 48 |
 | Dziennik Urzędowy Województwa Łódzkiego | 1926 | 45 | 349 | 5, 7, 8, 18, 40, 42, 51 |
-| Monitor Polski | 1925 | 25 | 240 | nie dotyczy (dziennik wychodził codziennie, ok. 300 numerów rocznie, przejrzano tylko wskazane numery) |
+| Monitor Polski | 1925 | 26 | 242 | nie dotyczy (dziennik wychodził codziennie, ok. 300 numerów rocznie, przejrzano tylko wskazane numery) |
 | Monitor Polski | 1926 | 20 | 403 | nie dotyczy (dziennik wychodził codziennie, ok. 300 numerów rocznie, przejrzano tylko wskazane numery) |
 
 ## Szczegóły według źródeł
@@ -399,6 +399,7 @@ Dostarczono tylko nr 8 z 25 X 1924 ([skan](https://jbc.bj.uj.edu.pl/Content/1132
 | 21 | 1925-01-27 | ✅ opracowane | 11 | [skan](https://monitorpolski.gov.pl/M1925021000000.pdf) |
 | 22 | 1925-01-28 | ✅ opracowane | 1 | [skan](https://monitorpolski.gov.pl/M1925022000000.pdf) |
 | 24 | 1925-01-30 | ✅ opracowane | 7 | [skan](https://monitorpolski.gov.pl/M1925024000000.pdf) |
+| 27 | 1925-02-03 | ✅ opracowane | 2 | [skan](https://monitorpolski.gov.pl/M1925027000000.pdf) |
 | 28 | 1925-02-04 | ✅ opracowane | 5 | [skan](https://monitorpolski.gov.pl/M1925028000000.pdf) |
 | 29 | 1925-02-05 | ✅ opracowane | 4 | [skan](https://monitorpolski.gov.pl/M1925029000000.pdf) |
 | 30 | 1925-02-06 | ✅ opracowane | 3 | [skan](https://monitorpolski.gov.pl/M1925030000000.pdf) |
