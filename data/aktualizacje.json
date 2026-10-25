@@ -1,7 +1,7 @@
 {
  "opis": "Ostatnie aktualizacje pokazywane na stronie głównej: tylko nowe województwa i roczniki (nie każda zmiana), bez wyliczania wydań. Najnowsze na górze. Pola: data (RRRR-MM-DD), wojewodztwo (nazwa), slug (katalog w wojewodztwo/), rocznik (tekst), wpisy (liczba dodanych), uwaga (opcjonalnie).",
  "wpisy": [
-  {"data": "2026-10-25", "etykieta": "Monitor Polski (edykty z różnych województw)", "wojewodztwo": "Monitor Polski", "slug": "", "rocznik": "1925, nr 2–51 (3 I – 3 III); głównie lwowskie 163, krakowskie 51, warszawskie 44, kieleckie 9, lubelskie 8, stanisławowskie 8", "wpisy": 288},
+  {"data": "2026-10-25", "etykieta": "Monitor Polski (edykty z różnych województw)", "wojewodztwo": "Monitor Polski", "slug": "", "rocznik": "1925, nr 2–59 (3 I – 12 III); głównie lwowskie 191, krakowskie 66, warszawskie 52, lubelskie 11, kieleckie 9, stanisławowskie 8", "wpisy": 345},
   {"data": "2026-10-24", "wojewodztwo": "białostockie", "slug": "bialostockie", "rocznik": "1926", "wpisy": 58},
   {"data": "2026-10-24", "wojewodztwo": "białostockie", "slug": "bialostockie", "rocznik": "1925", "wpisy": 20},
   {"data": "2026-10-21", "wojewodztwo": "kieleckie", "slug": "kieleckie", "rocznik": "1926", "wpisy": 170},
