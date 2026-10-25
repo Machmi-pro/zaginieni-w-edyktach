@@ -208,7 +208,8 @@ def page_woj(w, rs, all_wojs):
         "description": desc, "url": url, "inLanguage": "pl",
         "temporalCoverage": f"{years[0]}/{years[-1]}" if len(years) > 1 else str(years[0]),
         "spatialCoverage": label,
-        "isPartOf": {"@type": "WebSite", "name": "Zaginieni i poszukiwani w edyktach", "url": BASE},
+        "includedInDataCatalog": {"@type": "DataCatalog", "name": "Zaginieni i poszukiwani w edyktach", "url": BASE},
+        "creator": {"@type": "Person", "name": "Machmi-pro", "url": "https://github.com/Machmi-pro"},
     }
     year_li = " · ".join(f"{y}: {by_year[y]}" for y in years)
     src_txt = ", ".join(f"{k} ({v})" for k, v in srcs.most_common())
