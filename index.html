@@ -173,7 +173,7 @@ async function aktualizacje(){
   try{
     const a=await fetch("data/aktualizacje.json").then(r=>r.json()); const l=a.wpisy||[];
     if(!l.length)return;
-    const li=x=>`<li><span class="d">${romDate(x.data)}</span><span><a href="wojewodztwo/${esc(x.slug)}/">województwo ${esc(x.wojewodztwo)}</a><small>rocznik ${esc(x.rocznik)}${x.uwaga?" · "+esc(x.uwaga):""}</small></span><span class="n">+${x.wpisy.toLocaleString("pl-PL")} wpisów</span></li>`;
+    const li=x=>`<li><span class="d">${romDate(x.data)}</span><span>${x.slug?`<a href="wojewodztwo/${esc(x.slug)}/">województwo ${esc(x.wojewodztwo)}</a>`:esc(x.etykieta||x.wojewodztwo)}<small>rocznik ${esc(x.rocznik)}${x.uwaga?" · "+esc(x.uwaga):""}</small></span><span class="n">+${x.wpisy.toLocaleString("pl-PL")} wpisów</span></li>`;
     const top=l.slice(0,5), old=l.slice(5);
     $("updbody").innerHTML=`<ul>${top.map(li).join("")}</ul>`+(old.length?`<details class="old"><summary>Starsze aktualizacje (${old.length})</summary><ul>${old.map(li).join("")}</ul></details>`:"")+`<p>Lista pokazuje tylko nowe województwa i roczniki; drobne poprawki i uzupełnienia nie są tu wymieniane.</p>`;
     $("upd").hidden=false;
