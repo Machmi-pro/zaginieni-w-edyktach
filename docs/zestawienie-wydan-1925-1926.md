@@ -35,7 +35,7 @@ Zestawienie wydań dzienników wojewódzkich i Monitora Polskiego z lat 1925–1
 | Dziennik Urzędowy Województwa Lubelskiego | 1926 | 12 | 235 | numery po 12 nieznane |
 | Dziennik Urzędowy Województwa Łódzkiego | 1925 | 22 | 84 | 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 15, 17, 20, 21, 22, 23, 25, 29, 30, 32, 35, 37, 38, 40, 43, 47, 48 |
 | Dziennik Urzędowy Województwa Łódzkiego | 1926 | 45 | 349 | 5, 7, 8, 18, 40, 42, 51 |
-| Monitor Polski | 1925 | 59 | 685 | nie dotyczy (dziennik wychodził codziennie, ok. 300 numerów rocznie, przejrzano tylko wskazane numery) |
+| Monitor Polski | 1925 | 71 | 934 | nie dotyczy (dziennik wychodził codziennie, ok. 300 numerów rocznie, przejrzano tylko wskazane numery) |
 | Monitor Polski | 1926 | 20 | 403 | nie dotyczy (dziennik wychodził codziennie, ok. 300 numerów rocznie, przejrzano tylko wskazane numery) |
 
 ## Szczegóły według źródeł
@@ -437,6 +437,18 @@ Dostarczono tylko nr 8 z 25 X 1924 ([skan](https://jbc.bj.uj.edu.pl/Content/1132
 | 86 | 1925-04-14 | ✅ opracowane | 9 | [skan](https://monitorpolski.gov.pl/M1925086000000.pdf) |
 | 89 | 1925-04-17 | ✅ opracowane | 9 | [skan](https://monitorpolski.gov.pl/M1925089000000.pdf) |
 | 91 | 1925-04-20 | ✅ opracowane | 3 | [skan](https://monitorpolski.gov.pl/M1925091000000.pdf) |
+| 94 | 1925-04-23 | ✅ opracowane | 7 | [skan](https://monitorpolski.gov.pl/M1925094000000.pdf) |
+| 95 | 1925-04-24 | ✅ opracowane | 13 | [skan](https://monitorpolski.gov.pl/M1925095000000.pdf) |
+| 122 | 1925-05-27 | ✅ opracowane | 15 | [skan](https://monitorpolski.gov.pl/M1925122000000.pdf) |
+| 124 | 1925-05-29 | ✅ opracowane | 1 | [skan](https://monitorpolski.gov.pl/M1925124000000.pdf) |
+| 130 | 1925-06-06 | ✅ opracowane | 1 | [skan](https://monitorpolski.gov.pl/M1925130000000.pdf) |
+| 145 | 1925-06-25 | ✅ opracowane | 18 | [skan](https://monitorpolski.gov.pl/M1925145000000.pdf) |
+| 146 | 1925-06-26 | ✅ opracowane | 7 | [skan](https://monitorpolski.gov.pl/M1925146000000.pdf) |
+| 147 | 1925-06-27 | ✅ opracowane | 12 | [skan](https://monitorpolski.gov.pl/M1925147000000.pdf) |
+| 151 | 1925-07-03 | ✅ opracowane | 17 | [skan](https://monitorpolski.gov.pl/M1925151000000.pdf) |
+| 153 | 1925-07-06 | ✅ opracowane | 7 | [skan](https://monitorpolski.gov.pl/M1925153000000.pdf) |
+| 155 | 1925-07-08 | ✅ opracowane | 13 | [skan](https://monitorpolski.gov.pl/M1925155000000.pdf) |
+| 156 | 1925-07-09 | ✅ opracowane | 138 | [skan](https://monitorpolski.gov.pl/M1925156000000.pdf) |
 | 194 | 1925-08-24 | ✅ opracowane | 14 | [skan](https://monitorpolski.gov.pl/M1925194000000.pdf) |
 | 199 | 1925-08-29 | ✅ opracowane | 18 | [skan](https://monitorpolski.gov.pl/M1925199000000.pdf) |
 | 243 | 1925-10-20 | ✅ opracowane | 22 | [skan](https://monitorpolski.gov.pl/M1925243000000.pdf) |
