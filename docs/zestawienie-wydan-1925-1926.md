@@ -35,7 +35,7 @@ Zestawienie wydań dzienników wojewódzkich i Monitora Polskiego z lat 1925–1
 | Dziennik Urzędowy Województwa Lubelskiego | 1926 | 12 | 235 | numery po 12 nieznane |
 | Dziennik Urzędowy Województwa Łódzkiego | 1925 | 22 | 84 | 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 15, 17, 20, 21, 22, 23, 25, 29, 30, 32, 35, 37, 38, 40, 43, 47, 48 |
 | Dziennik Urzędowy Województwa Łódzkiego | 1926 | 45 | 349 | 5, 7, 8, 18, 40, 42, 51 |
-| Monitor Polski | 1925 | 105 | 1595 | nie dotyczy (dziennik wychodził codziennie, ok. 300 numerów rocznie, przejrzano tylko wskazane numery) |
+| Monitor Polski | 1925 | 157 | 2683 | nie dotyczy (dziennik wychodził codziennie, ok. 300 numerów rocznie, przejrzano tylko wskazane numery) |
 | Monitor Polski | 1926 | 20 | 403 | nie dotyczy (dziennik wychodził codziennie, ok. 300 numerów rocznie, przejrzano tylko wskazane numery) |
 
 ## Szczegóły według źródeł
@@ -485,12 +485,64 @@ Dostarczono tylko nr 8 z 25 X 1924 ([skan](https://jbc.bj.uj.edu.pl/Content/1132
 | 208 | 1925-09-09 | ✅ opracowane | 9 | [skan](https://monitorpolski.gov.pl/M1925208000000.pdf) |
 | 209 | 1925-09-10 | ✅ opracowane | 27 | [skan](https://monitorpolski.gov.pl/M1925209000000.pdf) |
 | 212 | 1925-09-14 | ✅ opracowane | 3 | [skan](https://monitorpolski.gov.pl/M1925212000000.pdf) |
+| 214 | 1925-09-16 | ✅ opracowane | 2 | [skan](https://monitorpolski.gov.pl/M1925214000000.pdf) |
+| 215 | 1925-09-17 | ✅ opracowane | 10 | [skan](https://monitorpolski.gov.pl/M1925215000000.pdf) |
+| 216 | 1925-09-18 | ✅ opracowane | 16 | [skan](https://monitorpolski.gov.pl/M1925216000000.pdf) |
+| 217 | 1925-09-19 | ✅ opracowane | 14 | [skan](https://monitorpolski.gov.pl/M1925217000000.pdf) |
+| 218 | 1925-09-21 | ✅ opracowane | 3 | [skan](https://monitorpolski.gov.pl/M1925218000000.pdf) |
+| 219 | 1925-09-22 | ✅ opracowane | 6 | [skan](https://monitorpolski.gov.pl/M1925219000000.pdf) |
+| 220 | 1925-09-23 | ✅ opracowane | 11 | [skan](https://monitorpolski.gov.pl/M1925220000000.pdf) |
+| 221 | 1925-09-24 | ✅ opracowane | 15 | [skan](https://monitorpolski.gov.pl/M1925221000000.pdf) |
+| 222 | 1925-09-25 | ✅ opracowane | 9 | [skan](https://monitorpolski.gov.pl/M1925222000000.pdf) |
+| 224 | 1925-09-28 | ✅ opracowane | 9 | [skan](https://monitorpolski.gov.pl/M1925224000000.pdf) |
+| 225 | 1925-09-29 | ✅ opracowane | 6 | [skan](https://monitorpolski.gov.pl/M1925225000000.pdf) |
+| 227 | 1925-10-01 | ✅ opracowane | 9 | [skan](https://monitorpolski.gov.pl/M1925227000000.pdf) |
+| 228 | 1925-10-02 | ✅ opracowane | 17 | [skan](https://monitorpolski.gov.pl/M1925228000000.pdf) |
+| 231 | 1925-10-06 | ✅ opracowane | 3 | [skan](https://monitorpolski.gov.pl/M1925231000000.pdf) |
+| 232 | 1925-10-07 | ✅ opracowane | 4 | [skan](https://monitorpolski.gov.pl/M1925232000000.pdf) |
+| 233 | 1925-10-08 | ✅ opracowane | 56 | [skan](https://monitorpolski.gov.pl/M1925233000000.pdf) |
+| 234 | 1925-10-09 | ✅ opracowane | 14 | [skan](https://monitorpolski.gov.pl/M1925234000000.pdf) |
+| 235 | 1925-10-10 | ✅ opracowane | 14 | [skan](https://monitorpolski.gov.pl/M1925235000000.pdf) |
+| 236 | 1925-10-12 | ✅ opracowane | 14 | [skan](https://monitorpolski.gov.pl/M1925236000000.pdf) |
+| 237 | 1925-10-13 | ✅ opracowane | 12 | [skan](https://monitorpolski.gov.pl/M1925237000000.pdf) |
+| 238 | 1925-10-14 | ✅ opracowane | 9 | [skan](https://monitorpolski.gov.pl/M1925238000000.pdf) |
+| 240 | 1925-10-16 | ✅ opracowane | 13 | [skan](https://monitorpolski.gov.pl/M1925240000000.pdf) |
+| 241 | 1925-10-17 | ✅ opracowane | 20 | [skan](https://monitorpolski.gov.pl/M1925241000000.pdf) |
+| 242 | 1925-10-19 | ✅ opracowane | 17 | [skan](https://monitorpolski.gov.pl/M1925242000000.pdf) |
 | 243 | 1925-10-20 | ✅ opracowane | 22 | [skan](https://monitorpolski.gov.pl/M1925243000000.pdf) |
+| 244 | 1925-10-21 | ✅ opracowane | 16 | [skan](https://monitorpolski.gov.pl/M1925244000000.pdf) |
+| 246 | 1925-10-23 | ✅ opracowane | 13 | [skan](https://monitorpolski.gov.pl/M1925246000000.pdf) |
+| 247 | 1925-10-24 | ✅ opracowane | 6 | [skan](https://monitorpolski.gov.pl/M1925247000000.pdf) |
+| 250 | 1925-10-28 | ✅ opracowane | 11 | [skan](https://monitorpolski.gov.pl/M1925250000000.pdf) |
+| 251 | 1925-10-29 | ✅ opracowane | 8 | [skan](https://monitorpolski.gov.pl/M1925251000000.pdf) |
+| 252 | 1925-10-30 | ✅ opracowane | 14 | [skan](https://monitorpolski.gov.pl/M1925252000000.pdf) |
+| 253 | 1925-10-31 | ✅ opracowane | 11 | [skan](https://monitorpolski.gov.pl/M1925253000000.pdf) |
+| 255 | 1925-11-03 | ✅ opracowane | 103 | [skan](https://monitorpolski.gov.pl/M1925255000000.pdf) |
 | 256 | 1925-11-04 | ✅ opracowane | 25 | [skan](https://monitorpolski.gov.pl/M1925256000000.pdf) |
 | 257 | 1925-11-05 | ✅ opracowane | 29 | [skan](https://monitorpolski.gov.pl/M1925257000000.pdf) |
+| 258 | 1925-11-06 | ✅ opracowane | 26 | [skan](https://monitorpolski.gov.pl/M1925258000000.pdf) |
+| 259 | 1925-11-07 | ✅ opracowane | 13 | [skan](https://monitorpolski.gov.pl/M1925259000000.pdf) |
+| 260 | 1925-11-09 | ✅ opracowane | 31 | [skan](https://monitorpolski.gov.pl/M1925260000000.pdf) |
+| 262 | 1925-11-11 | ✅ opracowane | 11 | [skan](https://monitorpolski.gov.pl/M1925262000000.pdf) |
+| 264 | 1925-11-13 | ✅ opracowane | 2 | [skan](https://monitorpolski.gov.pl/M1925264000000.pdf) |
+| 265 | 1925-11-14 | ✅ opracowane | 7 | [skan](https://monitorpolski.gov.pl/M1925265000000.pdf) |
 | 266 | 1925-11-16 | ✅ opracowane | 7 | [skan](https://monitorpolski.gov.pl/M1925266000000.pdf) |
+| 267 | 1925-11-17 | ✅ opracowane | 10 | [skan](https://monitorpolski.gov.pl/M1925267000000.pdf) |
+| 268 | 1925-11-18 | ✅ opracowane | 11 | [skan](https://monitorpolski.gov.pl/M1925268000000.pdf) |
+| 269 | 1925-11-19 | ✅ opracowane | 7 | [skan](https://monitorpolski.gov.pl/M1925269000000.pdf) |
+| 270 | 1925-11-20 | ✅ opracowane | 7 | [skan](https://monitorpolski.gov.pl/M1925270000000.pdf) |
 | 271 | 1925-11-21 | ✅ opracowane | 7 | [skan](https://monitorpolski.gov.pl/M1925271000000.pdf) |
+| 272 | 1925-11-23 | ✅ opracowane | 30 | [skan](https://monitorpolski.gov.pl/M1925272000000.pdf) |
+| 273 | 1925-11-24 | ✅ opracowane | 16 | [skan](https://monitorpolski.gov.pl/M1925273000000.pdf) |
+| 274 | 1925-11-25 | ✅ opracowane | 26 | [skan](https://monitorpolski.gov.pl/M1925274000000.pdf) |
+| 275 | 1925-11-26 | ✅ opracowane | 28 | [skan](https://monitorpolski.gov.pl/M1925275000000.pdf) |
+| 276 | 1925-11-27 | ✅ opracowane | 133 | [skan](https://monitorpolski.gov.pl/M1925276000000.pdf) |
 | 278 | 1925-11-30 | ✅ opracowane | 20 | [skan](https://monitorpolski.gov.pl/M1925278000000.pdf) |
+| 279 | 1925-12-01 | ✅ opracowane | 12 | [skan](https://monitorpolski.gov.pl/M1925279000000.pdf) |
+| 280 | 1925-12-02 | ✅ opracowane | 21 | [skan](https://monitorpolski.gov.pl/M1925280000000.pdf) |
+| 281 | 1925-12-03 | ✅ opracowane | 143 | [skan](https://monitorpolski.gov.pl/M1925281000000.pdf) |
+| 282 | 1925-12-04 | ✅ opracowane | 57 | [skan](https://monitorpolski.gov.pl/M1925282000000.pdf) |
+| 283 | 1925-12-05 | ✅ opracowane | 12 | [skan](https://monitorpolski.gov.pl/M1925283000000.pdf) |
 | 285 | 1925-12-09 | ✅ opracowane | 17 | [skan](https://monitorpolski.gov.pl/M1925285000000.pdf) |
 | 291 | 1925-12-16 | ✅ opracowane | 3 | [skan](https://monitorpolski.gov.pl/M1925291000000.pdf) |
 
