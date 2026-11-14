@@ -36,7 +36,7 @@ Zestawienie wydań dzienników wojewódzkich i Monitora Polskiego z lat 1925–1
 | Dziennik Urzędowy Województwa Łódzkiego | 1925 | 22 | 84 | 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 15, 17, 20, 21, 22, 23, 25, 29, 30, 32, 35, 37, 38, 40, 43, 47, 48 |
 | Dziennik Urzędowy Województwa Łódzkiego | 1926 | 45 | 349 | 5, 7, 8, 18, 40, 42, 51 |
 | Monitor Polski | 1925 | 170 | 2925 | nie dotyczy (dziennik wychodził codziennie, ok. 300 numerów rocznie, przejrzano tylko wskazane numery) |
-| Monitor Polski | 1926 | 30 | 532 | nie dotyczy (dziennik wychodził codziennie, ok. 300 numerów rocznie, przejrzano tylko wskazane numery) |
+| Monitor Polski | 1926 | 38 | 732 | nie dotyczy (dziennik wychodził codziennie, ok. 300 numerów rocznie, przejrzano tylko wskazane numery) |
 
 ## Szczegóły według źródeł
 
@@ -573,7 +573,15 @@ Dostarczono tylko nr 8 z 25 X 1924 ([skan](https://jbc.bj.uj.edu.pl/Content/1132
 | 8 | 1926-01-12 | ✅ opracowane | 18 | [skan](https://monitorpolski.gov.pl/M1926008000000.pdf) |
 | 9 | 1926-01-13 | ✅ opracowane | 19 | [skan](https://monitorpolski.gov.pl/M1926009000000.pdf) |
 | 10 | 1926-01-14 | ✅ opracowane | 24 | [skan](https://monitorpolski.gov.pl/M1926010000000.pdf) |
+| 11 | 1926-01-15 | ✅ opracowane | 19 | [skan](https://monitorpolski.gov.pl/M1926011000000.pdf) |
+| 12 | 1926-01-16 | ✅ opracowane | 22 | [skan](https://monitorpolski.gov.pl/M1926012000000.pdf) |
+| 13 | 1926-01-18 | ✅ opracowane | 23 | [skan](https://monitorpolski.gov.pl/M1926013000000.pdf) |
+| 14 | 1926-01-19 | ✅ opracowane | 31 | [skan](https://monitorpolski.gov.pl/M1926014000000.pdf) |
+| 15 | 1926-01-20 | ✅ opracowane | 33 | [skan](https://monitorpolski.gov.pl/M1926015000000.pdf) |
+| 16 | 1926-01-21 | ✅ opracowane | 49 | [skan](https://monitorpolski.gov.pl/M1926016000000.pdf) |
+| 17 | 1926-01-22 | ✅ opracowane | 11 | [skan](https://monitorpolski.gov.pl/M1926017000000.pdf) |
 | 19 | 1926-01-25 | ✅ opracowane | 27 | [skan](https://monitorpolski.gov.pl/M1926019000000.pdf) |
+| 20 | 1926-01-26 | ✅ opracowane | 12 | [skan](https://monitorpolski.gov.pl/M1926020000000.pdf) |
 | 44 | 1926-02-24 | ✅ opracowane | 18 | [skan](https://monitorpolski.gov.pl/M1926044000000.pdf) |
 | 51 | 1926-03-04 | ✅ opracowane | 12 | [skan](https://monitorpolski.gov.pl/M1926051000000.pdf) |
 | 63 | 1926-03-18 | ✅ opracowane | 8 | [skan](https://monitorpolski.gov.pl/M1926063000000.pdf) |
